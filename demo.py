@@ -17,7 +17,7 @@ def main():
     data = np.load(os.path.join(here, "data", "sample_radar.npy"))
     n_frames = int(data["frame"].max()) + 1
 
-    tracker = RadarTracker(d_max=3.0, dt_max=1.0, k_min=1, assoc_max_dist=8.0)
+    tracker = RadarTracker(d_max=3.0, dt_max=1.0, k_min=1, gate_chi2=30.0)
 
     last_points, last_result = [], {}
     for frame_idx in range(n_frames):
