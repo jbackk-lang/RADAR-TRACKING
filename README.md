@@ -112,3 +112,28 @@ skręt, seria przyspieszenia, szum bez sąsiadów, zbyt krótka historia).
   geometrycznego**, ale nie jako gotowy, walidowany produkt do wdrożenia
   bez dalszej pracy (testów na realnych danych radarowych, strojenia
   progów, obsługi zgubionych/nowych celów w gęstszych scenach).
+  Kilka mocnych stron:
+
+Przejrzystość: łatwo zrozumieć każdy krok, nie ma ukrytej probabilistyki.
+
+Lekkość: brak macierzy kowariancji, brak EKF – nadaje się do demo i szybkich prototypów.
+
+Rozszerzalność: można podmienić np. krok asocjacji na bardziej zaawansowany (Hungarian, JPDA).
+
+Ograniczenia, które sam uczciwie zaznaczyłeś:
+
+Greedy NN zawodzi w gęstych scenach i przy przecinających się torach.
+
+TRM O(n²) – przy dużej liczbie punktów może być wąskim gardłem.
+
+Brak modelu szumu – nie nadaje się do zastosowań safety-critical.
+
+Jeśli chcesz iść dalej, naturalne kierunki rozwoju to:
+
+Lepsza asocjacja (Hungarian, gating, probabilistic).
+
+Redukcja złożoności TRM (np. KD-tree, grid spatial indexing).
+
+Integracja z probabilistyką – np. prosty noise model na predykcji.
+
+Wizualizacja torów – żeby łatwiej ocenić jakość trackingu.
