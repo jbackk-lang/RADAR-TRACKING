@@ -57,4 +57,21 @@ manewry (TIMDR‑Δ)
 
 punkty krytyczne (TIMDR‑P)
 
+radar-tracking/
+│
+├── core/
+│   ├── trm_filter.py
+│   ├── gia_direction.py
+│   ├── timdr_change.py
+│   ├── radar_tracker.py
+│   └── predictor.py
+│
+├── visualizer/
+│   └── tracking_visualizer.py
+│
+├── data/
+│   └── sample_radar.npy
+│
+└── README.md
+
 To jest pełny radar‑tracking, który można pokazać każdej firmie od sensorów.
