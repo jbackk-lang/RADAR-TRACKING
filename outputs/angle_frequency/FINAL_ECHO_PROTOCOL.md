@@ -1,0 +1,9 @@
+# Końcowy test banku kształtów i odmowy niewiarygodnego R
+
+Protokół zapisany przed nowym testem. Nieruchome koherentne echo64impulsy,20MHz,Gauss sigma1.5, stała energia odebrana, amplituda .5, szum .15/składową. Bank: Gauss, ogon tau4/8/12, dwa odbicia o odstępie3/5/8 próbek z nieznanymi zespolonymi amplitudami. Początek co .25próbki lokalnie wokół maksimum; wybór przez karaną resztę sumy kwadratów (BIC-like: residual/noise + liczba parametrów*log(n)). To heurystyka wyboru modeli, nie dowód formalnej optymalności.
+
+100 osobnych scen szumu ustala próg99.percentyla maksymalnej energii projekcji;120 osobnych zgodnych ech ustala99.percentyl reszty modelu. Zamrożenie przed testem. R zwracane tylko przy przejściu detekcji, reszty i rozrzucie początków modeli o różnicy oceny<=2 nie większym niż1próbka. Dwa odbicia wymagają SNR pierwszej składowej>9. Ta wartość i tolerancje zapisane przed przebiegiem. Niska wiarygodność = brak R, a nie surowy pik nazwany poprawnym wynikiem.
+
+Test600 nowych scen: po100 szumu, Gaussa, ogona tau8, pary o odstępie5próbek i froncie .8 względem tyłu1, słabego frontu .15 oraz dodatkowego nieznanego filtra odbiornika tau6. R prawdziwe: początek/przednia powierzchnia, nie środek dopasowania. Poprawne:błąd<7.5m. Liczby zwrotów/poprawnych/błędnych i warunkowy MAE osobno. Baseline peak/Gauss korzysta z tej samej bramki detekcji, ale nie bramek reszty i zgodności; bank może poprawiać wiarygodność przez odrzucanie, co trzeba raportować.
+
+Wiele modeli jest zgodnych z generatorem, korzystne założenie. Odbiornik i słaby front stanowią celowe trudne przypadki. Brak ruchu, sprzętu, impulsowych zakłóceń, rzeczywistego widma anten i pełnej wielodrogowości. Progi są rozwojowe; znane wcześniej rodziny danych, nowe ziarna to nie niezależny sprzętowy holdout. Główny tracker bez zmian. Wyniki chronione. Test określa granice tego banku, nie ostateczną granicę informacji radarowej.

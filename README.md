@@ -210,3 +210,6 @@ detekcjach).
 
 
 [Ksztalt Gaussa i statystyka szumu](outputs/angle_frequency/WYNIK_GAUSSIAN_SHAPE.md) — test zaakceptowal93/100 Gaussow, odrzucil96/100 ogonow i100/100 podwojnych odbic. Narzucenie Gaussa na ogon dalo~29m bledu. Skalarne I/Q nie okresla polaryzacji; szum Gaussa w generatorze nie dowodzi normalnosci zaklocen sprzetowych. Tracker bez zmian.
+
+
+[Koncowy test banku echa](outputs/angle_frequency/WYNIK_FINAL_ECHO.md) — znane rodziny:294/300poprawnych R i6odrzucen. Slaby przod oraz nieznany odbiornik nadal dawaly bledy (18 i78/100). Zgodnosc modeli nie gwarantuje prawdziwego czola; potrzebna kalibracja odbiornika i realne dane. Bez integracji z trackerem.
