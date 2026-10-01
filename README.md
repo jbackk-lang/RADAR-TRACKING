@@ -19,6 +19,7 @@ Ta radarowa adaptacja nie jest pełną implementacją całego formalizmu GIA–T
 Kod i wyniki znajdują się w [outputs/angle_frequency](outputs/angle_frequency). To osobne eksperymenty syntetyczne; główny tracker i demo nie korzystają jeszcze z tych modułów.
 
 - [Pomiar kąta z obrotu anteny i fazy w paśmie](outputs/angle_frequency/WYNIK.md).
+- [Jedna prędkość: czas ze znacznika, zero z reflektora](outputs/angle_frequency/WYNIK_MARKER.md): niezależne elektroniczne znaczniki rozdzielają błędy bez zmiany prędkości. Po zmianie przesunięcia zegara MAE kąta spadło z .19° do .028° w symulacji; przy stabilnym czasie sama korekta kąta była równie dobra. Wymaga właściwego sprzętowego punktu rejestracji znaczników.
 - [Kalibracja po łagodnym rozruchu i ustaleniu obrotu](outputs/angle_frequency/WYNIK_SETTLED.md): w modelu drgań skrętnych przyjęto 10/10 kalibracji i uzyskano .037° MAE na późniejszych celach. Czasy rampy i oczekiwania wymagają charakterystyki rzeczywistego napędu; przy jednej stałej prędkości opóźnienie i zero nadal są nierozróżnialne, także bez rezonansu.
 - [Wspólna kalibracja czasu echa i zera enkodera](outputs/angle_frequency/WYNIK_SYNC.md): na 180 nowych pomiarach syntetycznych zmniejszyła MAE kąta przy zmiennym obrocie z około .99° do .038°; sama korekta kąta dawała .33°. Wymaga obserwacji znanego reflektora przy różnych prędkościach obrotu. Błędny kąt referencji nadal wprowadza błąd kalibracji.
 - [Połączenie pomiaru kąta z torem R/v oraz bliskie cele](outputs/angle_frequency/WYNIK_INTEGRACJI.md).
