@@ -6,13 +6,23 @@ visualizations (the last frame, and full trajectories) to demo_output/.
 Run: python3 demo.py
 """
 import os
+import argparse
 import numpy as np
 
 from core.radar_tracker import RadarTracker
-from visualizer.tracking_visualizer import plot_frame, plot_history
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--scene-model', choices=('cv', 'timdr'),
+                        help='Run experimental scene recognition with CV or TIMDR prediction')
+    parser.add_argument('--scene', choices=('diverging', 'parallel', 'rotating'), default='diverging')
+    args = parser.parse_args()
+    if args.scene_model:
+        from core.scene_demo import run_scene_demo
+        run_scene_demo(args.scene_model, args.scene)
+        return
+    from visualizer.tracking_visualizer import plot_frame, plot_history
     here = os.path.dirname(__file__)
     data = np.load(os.path.join(here, "data", "sample_radar.npy"))
     n_frames = int(data["frame"].max()) + 1

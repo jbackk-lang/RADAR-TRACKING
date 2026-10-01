@@ -14,6 +14,35 @@ Wkład polega więc na połączeniu diagnostyki zmiany z decyzjami trackera. Wyk
 
 Ta radarowa adaptacja nie jest pełną implementacją całego formalizmu GIA–TIMDR. W szczególności składowa T mierzy tutaj wielkość skrętu kursu. Wyników osobnych eksperymentów I/Q, filtrów i selektorów nie przypisujemy automatycznie TIMDR. Brak potwierdzenia pojedynczego eksperymentu amplitudowego również nie unieważnia jego zaimplementowanej roli w trackerze.
 
+## Wybór modelu rozpoznawania sceny: CV lub TIMDR
+
+W demo dostępna jest druga, eksperymentalna opcja rozpoznawania sceny. Oba warianty wykorzystują identyczne położenia i Doppler; `cv` stosuje predykcję stałej prędkości, a `timdr` dostosowuje predykcję do wyniku rzeczywistego operatora `core.timdr_change`. Wybór dotyczy nowego modelu sceny, a nie wyłączenia TIMDR w dotychczasowym trackerze.
+
+```powershell
+python demo.py --scene-model cv
+python demo.py --scene-model timdr
+python demo.py --scene-model timdr --scene parallel
+python demo.py --scene-model timdr --scene rotating
+```
+
+Sceny demo: `diverging` (domyślnie dwa rozchodzące się cele), `parallel` (spójna grupa o nierozstrzygniętej liczbie) i `rotating` (obracająca się spójna grupa). Demo drukuje etykietę, ewentualną liczbę obiektów, obserwowaną rozciągłość grupy w metrach i liczbę wywołań TIMDR. `count: null` oznacza brak rozstrzygnięcia, nie brak celu. Odstęp punktów nie jest automatycznie wielkością pojedynczego obiektu.
+
+Do użycia własnych detekcji:
+
+```python
+from core.scene_model import recognize_scene
+
+result = recognize_scene(positions, doppler, times, use_timdr=True)
+```
+
+`positions`: tablica `(N, 2, 2)` z dwoma punktami `(x, y)` na klatkę w metrach; `doppler`: `(N, 2)` z radialnymi prędkościami w m/s; `times`: `(N,)` z rosnącym czasem w sekundach, co najmniej trzy klatki. Punkty mogą zmieniać kolejność. Radar jest w początku układu współrzędnych. Domyślny wariant API to CV (`use_timdr=False`). TIMDR korzysta tylko z wcześniejszej historii do asocjacji, a ocena sceny dotyczy całego przekazanego okna.
+
+To ograniczony model dla dwóch detekcji na klatkę; nie obsługuje jeszcze dowolnej liczby punktów, zaników ani pełnej klasyfikacji obiektów. Identycznie współporuszające się obiekty i odbicia jednego obiektu mogą pozostać nierozróżnialne. Standardowe `python demo.py` nadal uruchamia dotychczasowy tracker i wizualizacje, bez nowej analizy sceny; dane `sample_radar.npy` nie zawierają wymaganych tu obserwacji Dopplera.
+
+[Porównanie prototypu z wariantem CV](outputs/angle_frequency/WYNIK_TIMDR_SCENE.md): 800 łatwych sekwencji — 100% etykiet obu modeli; 800 trudniejszych — CV 47,0%, TIMDR 48,125%. Spełniono zapisane kryterium niepogorszenia w tym syntetycznym benchmarku. Oba modele wymagają odporniejszego grupowania przy większym szumie. To potwierdzenie możliwości budowy modelu na TIMDR, nie ogólnej równoważności z rzeczywistym radarem.
+
+Testy integracji: `python -m unittest discover -s tests -p test_scene_model.py -v`. Pełny zestaw dotychczasowych testów można nadal uruchamiać przez pytest zgodnie z instrukcją niżej.
+
 ## Najnowsze eksperymenty radarowe
 
 Kod i wyniki znajdują się w [outputs/angle_frequency](outputs/angle_frequency). To osobne eksperymenty syntetyczne; główny tracker i demo nie korzystają jeszcze z tych modułów.
