@@ -189,3 +189,6 @@ detekcjach).
 ### Pik czasu powrotu
 
 [Pik odwróconej fazy](outputs/angle_frequency/WYNIK_ECHO_PEAK.md) — odwrócenie fazy I/Q nie zmienia piku ani szumu. Filtr dopasowany poprawił lokalizację słabego echa z 4/100 do 45/100 w syntetycznym teście; bez progu detekcji nadal może wskazać szum. Eksperyment nie zmienia głównego trackera.
+
+
+[Dwie nosne i dudnienie](outputs/angle_frequency/WYNIK_DUAL_BEAT.md) — zmniejszenie dudnienia z 38.5 do 19.25 GHz podwaja okres niejednoznacznosci R z 3.893 do 7.787 mm, lecz nie poprawilo odleglosci. Przy stalej energii dwa pasma pogorszyly wynik slabego echa. Osobny eksperyment syntetyczny.
