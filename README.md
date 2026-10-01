@@ -216,3 +216,6 @@ detekcjach).
 
 
 [Rozpoznawanie sceny z historii](outputs/angle_frequency/WYNIK_SCENE_RECOGNITION.md) — 600sekwencji detekcji: rozny ruch pozwolil wskazac2obiekty w100przypadkach; pozostale500pozostawiono nierozstrzygniete. Historia ogranicza nadmierna pewnosc liczenia pikow, ale nie rozroznia jednego duzego i dwoch wspolporuszajacych sie obiektow. Rozciaglosc grupy nie jest pewna wielkoscia celu. Bez dowodu przewagi nad standardowym trackerem i bez integracji z glownym pipeline.
+
+
+[Model sceny wykorzystujacy TIMDR](outputs/angle_frequency/WYNIK_TIMDR_SCENE.md) — rzeczywisty operator core/timdr_change.py steruje predykcja prototypu. Na800latwych sekwencjach wynik porownywalny z klasycznym CV (100%etykiet obu); na800trudniejszych48.125% vs47.0%, kryterium niepogorszenia spelnione. TIMDR zmienil asocjacje w108sekwencjach. To dowod wykonalnosci modelu na TIMDR, nie rownowaznosci ze wszystkimi radarami. Oba warianty wymagaja odporniejszego grupowania; bez integracji z glownym demo.
