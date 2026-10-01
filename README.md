@@ -201,3 +201,6 @@ detekcjach).
 
 
 [Dopasowanie calego echa](outputs/angle_frequency/WYNIK_ECHO_SHAPE.md) — bank ksztaltow poprawil lokalizacje zmiennego ogona z 9 do 96/100; nierozpoznany ogon odbiornika nadal dawal ~23.5 m bledu. Sam spadek nie identyfikuje czasu przy nieznanej amplitudzie. Eksperyment syntetyczny, bez integracji z trackerem.
+
+
+[Ruch w widmie](outputs/angle_frequency/WYNIK_RANGE_MOTION.md) — wyrownanie fazy z Dopplera poprawilo R o ~25% przy stalej predkosci30m/s w osobnym modelu3GHz, ale model stalej predkosci pogorszyl R przy przyspieszeniu. Migracja zakresu dala maly dodatkowy zysk. Bez walidacji czola rozciaglego celu i bez integracji z trackerem.
