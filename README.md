@@ -14,6 +14,24 @@ Wkład polega więc na połączeniu diagnostyki zmiany z decyzjami trackera. Wyk
 
 Ta radarowa adaptacja nie jest pełną implementacją całego formalizmu GIA–TIMDR. W szczególności składowa T mierzy tutaj wielkość skrętu kursu. Wyników osobnych eksperymentów I/Q, filtrów i selektorów nie przypisujemy automatycznie TIMDR. Brak potwierdzenia pojedynczego eksperymentu amplitudowego również nie unieważnia jego zaimplementowanej roli w trackerze.
 
+## Demo w przeglądarce (Windows)
+
+Dwukrotnie kliknij **Uruchom_demo.bat** w katalogu repo albo uruchom:
+
+```powershell
+python web_demo.py
+```
+
+Przeglądarka otworzy lokalny adres **http://127.0.0.1:8765**. Serwer działa tylko na tym komputerze; zamknięcie jego konsoli lub Ctrl+C kończy działanie. W razie zajętego portu: `python web_demo.py --port 8766`. Nie wymaga dodatkowego frameworka webowego, korzysta z obecnych zależności projektu (NumPy i SciPy).
+
+Wybierz model **CV** lub **TIMDR**, scenę i **4, 8 albo 12 obiektów**, następnie kliknij **Uruchom analizę**. Dostępne są ruch mieszany, krzyżujące się ślady, wspólny ruch i skręty. Przycisk odtwarzania oraz suwak pozwalają przeglądać 40 klatek. Wykres pokazuje surowe echa, historię śladów i przerywane predykcje; tabela zawiera położenia i wynik TIMDR. Opcjonalne krzyżyki to pozycje odniesienia generatora, a nie wynik rozpoznania.
+
+To działający interfejs do **core.radar_tracker.RadarTracker**, nie wcześniejsza makieta. Wariant CV wyłącza adaptację TIMDR w tym samym trackerze; pozostawia TRM, GIA, asocjację i stabilizację. `RadarTracker(use_timdr=False)` wybiera ten wariant, a dotychczasowy domyślny `RadarTracker()` nadal używa TIMDR. Modele dostają identyczne wygenerowane echa.
+
+Liczba obiektów w selektorze opisuje generator, a liczba śladów w panelu opisuje wynik trackera. Te liczby mogą się różnić przy łączeniu ech, skrzyżowaniach i zanikach. Demo nie mierzy automatycznie semantycznej klasy ani wielkości obiektu. Wykres korzysta z syntetycznych detekcji, nie prawdziwego sprzętu; nie stanowi nowej walidacji porównywalności modeli. Oddzielny model sceny dla dwóch punktów opisano niżej.
+
+Pliki interfejsu: `web_demo.py`, `web/index.html`, `web/app.js`, `web/style.css`, `Uruchom_demo.bat`. Ścieżki są względne wobec repo, więc można przenieść cały katalog.
+
 ## Wybór modelu rozpoznawania sceny: CV lub TIMDR
 
 W demo dostępna jest druga, eksperymentalna opcja rozpoznawania sceny. Oba warianty wykorzystują identyczne położenia i Doppler; `cv` stosuje predykcję stałej prędkości, a `timdr` dostosowuje predykcję do wyniku rzeczywistego operatora `core.timdr_change`. Wybór dotyczy nowego modelu sceny, a nie wyłączenia TIMDR w dotychczasowym trackerze.

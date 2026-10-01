@@ -42,6 +42,7 @@ class RadarTracker:
         gate_chi2: float = CHI2_95_2DOF,
         sigma0: float = 1.5,
         manoeuvre_inflation: float = 4.0,
+        use_timdr: bool = True,
     ):
         self.d_max = d_max
         self.dt_max = dt_max
@@ -52,6 +53,7 @@ class RadarTracker:
         self.gate_chi2 = gate_chi2
         self.sigma0 = sigma0
         self.manoeuvre_inflation = manoeuvre_inflation
+        self.use_timdr = use_timdr
 
         self.tracks: dict[int, list[dict]] = {}
         self._smoothed: dict[int, dict] = {}
@@ -130,7 +132,7 @@ class RadarTracker:
         it is fair to use for association, not just for reporting)."""
         hist = self.tracks[track_id]
         direction = gia_direction(hist)
-        change = timdr_change(hist)
+        change = self._change(hist)
         dt = target_t - hist[-1]["t"]
         dt = dt if dt > 0 else 1.0
         pred = predict_next(hist, direction, change, dt=dt)
@@ -151,7 +153,7 @@ class RadarTracker:
         direction = gia_direction(hist)
 
         # 4. TIMDR -- is the object changing direction / speed?
-        change = timdr_change(hist)
+        change = self._change(hist)
 
         # 5. manoeuvre flag
         manoeuvring = change["TIMDR"] > self.manoeuvre_threshold
@@ -175,6 +177,11 @@ class RadarTracker:
             "predicted_next": predicted,
             "predicted_covariance": predicted_cov,
         }
+
+    def _change(self, history):
+        if self.use_timdr:
+            return timdr_change(history)
+        return {"T": 0.0, "D": 0.0, "R": 0.0, "TIMDR": 0.0}
 
     def _stabilize(self, track_id, latest_point):
         prev = self._smoothed.get(track_id, latest_point)

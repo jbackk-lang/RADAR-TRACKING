@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Radar Tracking — demo</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><div><h1>RADAR TRACKING</h1><p>Rozpoznawanie ruchu · lokalne demo</p></div><span class="tag">Dane syntetyczne</span></header>
+<main><section class="controls" aria-label="Ustawienia demonstracji">
+<label>Model<select id="model"><option value="cv">Standardowy CV</option><option value="timdr" selected>TIMDR</option></select></label>
+<label>Scena<select id="scene"><option value="mixed">Ruch mieszany</option><option value="crossing">Krzyżujące się ślady</option><option value="formation">Wspólny ruch</option><option value="turning">Skręty</option></select></label>
+<label>Obiekty w symulacji<select id="count"><option>4</option><option selected>8</option><option>12</option></select></label>
+<button id="run">Uruchom analizę</button></section>
+<div id="status" role="status">Gotowy</div>
+<section class="workspace"><div class="plot"><div class="plothead"><h2>Położenia i historia ruchu</h2><span id="time">—</span></div><canvas id="map" role="img" aria-label="Położenia 2D: surowe echa, ślady trackera i predykcje"></canvas>
+<div class="legend"><span>● Ślad z numerem</span><span>· Surowe echo</span><span>Linia przerywana: predykcja</span></div>
+<div class="playback"><button id="play" disabled>Odtwarzaj</button><label>Klatka<input id="frame" type="range" min="0" max="39" value="0" disabled></label></div>
+<label class="check"><input id="truth" type="checkbox"> Pokaż pozycje odniesienia symulacji (krzyżyki)</label></div>
+<aside><h2>Wynik bieżącej klatki</h2><dl><div><dt>Ślady trackera</dt><dd id="tracks">—</dd></div><div><dt>Surowe echa</dt><dd id="echoes">—</dd></div><div><dt>Model</dt><dd id="mode">—</dd></div></dl><p class="note">Liczba śladów nie jest pewną liczbą fizycznych obiektów. Łączenie ech, skrzyżowania i szum mogą zmienić wynik.</p><div class="tablewrap"><table><thead><tr><th>Ślad</th><th>X [m]</th><th>Y [m]</th><th>TIMDR</th></tr></thead><tbody id="rows"></tbody></table></div></aside></section>
+<footer>Rzeczywisty RadarTracker · TIMDR lub wariant bez jego adaptacji · dane demonstracyjne, bez sprzętu</footer></main><script src="/app.js"></script></body></html>
