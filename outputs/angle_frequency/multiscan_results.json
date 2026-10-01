@@ -1,0 +1,3201 @@
+{
+  "summary": {
+    "pair": {
+      "cases": 30,
+      "multi_correct": 30,
+      "single_correct": 30,
+      "multi_uncertain": 0,
+      "multi_false_pair": 0,
+      "single_false_pair": 0
+    },
+    "single": {
+      "cases": 10,
+      "multi_correct": 10,
+      "single_correct": 10,
+      "multi_uncertain": 0,
+      "multi_false_pair": 0,
+      "single_false_pair": 0
+    },
+    "disappear": {
+      "cases": 10,
+      "multi_correct": 0,
+      "single_correct": 10,
+      "multi_uncertain": 8,
+      "multi_false_pair": 2,
+      "single_false_pair": 0
+    },
+    "appear": {
+      "cases": 10,
+      "multi_correct": 0,
+      "single_correct": 10,
+      "multi_uncertain": 0,
+      "multi_false_pair": 0,
+      "single_false_pair": 0
+    }
+  },
+  "runs": [
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.25,
+      "seed": 0,
+      "iq_key": "case_0",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          46,
+          53
+        ],
+        "one_index": 47,
+        "bic_one": -8378.557585095941,
+        "bic_two": -8579.197008830877,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.205235987755983
+        ],
+        "proposed_angles": [
+          1.1930186829920226,
+          1.205235987755983
+        ],
+        "residual_energy_ratio": 0.0742171712418613,
+        "confirmation_bic_gain": 78.6561276765965
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.210471975511966
+        ],
+        "bic_one": -2831.871207657059,
+        "bic_two": -2915.3808896273868,
+        "amplitudes": [
+          [
+            -0.9459948691835373,
+            -0.32705545199496927
+          ],
+          [
+            0.16579838240174186,
+            -0.13446663426574335
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.25,
+      "seed": 1,
+      "iq_key": "case_1",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 47,
+        "bic_one": -8272.667062859193,
+        "bic_two": -8629.25574105052,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.06081798272636808,
+        "confirmation_bic_gain": 50.80738138938568
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "bic_one": -2831.2088642861954,
+        "bic_two": -2875.8341607688717,
+        "amplitudes": [
+          [
+            -1.0247267012294548,
+            0.12259704367823793
+          ],
+          [
+            0.00553377122600695,
+            0.19856731530075322
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.25,
+      "seed": 2,
+      "iq_key": "case_2",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 47,
+        "bic_one": -8358.501671736478,
+        "bic_two": -8578.24327599575,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.10020102243129836,
+        "confirmation_bic_gain": 151.1789550020494
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "bic_one": -2781.2924437219517,
+        "bic_two": -2852.6384386536115,
+        "amplitudes": [
+          [
+            -0.6858373496006478,
+            -0.6527562743955564
+          ],
+          [
+            -0.008094664703678166,
+            0.24603800892595187
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.25,
+      "seed": 3,
+      "iq_key": "case_3",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          55
+        ],
+        "one_index": 47,
+        "bic_one": -8361.585138916915,
+        "bic_two": -8561.351150404796,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2087266462599715
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2087266462599715
+        ],
+        "residual_energy_ratio": 0.06913019261210201,
+        "confirmation_bic_gain": 126.41045749855948
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.205235987755983
+        ],
+        "bic_one": -2761.9786896060123,
+        "bic_two": -2870.722165725273,
+        "amplitudes": [
+          [
+            1.1331079089444924,
+            0.14744646565540434
+          ],
+          [
+            -0.241421994961166,
+            0.2600271730867712
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.25,
+      "seed": 4,
+      "iq_key": "case_4",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          46,
+          52
+        ],
+        "one_index": 47,
+        "bic_one": -8283.48795244895,
+        "bic_two": -8518.524931286487,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2034906585039886
+        ],
+        "proposed_angles": [
+          1.1930186829920226,
+          1.2034906585039886
+        ],
+        "residual_energy_ratio": 0.03322686846640397,
+        "confirmation_bic_gain": 72.76627067889513
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.205235987755983
+        ],
+        "bic_one": -2881.8282270486357,
+        "bic_two": -2897.52574682891,
+        "amplitudes": [
+          [
+            1.0267707206703744,
+            0.28043379318931405
+          ],
+          [
+            0.37134159349191614,
+            0.1939790060101897
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 0,
+      "iq_key": "case_5",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          46,
+          54
+        ],
+        "one_index": 47,
+        "bic_one": -7553.619135876888,
+        "bic_two": -8622.946121144194,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.031041890138993004,
+        "confirmation_bic_gain": 269.6088794707521
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "bic_one": -2745.7136206359523,
+        "bic_two": -2918.9726174769876,
+        "amplitudes": [
+          [
+            0.9354696560347966,
+            -0.747145747938996
+          ],
+          [
+            0.42934435658523873,
+            0.15676814817856782
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 1,
+      "iq_key": "case_6",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 48,
+        "bic_one": -7501.534496209862,
+        "bic_two": -8496.652740416768,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.13023493754494128,
+        "confirmation_bic_gain": 205.563610260906
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.210471975511966
+        ],
+        "bic_one": -2703.839411048499,
+        "bic_two": -2786.1225004605467,
+        "amplitudes": [
+          [
+            -0.910754100703717,
+            -0.03911664252488293
+          ],
+          [
+            0.22455685952239351,
+            0.1494830789312
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 2,
+      "iq_key": "case_7",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 49,
+        "bic_one": -7863.6980126122435,
+        "bic_two": -8594.00027618447,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.11844569552697552,
+        "confirmation_bic_gain": 331.859894407969
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.210471975511966
+        ],
+        "bic_one": -2676.853455756,
+        "bic_two": -2884.0693184809265,
+        "amplitudes": [
+          [
+            -0.4022602405748024,
+            0.788896648226975
+          ],
+          [
+            0.3183630522232047,
+            -0.15880157150869484
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 3,
+      "iq_key": "case_8",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 49,
+        "bic_one": -7890.812407878228,
+        "bic_two": -8637.463088165721,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.029942866583380565,
+        "confirmation_bic_gain": 92.67058897056677
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.210471975511966
+        ],
+        "bic_one": -2734.5019695870146,
+        "bic_two": -2826.2502969435345,
+        "amplitudes": [
+          [
+            0.38469226939032664,
+            1.2858086676154488
+          ],
+          [
+            0.29484363750271514,
+            0.2679177397891627
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 4,
+      "iq_key": "case_9",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          55
+        ],
+        "one_index": 48,
+        "bic_one": -7957.578462744989,
+        "bic_two": -8562.323074573165,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2087266462599715
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2087266462599715
+        ],
+        "residual_energy_ratio": 0.04753080186937097,
+        "confirmation_bic_gain": 232.17148615270435
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "bic_one": -2666.7691371598403,
+        "bic_two": -2865.111845970417,
+        "amplitudes": [
+          [
+            -0.7501739814274401,
+            -0.5896453406298287
+          ],
+          [
+            0.14496853934937154,
+            -0.5083247580568889
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 1.0,
+      "seed": 0,
+      "iq_key": "case_10",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 51,
+        "bic_one": -7225.446480057538,
+        "bic_two": -8588.795101864449,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.08230260697543788,
+        "confirmation_bic_gain": 658.5489313774583
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "bic_one": -2243.951919841894,
+        "bic_two": -2894.3933657547373,
+        "amplitudes": [
+          [
+            -0.47534354519332017,
+            0.8948191384141653
+          ],
+          [
+            -0.2941994810864799,
+            -0.75056834985359
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 1.0,
+      "seed": 1,
+      "iq_key": "case_11",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 50,
+        "bic_one": -6837.107535379269,
+        "bic_two": -8580.001614837947,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.029225873402910656,
+        "confirmation_bic_gain": 297.8997279438754
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "bic_one": -2574.544799256391,
+        "bic_two": -2839.8639476796648,
+        "amplitudes": [
+          [
+            -0.1821632099133829,
+            -0.8744558631525615
+          ],
+          [
+            0.6988933997385992,
+            -0.7130320049698425
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 1.0,
+      "seed": 2,
+      "iq_key": "case_12",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 51,
+        "bic_one": -6900.8318946900245,
+        "bic_two": -8709.42947429293,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.025875674915397915,
+        "confirmation_bic_gain": 339.8969143426161
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "bic_one": -2495.5893794919702,
+        "bic_two": -2825.133715549926,
+        "amplitudes": [
+          [
+            0.6615660672028063,
+            -0.6782074499939695
+          ],
+          [
+            1.0793363811539172,
+            0.0922274748991713
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 1.0,
+      "seed": 3,
+      "iq_key": "case_13",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 58,
+        "bic_one": -6778.846033370664,
+        "bic_two": -8641.355439016812,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.046300807809551474,
+        "confirmation_bic_gain": 693.2010774435498
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.205235987755983
+        ],
+        "bic_one": -2270.8207664141564,
+        "bic_two": -2895.150749280515,
+        "amplitudes": [
+          [
+            0.9113720370099702,
+            -0.47165996153708006
+          ],
+          [
+            -1.0602342734964958,
+            -0.6645205992990307
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 0.75,
+      "ratio": 1.0,
+      "seed": 4,
+      "iq_key": "case_14",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 50,
+        "bic_one": -7468.826049079401,
+        "bic_two": -8677.001475960034,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.1029807458046337,
+        "confirmation_bic_gain": 625.386650288895
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1965093414960113,
+          1.205235987755983
+        ],
+        "bic_one": -2243.056749629359,
+        "bic_two": -2854.0992441746184,
+        "amplitudes": [
+          [
+            -0.8913391661042666,
+            0.8136902346678622
+          ],
+          [
+            1.2424918900452673,
+            -0.22097646039351326
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.25,
+      "seed": 0,
+      "iq_key": "case_15",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          59
+        ],
+        "one_index": 44,
+        "bic_one": -8091.573677962435,
+        "bic_two": -8658.440386812325,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2157079632679488
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2157079632679488
+        ],
+        "residual_energy_ratio": 0.046546349391477684,
+        "confirmation_bic_gain": 197.70469403335937
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2157079632679488
+        ],
+        "bic_one": -2755.406160843491,
+        "bic_two": -2902.778799484344,
+        "amplitudes": [
+          [
+            0.523530174420748,
+            -0.9021256955899197
+          ],
+          [
+            0.14762057418003485,
+            -0.2361610839896488
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.25,
+      "seed": 1,
+      "iq_key": "case_16",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          57
+        ],
+        "one_index": 41,
+        "bic_one": -8182.153984520962,
+        "bic_two": -8657.756540938362,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "residual_energy_ratio": 0.050581443224774515,
+        "confirmation_bic_gain": 277.59020323520326
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -2695.8229653214685,
+        "bic_two": -2890.8363563018524,
+        "amplitudes": [
+          [
+            0.6915320342285785,
+            -0.7550458595590568
+          ],
+          [
+            0.007869790422963367,
+            -0.2806564287920142
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.25,
+      "seed": 2,
+      "iq_key": "case_17",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 44,
+        "bic_one": -8098.055928434883,
+        "bic_two": -8650.604006195468,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.08096249483585001,
+        "confirmation_bic_gain": 107.9483932081389
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1860373659840453,
+          1.2122173047639602
+        ],
+        "bic_one": -2728.0839732594036,
+        "bic_two": -2833.909607738085,
+        "amplitudes": [
+          [
+            -0.7099336038942269,
+            0.4064063572054151
+          ],
+          [
+            -0.1445959254179096,
+            0.20756983066021958
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.25,
+      "seed": 3,
+      "iq_key": "case_18",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          57
+        ],
+        "one_index": 43,
+        "bic_one": -7883.627066859015,
+        "bic_two": -8603.454232907785,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "residual_energy_ratio": 0.056708587737224966,
+        "confirmation_bic_gain": 137.90828033295338
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2157079632679488
+        ],
+        "bic_one": -2716.740813319103,
+        "bic_two": -2852.8998526796104,
+        "amplitudes": [
+          [
+            -0.28519840896184445,
+            1.0503048521200522
+          ],
+          [
+            0.14968763526369908,
+            0.11976262276213576
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.25,
+      "seed": 4,
+      "iq_key": "case_19",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          57
+        ],
+        "one_index": 42,
+        "bic_one": -8105.989522389124,
+        "bic_two": -8636.467885632299,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "residual_energy_ratio": 0.06545316105358284,
+        "confirmation_bic_gain": 190.62556326536696
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1860373659840453,
+          1.2122173047639602
+        ],
+        "bic_one": -2672.3706958139696,
+        "bic_two": -2858.4259503755397,
+        "amplitudes": [
+          [
+            -0.9273430759103954,
+            -0.2504633749700589
+          ],
+          [
+            -0.049729874267116204,
+            -0.2534814008739481
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.5,
+      "seed": 0,
+      "iq_key": "case_20",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 43,
+        "bic_one": -6747.86265493906,
+        "bic_two": -8600.698733627578,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.046819905604179674,
+        "confirmation_bic_gain": 722.2655530553143
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -2178.3128201785994,
+        "bic_two": -2885.3128996263936,
+        "amplitudes": [
+          [
+            -0.670769198123596,
+            -0.8514419535293974
+          ],
+          [
+            0.48044133525137867,
+            -0.3357339122340574
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.5,
+      "seed": 1,
+      "iq_key": "case_21",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 44,
+        "bic_one": -7053.752952695251,
+        "bic_two": -8539.796865659153,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.055561352784329415,
+        "confirmation_bic_gain": 553.8608244144411
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -2359.579489096749,
+        "bic_two": -2856.792191145816,
+        "amplitudes": [
+          [
+            0.8106086332687554,
+            -0.9061725907718293
+          ],
+          [
+            -0.47611424494101573,
+            0.02383360217812169
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.5,
+      "seed": 2,
+      "iq_key": "case_22",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 44,
+        "bic_one": -6926.230512216262,
+        "bic_two": -8699.997749465134,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.05615586669041491,
+        "confirmation_bic_gain": 412.495888427934
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "bic_one": -2527.115331939593,
+        "bic_two": -2886.026982428693,
+        "amplitudes": [
+          [
+            0.710972236843459,
+            0.5337548244454505
+          ],
+          [
+            0.006693149518562163,
+            0.4250927538338633
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.5,
+      "seed": 3,
+      "iq_key": "case_23",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 45,
+        "bic_one": -6954.931649110834,
+        "bic_two": -8610.819917222156,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.07016275785317667,
+        "confirmation_bic_gain": 707.6495092566133
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.189528024488034,
+          1.2122173047639602
+        ],
+        "bic_one": -2203.5380924503334,
+        "bic_two": -2899.4393464188083,
+        "amplitudes": [
+          [
+            -0.4455338161907636,
+            0.9129149606440875
+          ],
+          [
+            -0.2615477521132943,
+            -0.5738204171674639
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 0.5,
+      "seed": 4,
+      "iq_key": "case_24",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 45,
+        "bic_one": -7049.583366298106,
+        "bic_two": -8610.690794499256,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.039301761222038774,
+        "confirmation_bic_gain": 472.3527029997799
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -2446.711960613743,
+        "bic_two": -2839.5599111161464,
+        "amplitudes": [
+          [
+            -0.9411172930727919,
+            0.4995880975610809
+          ],
+          [
+            -0.5542021528851849,
+            -0.034080150971893736
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 1.0,
+      "seed": 0,
+      "iq_key": "case_25",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 51,
+        "bic_one": -5565.023439594105,
+        "bic_two": -8596.249014485235,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.06225206874630012,
+        "confirmation_bic_gain": 1082.7394158570555
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -1921.9378774861716,
+        "bic_two": -2868.398663817751,
+        "amplitudes": [
+          [
+            0.5544353155467384,
+            1.0176601154336777
+          ],
+          [
+            -0.4633954066819384,
+            -0.8030798492434387
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 1.0,
+      "seed": 1,
+      "iq_key": "case_26",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 51,
+        "bic_one": -5796.046621099036,
+        "bic_two": -8656.769335797304,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.024860647995643206,
+        "confirmation_bic_gain": 908.4551214023986
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -2013.2970461156178,
+        "bic_two": -2888.841624617287,
+        "amplitudes": [
+          [
+            -0.5706130134564115,
+            0.718809011167498
+          ],
+          [
+            0.44625460500074576,
+            1.1051685716192703
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 1.0,
+      "seed": 2,
+      "iq_key": "case_27",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          57
+        ],
+        "one_index": 43,
+        "bic_one": -5306.794246707256,
+        "bic_two": -8565.1985448433,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2122173047639602
+        ],
+        "residual_energy_ratio": 0.02865713201862669,
+        "confirmation_bic_gain": 1023.369320478208
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -2272.0924503660735,
+        "bic_two": -2866.2705071372616,
+        "amplitudes": [
+          [
+            0.08150570844844536,
+            0.961184051968081
+          ],
+          [
+            0.4776286577873605,
+            0.8065224426176573
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 1.0,
+      "seed": 3,
+      "iq_key": "case_28",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 54,
+        "bic_one": -5329.560043178949,
+        "bic_two": -8617.918523245242,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.040670703138249616,
+        "confirmation_bic_gain": 994.6202620789984
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -1947.4909767033291,
+        "bic_two": -2922.962738988426,
+        "amplitudes": [
+          [
+            0.7338907843814871,
+            0.7310371863237302
+          ],
+          [
+            -0.6269522371194941,
+            0.4819349895095019
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "pair",
+      "sep": 1.5,
+      "ratio": 1.0,
+      "seed": 4,
+      "iq_key": "case_29",
+      "truth_fourth": [
+        1.1875558024332804,
+        1.2137357412131955
+      ],
+      "proposal": {
+        "indices": [
+          43,
+          58
+        ],
+        "one_index": 56,
+        "bic_one": -5320.399658285841,
+        "bic_two": -8692.814715202743,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "proposed_angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "residual_energy_ratio": 0.059530605851921846,
+        "confirmation_bic_gain": 1100.4707652930965
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1877826952360397,
+          1.2139626340159546
+        ],
+        "bic_one": -1887.8265071964481,
+        "bic_two": -2867.5187434067616,
+        "amplitudes": [
+          [
+            0.7383317637962199,
+            0.899255046914374
+          ],
+          [
+            -0.4068955324901217,
+            -0.85530267033885
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 0,
+      "iq_key": "case_30",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8619.690591361988,
+        "bic_two": -8583.412790758255,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.08797217804632428,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2894.755313420675,
+        "bic_two": -2883.6622035593005,
+        "amplitudes": [
+          [
+            -0.4015010555766494,
+            0.7764884039162173
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 1,
+      "iq_key": "case_31",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8606.99660147372,
+        "bic_two": -8597.95257523273,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.062224363699418674,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2866.336315594584,
+        "bic_two": -2854.814229010179,
+        "amplitudes": [
+          [
+            0.041870133873082915,
+            1.0845520564736966
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 2,
+      "iq_key": "case_32",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8585.781048036555,
+        "bic_two": -8568.157236516732,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.08428677100546576,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "bic_one": -2869.4803590419206,
+        "bic_two": -2857.337622832741,
+        "amplitudes": [
+          [
+            0.4339827815112482,
+            0.818459100244589
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 3,
+      "iq_key": "case_33",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8669.512717701817,
+        "bic_two": -8640.40487861622,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.05574794319973621,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "bic_one": -2847.7243652374887,
+        "bic_two": -2843.048158818146,
+        "amplitudes": [
+          [
+            -0.2975933816107623,
+            -1.1346289320682978
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 4,
+      "iq_key": "case_34",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8613.636473586403,
+        "bic_two": -8576.957584163776,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.08685442563402514,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "bic_one": -2868.420476888171,
+        "bic_two": -2859.183290607609,
+        "amplitudes": [
+          [
+            -0.8313902701506204,
+            -0.3622648417200159
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 5,
+      "iq_key": "case_35",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8769.045860519856,
+        "bic_two": -8739.932503005431,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.08602588931744083,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2948.7603559750946,
+        "bic_two": -2935.218665342605,
+        "amplitudes": [
+          [
+            -0.5814244647014754,
+            -0.6019627350982136
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 6,
+      "iq_key": "case_36",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8697.808880727907,
+        "bic_two": -8668.842580250734,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.109868979023959,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2836.4374323427587,
+        "bic_two": -2825.135105671419,
+        "amplitudes": [
+          [
+            -0.5474187548556786,
+            0.6115184297962518
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 7,
+      "iq_key": "case_37",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8529.718233997803,
+        "bic_two": -8507.897816549556,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.06058558923810025,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2879.667034372318,
+        "bic_two": -2867.325999400196,
+        "amplitudes": [
+          [
+            0.6670678043828148,
+            0.8567840667685745
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 8,
+      "iq_key": "case_38",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8634.049117721266,
+        "bic_two": -8618.750789525531,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.058568211437374215,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2921.8512531468477,
+        "bic_two": -2916.9975925548174,
+        "amplitudes": [
+          [
+            0.5991351042011783,
+            -0.8725285814257502
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "single",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 9,
+      "iq_key": "case_39",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8681.492330511355,
+        "bic_two": -8667.88598249523,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.07708349130453136,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2912.9695902472827,
+        "bic_two": -2904.6685919467022,
+        "amplitudes": [
+          [
+            0.8257370609474319,
+            -0.40994478039899535
+          ]
+        ]
+      },
+      "multi_correct": true,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 0,
+      "iq_key": "case_40",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 48,
+        "bic_one": -7727.144146894705,
+        "bic_two": -8528.124575893866,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.057712759926343164,
+        "confirmation_bic_gain": -3.654244738754187
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2883.0715371827305,
+        "bic_two": -2873.9909029680402,
+        "amplitudes": [
+          [
+            -0.30592090394958665,
+            -1.0563668113097724
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 1,
+      "iq_key": "case_41",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 48,
+        "bic_one": -7819.066980125844,
+        "bic_two": -8626.282781367752,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.07573883294794817,
+        "confirmation_bic_gain": -6.581723172673719
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2860.0053549962477,
+        "bic_two": -2848.6174577097977,
+        "amplitudes": [
+          [
+            0.7026984044729198,
+            -0.6783932011994289
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 2,
+      "iq_key": "case_42",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          55
+        ],
+        "one_index": 48,
+        "bic_one": -8024.401208493475,
+        "bic_two": -8557.971260689312,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2087266462599715
+        ],
+        "residual_energy_ratio": 0.07248498585830312,
+        "confirmation_bic_gain": -3.1115070842320165
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2873.1576443577455,
+        "bic_two": -2866.333766118124,
+        "amplitudes": [
+          [
+            0.46921733911271674,
+            0.863651030112333
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 3,
+      "iq_key": "case_43",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 48,
+        "bic_one": -7895.668239038693,
+        "bic_two": -8664.919994706092,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.0540237751973234,
+        "confirmation_bic_gain": -8.821088745464294
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2890.1057736709886,
+        "bic_two": -2875.55717071515,
+        "amplitudes": [
+          [
+            -1.0872360136428336,
+            0.3331148630611002
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 4,
+      "iq_key": "case_44",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 48,
+        "bic_one": -7976.14480120317,
+        "bic_two": -8560.74535549634,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.08568228594335112,
+        "confirmation_bic_gain": 3.582796493963997
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "bic_one": -2886.7692248513326,
+        "bic_two": -2881.4435174407245,
+        "amplitudes": [
+          [
+            0.7782023981314473,
+            0.4130418390960556
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 5,
+      "iq_key": "case_45",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          46,
+          54
+        ],
+        "one_index": 47,
+        "bic_one": -7704.971453876821,
+        "bic_two": -8686.715645479393,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.06037982127079029,
+        "confirmation_bic_gain": -8.152063181737049
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2886.073730879529,
+        "bic_two": -2874.616109101184,
+        "amplitudes": [
+          [
+            -0.7830273880573364,
+            0.7374783031567294
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 6,
+      "iq_key": "case_46",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 47,
+        "bic_one": -7752.570231279448,
+        "bic_two": -8632.71944572164,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.07760112074988637,
+        "confirmation_bic_gain": -6.271160673803024
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2918.317186923921,
+        "bic_two": -2913.13364670886,
+        "amplitudes": [
+          [
+            -0.49852833579723055,
+            -0.7580465476884526
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 7,
+      "iq_key": "case_47",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 48,
+        "bic_one": -7886.251207830105,
+        "bic_two": -8606.230455578381,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.07504583748152979,
+        "confirmation_bic_gain": -2.0412521428406762
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "bic_one": -2910.080182521787,
+        "bic_two": -2899.598648395175,
+        "amplitudes": [
+          [
+            -0.9213704419659584,
+            -0.12714717384618016
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 8,
+      "iq_key": "case_48",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 49,
+        "bic_one": -8086.646477868931,
+        "bic_two": -8531.197914696395,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "uncertain",
+        "count": 0,
+        "angles": [],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.07800314070472149,
+        "confirmation_bic_gain": -9.88998159529001
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "bic_one": -2837.7477644690657,
+        "bic_two": -2823.397041637949,
+        "amplitudes": [
+          [
+            0.5693645430880447,
+            0.8065502003313983
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "disappear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 9,
+      "iq_key": "case_49",
+      "truth_fourth": [
+        1.1941007871282592
+      ],
+      "proposal": {
+        "indices": [
+          47,
+          54
+        ],
+        "one_index": 48,
+        "bic_one": -7904.242366244418,
+        "bic_two": -8591.736947038562,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "proposed_angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "residual_energy_ratio": 0.08771350090868335,
+        "confirmation_bic_gain": 11.676810634201502
+      },
+      "single": {
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "bic_one": -2865.219618286037,
+        "bic_two": -2852.0076244891998,
+        "amplitudes": [
+          [
+            -0.6587629841885003,
+            -0.6139793582730345
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 0,
+      "iq_key": "case_50",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8578.217607048979,
+        "bic_two": -8548.261952755141,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.09889127416475327,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "bic_one": -2550.6049395500745,
+        "bic_two": -2852.190255328983,
+        "amplitudes": [
+          [
+            -0.943453768601714,
+            0.1693086918950515
+          ],
+          [
+            -0.29936458526217996,
+            -0.5244829754021781
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 1,
+      "iq_key": "case_51",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8668.498005281368,
+        "bic_two": -8637.404528970557,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.06967482562716487,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.205235987755983
+        ],
+        "bic_one": -2722.632076968575,
+        "bic_two": -2936.48395879912,
+        "amplitudes": [
+          [
+            -0.7129931840809395,
+            -0.5718657748830805
+          ],
+          [
+            0.028031541270782737,
+            -0.6854386613666515
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 2,
+      "iq_key": "case_52",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8623.652962880084,
+        "bic_two": -8581.911782663243,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.3254734433825639,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.210471975511966
+        ],
+        "bic_one": -2630.1350597756323,
+        "bic_two": -2904.44743903921,
+        "amplitudes": [
+          [
+            -0.25594202877312505,
+            -0.6936271731271547
+          ],
+          [
+            0.34361515624729844,
+            0.17221736745781754
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 3,
+      "iq_key": "case_53",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8666.406193412133,
+        "bic_two": -8651.391457549751,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.45525406051668366,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.205235987755983
+        ],
+        "bic_one": -2734.4928056886915,
+        "bic_two": -2841.466655273653,
+        "amplitudes": [
+          [
+            0.8542685546528154,
+            0.41907087953207073
+          ],
+          [
+            -0.5495086733375203,
+            -0.22433520618925426
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 4,
+      "iq_key": "case_54",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8608.531993349881,
+        "bic_two": -8587.41069383206,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.1087415613613351,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.210471975511966
+        ],
+        "bic_one": -2685.2451996302657,
+        "bic_two": -2862.000907650707,
+        "amplitudes": [
+          [
+            0.762485026303357,
+            -0.4345182752351064
+          ],
+          [
+            0.22090474008738023,
+            0.22756616062151389
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 5,
+      "iq_key": "case_55",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8775.241259817549,
+        "bic_two": -8735.185276036489,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.08287838705668585,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.210471975511966
+        ],
+        "bic_one": -2726.352942795133,
+        "bic_two": -2889.6313928040972,
+        "amplitudes": [
+          [
+            -1.0013734578877844,
+            0.05746708613268152
+          ],
+          [
+            -0.11977202317341293,
+            0.318173922319668
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 6,
+      "iq_key": "case_56",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8714.86996650188,
+        "bic_two": -8691.228652194546,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.06170201550683267,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2069813170079773
+        ],
+        "bic_one": -2780.1281913337343,
+        "bic_two": -2865.8772467216722,
+        "amplitudes": [
+          [
+            -0.910942451997848,
+            -0.3106979776002069
+          ],
+          [
+            -0.4208736718753625,
+            -0.4179269020128434
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 7,
+      "iq_key": "case_57",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          46
+        ],
+        "one_index": 46,
+        "bic_one": -8705.322831761046,
+        "bic_two": -8676.032185697486,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "proposed_angles": [
+          1.1930186829920226
+        ],
+        "residual_energy_ratio": 0.1528273124398575,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.205235987755983
+        ],
+        "bic_one": -2618.2037804015513,
+        "bic_two": -2859.9838638381075,
+        "amplitudes": [
+          [
+            -0.44982180774505515,
+            0.9752916143681578
+          ],
+          [
+            0.519874877660444,
+            -0.14502467950634276
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 8,
+      "iq_key": "case_58",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          46
+        ],
+        "one_index": 46,
+        "bic_one": -8644.661085191643,
+        "bic_two": -8626.606261101018,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.1930186829920226
+        ],
+        "proposed_angles": [
+          1.1930186829920226
+        ],
+        "residual_energy_ratio": 0.24956508014132014,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.1930186829920226,
+          1.2087266462599715
+        ],
+        "bic_one": -2686.8215124635954,
+        "bic_two": -2879.352393331919,
+        "amplitudes": [
+          [
+            0.658599806733454,
+            0.4621391188598782
+          ],
+          [
+            -0.3617981340524069,
+            0.031305684909417555
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    },
+    {
+      "kind": "appear",
+      "sep": 0.75,
+      "ratio": 0.5,
+      "seed": 9,
+      "iq_key": "case_59",
+      "truth_fourth": [
+        1.1941007871282592,
+        1.2071907565182167
+      ],
+      "proposal": {
+        "indices": [
+          47
+        ],
+        "one_index": 47,
+        "bic_one": -8607.59394710348,
+        "bic_two": -8576.260597009788,
+        "training_scans": 3
+      },
+      "multi": {
+        "state": "confirmed",
+        "count": 1,
+        "angles": [
+          1.194764012244017
+        ],
+        "proposed_angles": [
+          1.194764012244017
+        ],
+        "residual_energy_ratio": 0.41201042709591745,
+        "confirmation_bic_gain": null
+      },
+      "single": {
+        "count": 2,
+        "angles": [
+          1.194764012244017,
+          1.2069813170079773
+        ],
+        "bic_one": -2533.9821682818656,
+        "bic_two": -2878.8669681882407,
+        "amplitudes": [
+          [
+            -0.5721469629232954,
+            -0.6665794603967066
+          ],
+          [
+            0.5901600429978633,
+            0.19645289289690157
+          ]
+        ]
+      },
+      "multi_correct": false,
+      "single_correct": true
+    }
+  ],
+  "iq_sha256": "b3ddd6eb077069884082b86dafcb021c506552fb3fddb1670ec6ece67a1a6dcb",
+  "hashes": {
+    "MULTISCAN_PROTOCOL.md": "ec8962eece0807595d993b82bb1be5a2d7f13fadb204116dded6b8d79b66ea05",
+    "multiscan_model.py": "0bee58625f872f748a038392801424c24ae754b7c3414876eb7fd9df25a08766",
+    "run_multiscan.py": "b0e1e730009b4e5d87285ea92b89cb09b538ff96a08d03b08c675f91dfdf3382",
+    "stereo_model.py": "6969eaa254fadc570e58601c9038eec34590495b4dfd664cd061c66d57744186"
+  }
+}

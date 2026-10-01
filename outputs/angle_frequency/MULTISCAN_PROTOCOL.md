@@ -1,0 +1,7 @@
+# Trzy skany i potwierdzenie na czwartym
+
+Mały test bez strojenia: 30 stałych par (separacje .75° i 1.5°, amplitudy .25,.5,1, po 5 ziaren), 10 pojedynczych celów, 10 zaników drugiego celu na skanie 4 i 10 pojawień drugiego celu na skanie 4. Dwa kanały, dotychczasowy model wiązki i siatka .1°. 60 sekwencji × 4 skany. Fazę i amplitudę celów losujemy osobno dla każdego skanu; amplituda waha się o ±20%. Kąty nie zmieniają się.
+
+Wspólne dopasowanie jednego lub dwóch stałych kątów na skanach 1–3; niezależne zespolone amplitudy per skan. BIC z 1+2S lub 2+4S parametrami dla S skanów. Czwarty skan nie zmienia kątów: dopasowuje jedynie amplitudy i sprawdza propozycję. Propozycja dwóch celów musi pokonać na skanie 4 najlepszy jeden spośród zaproponowanych kątów i kierunku pojedynczego modelu (BIC z 4 vs 2 parametrami amplitud). Reszta / energia skanu nie może przekroczyć .5. Niespełnienie warunku oznacza uncertain i brak potwierdzonych kątów, nie usunięcie celu z trackera.
+
+Porównanie z niezależnym dopasowaniem tylko skanu 4 na tych samych danych. Korzyść wieloskanowa może wynikać z większej liczby obserwacji. Zanik i pojawienie celów są kontrolami założenia stałości, nie scenariuszami do strojenia. Poprawna para: 2 kąty, oba z błędem <=.25°. Pojedynczy cel: wybór 1, błąd <=.25°. Odmowy raportować osobno. Zachować surowe I/Q i decyzje; wyniki bez nadpisywania. Brak ruchu, pełnej kalibracji sprzętowej i dowodu bezpieczeństwa.
