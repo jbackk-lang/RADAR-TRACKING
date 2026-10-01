@@ -1,0 +1,11 @@
+# Selektor zgodności przy ustalonym fałszywym alarmie
+
+Nowy mały test: 9 częstotliwości 75–79 GHz, 2 RX o rozstawie lambda/2 dla 77 GHz, 41 pozycji skanu ±4°, wiązka 1.5°. Widmo fazowe echa zawiera opóźnienie 4*pi*(f-f0)*deltaR/c oraz fazę między RX. To nowe dane, nie transformacja istniejących starych I/Q. Amplitudy normalizowane przez sqrt(9*2), aby energia echa nie rosła przez dodanie częstotliwości. Szum .04 na składową.
+
+Usunąć silny model z zachowaniem kompleksowego sygnału; słabe wzorce ortogonalizować względem silnego, uwzględniając utraconą normę. Kandydaci ±2° co .1°, deltaR od -.06 do .06 m co .01 m. Wzorce zachowujące mniej niż 5% energii po projekcji są nieważne; nie obiecywać odzyskania nierozróżnialnego celu. Dwa przebiegi wspólnego ważenia pozycji skanu na podstawie normy reszt (próg 4*mediana); taka sama dodatnia waga dla częstotliwości i RX danej pozycji. To filtr impulsów, nie uniwersalny filtr zakłóceń.
+
+Porównać selektor spójny fazowo po całym paśmie z sumą mocy dopasowań pasm, bez wspólnej fazy między częstotliwościami. Oba wykorzystują te same I/Q, projekcję silnego wzorca i filtr. Wariant mocy dopasowuje amplitudę silnego osobno per częstotliwość; wariant spójny zakłada jedną zespoloną amplitudę po paśmie. To porównanie konkretnych modeli, nie wszystkich metod wykrywania.
+
+100 rozwojowych kontroli silny cel bez słabego ustala próg każdej metody jako 95. percentyl maksymalnego wyniku po wszystkich kandydatach. Progi zapisać przed oceną. Ocena: 100 nowych silny-bez-słabego, 100 pustych skanów i 60 par (separacje .75°,1.5° × deltaR=0,.02,.06 m × 10 ziaren). Słaby ma .15 amplitudy silnego (2.25% mocy), losowe fazy. Kąt silnego losowy ±.08° od centrum, poza siatką. W połowie rozwojowych i testowych przypadków dodać 4 impulsy na losowych pozycjach skanu, sigma=.5, wartości niezależne między częstotliwościami i RX.
+
+Poprawne wykrycie słabego: wynik ponad zapisanym progiem, błąd kąta <=.25° i deltaR <=.015 m. Raportować fałszywe alarmy na kontrolach testowych, nie nazywać ich z góry równymi 5%. Próg 5% jest orientacyjnym kryterium rozwojowym, nie certyfikatem ani normą. Osobno przypadki deltaR=0, aby korzyści rozdzielenia odległości nie mylić z poprawą kąta. Wyniki zachować, bez nadpisywania i strojenia po ocenie. Brak kalibracji sprzętowej i walidacji realnej.

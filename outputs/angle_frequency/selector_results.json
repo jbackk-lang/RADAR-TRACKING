@@ -1,0 +1,7341 @@
+{
+  "summary": {
+    "strong_only": {
+      "cases": 100,
+      "metrics": {
+        "coherent": {
+          "detected": 13,
+          "weak_correct": 0
+        },
+        "band_power": {
+          "detected": 3,
+          "weak_correct": 0
+        }
+      }
+    },
+    "empty": {
+      "cases": 100,
+      "metrics": {
+        "coherent": {
+          "detected": 2,
+          "weak_correct": 0
+        },
+        "band_power": {
+          "detected": 2,
+          "weak_correct": 0
+        }
+      }
+    },
+    "weak": {
+      "cases": 60,
+      "metrics": {
+        "coherent": {
+          "detected": 52,
+          "weak_correct": 36
+        },
+        "band_power": {
+          "detected": 15,
+          "weak_correct": 1
+        }
+      }
+    },
+    "weak_by_range": {
+      "0.0": {
+        "coherent": 4,
+        "band_power": 1
+      },
+      "0.02": {
+        "coherent": 15,
+        "band_power": 0
+      },
+      "0.06": {
+        "coherent": 17,
+        "band_power": 0
+      }
+    }
+  },
+  "runs": [
+    {
+      "kind": "strong_only",
+      "seed": 0,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2143950391596008,
+        "dr": 0.0,
+        "strong_angle": 1.2013050697696432
+      },
+      "iq_key": "case_0",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04746945968759614,
+          "angle": 1.2279252680319093,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10999189751799598,
+          "angle": 1.2296705972839035,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 1,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142896358874031,
+        "dr": 0.0,
+        "strong_angle": 1.2011996664974456
+      },
+      "iq_key": "case_1",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010102322920413626,
+          "angle": 1.1808013782280624,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.038709739558744474,
+          "angle": 1.1877826952360397,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 2,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124941432732943,
+        "dr": 0.0,
+        "strong_angle": 1.1994041738833368
+      },
+      "iq_key": "case_2",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04132221737670803,
+          "angle": 1.189528024488034,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1578381316978828,
+          "angle": 1.2296705972839035,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 3,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213387266674674,
+        "dr": 0.0,
+        "strong_angle": 1.2002972972847163
+      },
+      "iq_key": "case_3",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014472346951907567,
+          "angle": 1.2174532925199433,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05500981453641286,
+          "angle": 1.194764012244017,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 4,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134390010658547,
+        "dr": 0.0,
+        "strong_angle": 1.2003490316758971
+      },
+      "iq_key": "case_4",
+      "outcomes": {
+        "coherent": {
+          "score": 0.044143488710497246,
+          "angle": 1.173820061220085,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1462789510443901,
+          "angle": 1.1773107197240738,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 5,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213415127244338,
+        "dr": 0.0,
+        "strong_angle": 1.2003251578543805
+      },
+      "iq_key": "case_5",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013031917739050288,
+          "angle": 1.194764012244017,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.02968870157719361,
+          "angle": 1.1650934149601133,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 6,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124978651836285,
+        "dr": 0.0,
+        "strong_angle": 1.199407895793671
+      },
+      "iq_key": "case_6",
+      "outcomes": {
+        "coherent": {
+          "score": 0.07680309489132142,
+          "angle": 1.2122173047639602,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.14624389178780856,
+          "angle": 1.2226892802759262,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 7,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.214042370751387,
+        "dr": 0.0,
+        "strong_angle": 1.2009524013614294
+      },
+      "iq_key": "case_7",
+      "outcomes": {
+        "coherent": {
+          "score": 0.012417251194891822,
+          "angle": 1.1773107197240738,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.030241920340817435,
+          "angle": 1.1877826952360397,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 8,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142555710915082,
+        "dr": 0.0,
+        "strong_angle": 1.2011656017015506
+      },
+      "iq_key": "case_8",
+      "outcomes": {
+        "coherent": {
+          "score": 0.026596356755464425,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07111013576643016,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 9,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121965298762079,
+        "dr": 0.0,
+        "strong_angle": 1.1991065604862503
+      },
+      "iq_key": "case_9",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013921991093077233,
+          "angle": 1.2279252680319093,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03816403714504371,
+          "angle": 1.2349065850398866,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 10,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2135919757347133,
+        "dr": 0.0,
+        "strong_angle": 1.2005020063447558
+      },
+      "iq_key": "case_10",
+      "outcomes": {
+        "coherent": {
+          "score": 0.06785948682441971,
+          "angle": 1.1650934149601133,
+          "dr": -0.009999999999999995,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1345304268385497,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 11,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121243284183536,
+        "dr": 0.0,
+        "strong_angle": 1.199034359028396
+      },
+      "iq_key": "case_11",
+      "outcomes": {
+        "coherent": {
+          "score": 0.020198601202724153,
+          "angle": 1.2052359877559828,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04446660173905767,
+          "angle": 1.2034906585039886,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 12,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212077433643961,
+        "dr": 0.0,
+        "strong_angle": 1.1989874642540035
+      },
+      "iq_key": "case_12",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03065245648176832,
+          "angle": 1.173820061220085,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1727013440165583,
+          "angle": 1.2034906585039886,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 13,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124901719848105,
+        "dr": 0.0,
+        "strong_angle": 1.199400202594853
+      },
+      "iq_key": "case_13",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01649705430900555,
+          "angle": 1.1860373659840453,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.037877140712936234,
+          "angle": 1.1808013782280624,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 14,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131237246808475,
+        "dr": 0.0,
+        "strong_angle": 1.20003375529089
+      },
+      "iq_key": "case_14",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0872852878448087,
+          "angle": 1.2261799387799148,
+          "dr": 0.05,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.48370124143191395,
+          "angle": 1.2226892802759262,
+          "dr": -0.009999999999999995,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 15,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2137017541171153,
+        "dr": 0.0,
+        "strong_angle": 1.2006117847271578
+      },
+      "iq_key": "case_15",
+      "outcomes": {
+        "coherent": {
+          "score": 0.011031917707189507,
+          "angle": 1.2087266462599715,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.032003034014650183,
+          "angle": 1.2139626340159546,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 16,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2133268268718556,
+        "dr": 0.0,
+        "strong_angle": 1.200236857481898
+      },
+      "iq_key": "case_16",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04007994201603123,
+          "angle": 1.1650934149601133,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10307889072491196,
+          "angle": 1.1650934149601133,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 17,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2118145891561107,
+        "dr": 0.0,
+        "strong_angle": 1.1987246197661532
+      },
+      "iq_key": "case_17",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007651885142922018,
+          "angle": 1.1650934149601133,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03704605171558053,
+          "angle": 1.1930186829920226,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 18,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2144095812121452,
+        "dr": 0.0,
+        "strong_angle": 1.2013196118221876
+      },
+      "iq_key": "case_18",
+      "outcomes": {
+        "coherent": {
+          "score": 0.028770487518121446,
+          "angle": 1.210471975511966,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09767946646594727,
+          "angle": 1.2052359877559828,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 19,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213784561377668,
+        "dr": 0.0,
+        "strong_angle": 1.2006945919877106
+      },
+      "iq_key": "case_19",
+      "outcomes": {
+        "coherent": {
+          "score": 0.015094197678915133,
+          "angle": 1.1650934149601133,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04851143710831349,
+          "angle": 1.1650934149601133,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 20,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.214274896492592,
+        "dr": 0.0,
+        "strong_angle": 1.2011849271026345
+      },
+      "iq_key": "case_20",
+      "outcomes": {
+        "coherent": {
+          "score": 0.09086382772361128,
+          "angle": 1.2191986217719375,
+          "dr": -0.06,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.19496894658120076,
+          "angle": 1.2087266462599715,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 21,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2129102738852682,
+        "dr": 0.0,
+        "strong_angle": 1.1998203044953106
+      },
+      "iq_key": "case_21",
+      "outcomes": {
+        "coherent": {
+          "score": 0.008533509472982445,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.022488719435719597,
+          "angle": 1.2052359877559828,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 22,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2132664002787832,
+        "dr": 0.0,
+        "strong_angle": 1.2001764308888256
+      },
+      "iq_key": "case_22",
+      "outcomes": {
+        "coherent": {
+          "score": 0.05479539545713964,
+          "angle": 1.220943951023932,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12232768461140969,
+          "angle": 1.1703294027160964,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 23,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2127866861595709,
+        "dr": 0.0,
+        "strong_angle": 1.1996967167696133
+      },
+      "iq_key": "case_23",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013450707582382152,
+          "angle": 1.2261799387799148,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0402834382179141,
+          "angle": 1.194764012244017,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 24,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2135969090784968,
+        "dr": 0.0,
+        "strong_angle": 1.2005069396885393
+      },
+      "iq_key": "case_24",
+      "outcomes": {
+        "coherent": {
+          "score": 0.057864608200566714,
+          "angle": 1.1930186829920226,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.18516479974083636,
+          "angle": 1.2087266462599715,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 25,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2123428113079053,
+        "dr": 0.0,
+        "strong_angle": 1.1992528419179478
+      },
+      "iq_key": "case_25",
+      "outcomes": {
+        "coherent": {
+          "score": 0.012454774488511212,
+          "angle": 1.2034906585039886,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.038437716166747266,
+          "angle": 1.210471975511966,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 26,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2119675329739166,
+        "dr": 0.0,
+        "strong_angle": 1.198877563583959
+      },
+      "iq_key": "case_26",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02655295937377193,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10728696382266033,
+          "angle": 1.1650934149601133,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 27,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.21195074571922,
+        "dr": 0.0,
+        "strong_angle": 1.1988607763292625
+      },
+      "iq_key": "case_27",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009155689228135734,
+          "angle": 1.2331612557878922,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0530827189408146,
+          "angle": 1.2157079632679488,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 28,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2141537526622277,
+        "dr": 0.0,
+        "strong_angle": 1.2010637832722701
+      },
+      "iq_key": "case_28",
+      "outcomes": {
+        "coherent": {
+          "score": 0.07539909428735286,
+          "angle": 1.2017453292519942,
+          "dr": -0.039999999999999994,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11482838182704476,
+          "angle": 1.2349065850398866,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 29,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2143874090327185,
+        "dr": 0.0,
+        "strong_angle": 1.201297439642761
+      },
+      "iq_key": "case_29",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01454168224667949,
+          "angle": 1.2349065850398866,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03297115153720434,
+          "angle": 1.2349065850398866,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 30,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2144306332188146,
+        "dr": 0.0,
+        "strong_angle": 1.201340663828857
+      },
+      "iq_key": "case_30",
+      "outcomes": {
+        "coherent": {
+          "score": 0.07332997493644171,
+          "angle": 1.2349065850398866,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.179587702987769,
+          "angle": 1.2349065850398866,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 31,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131435981382668,
+        "dr": 0.0,
+        "strong_angle": 1.2000536287483092
+      },
+      "iq_key": "case_31",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01741410570353396,
+          "angle": 1.2052359877559828,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0364513763487939,
+          "angle": 1.2122173047639602,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 32,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139418360243033,
+        "dr": 0.0,
+        "strong_angle": 1.2008518666343457
+      },
+      "iq_key": "case_32",
+      "outcomes": {
+        "coherent": {
+          "score": 0.018671516972511147,
+          "angle": 1.2034906585039886,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05101778957644889,
+          "angle": 1.194764012244017,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 33,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2136267510100835,
+        "dr": 0.0,
+        "strong_angle": 1.200536781620126
+      },
+      "iq_key": "case_33",
+      "outcomes": {
+        "coherent": {
+          "score": 0.011549562881410588,
+          "angle": 1.2157079632679488,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.038111055837020465,
+          "angle": 1.194764012244017,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 34,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2133159167567555,
+        "dr": 0.0,
+        "strong_angle": 1.200225947366798
+      },
+      "iq_key": "case_34",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0663248247627946,
+          "angle": 1.1877826952360397,
+          "dr": -0.039999999999999994,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12008780878496024,
+          "angle": 1.189528024488034,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 35,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212427404590907,
+        "dr": 0.0,
+        "strong_angle": 1.1993374352009494
+      },
+      "iq_key": "case_35",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014070411481173944,
+          "angle": 1.2261799387799148,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.042803771883837424,
+          "angle": 1.1930186829920226,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 36,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2127576886354647,
+        "dr": 0.0,
+        "strong_angle": 1.1996677192455072
+      },
+      "iq_key": "case_36",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02762290984584374,
+          "angle": 1.2226892802759262,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0880787815402161,
+          "angle": 1.2122173047639602,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 37,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2127661190580796,
+        "dr": 0.0,
+        "strong_angle": 1.199676149668122
+      },
+      "iq_key": "case_37",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01871145900959995,
+          "angle": 1.2157079632679488,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.048992093666596924,
+          "angle": 1.2191986217719375,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 38,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131308184069753,
+        "dr": 0.0,
+        "strong_angle": 1.2000408490170178
+      },
+      "iq_key": "case_38",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03275058092681383,
+          "angle": 1.1650934149601133,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10364532956469932,
+          "angle": 1.1650934149601133,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 39,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139154484583943,
+        "dr": 0.0,
+        "strong_angle": 1.2008254790684367
+      },
+      "iq_key": "case_39",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02489745461776802,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04797676211575533,
+          "angle": 1.2226892802759262,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 40,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212244213092497,
+        "dr": 0.0,
+        "strong_angle": 1.1991542437025395
+      },
+      "iq_key": "case_40",
+      "outcomes": {
+        "coherent": {
+          "score": 0.062347594106657134,
+          "angle": 1.1650934149601133,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.15095088498704004,
+          "angle": 1.1650934149601133,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 41,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2133563377537557,
+        "dr": 0.0,
+        "strong_angle": 1.2002663683637982
+      },
+      "iq_key": "case_41",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007768571757170197,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03509012120693404,
+          "angle": 1.1808013782280624,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 42,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212952012687343,
+        "dr": 0.0,
+        "strong_angle": 1.1998620432973854
+      },
+      "iq_key": "case_42",
+      "outcomes": {
+        "coherent": {
+          "score": 0.026022213231774654,
+          "angle": 1.2244346095279206,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12322524835004618,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 43,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142398405025827,
+        "dr": 0.0,
+        "strong_angle": 1.2011498711126252
+      },
+      "iq_key": "case_43",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01238037214751593,
+          "angle": 1.179056048976068,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03586338286855013,
+          "angle": 1.2349065850398866,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 44,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2120061474483046,
+        "dr": 0.0,
+        "strong_angle": 1.198916178058347
+      },
+      "iq_key": "case_44",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03453567439391063,
+          "angle": 1.2349065850398866,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09909267121374374,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 45,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2126149967455346,
+        "dr": 0.0,
+        "strong_angle": 1.199525027355577
+      },
+      "iq_key": "case_45",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013746930033114097,
+          "angle": 1.1703294027160964,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.060398069822701024,
+          "angle": 1.1720747319680906,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 46,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139892199925375,
+        "dr": 0.0,
+        "strong_angle": 1.20089925060258
+      },
+      "iq_key": "case_46",
+      "outcomes": {
+        "coherent": {
+          "score": 0.033312215656960936,
+          "angle": 1.179056048976068,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12743120511103262,
+          "angle": 1.2139626340159546,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 47,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142978903367996,
+        "dr": 0.0,
+        "strong_angle": 1.201207920946842
+      },
+      "iq_key": "case_47",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014704051404322639,
+          "angle": 1.173820061220085,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.046151037970008996,
+          "angle": 1.1808013782280624,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 48,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.214171891754836,
+        "dr": 0.0,
+        "strong_angle": 1.2010819223648785
+      },
+      "iq_key": "case_48",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0276484692029445,
+          "angle": 1.1930186829920226,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11175716738091564,
+          "angle": 1.2069813170079773,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 49,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134046728398167,
+        "dr": 0.0,
+        "strong_angle": 1.2003147034498591
+      },
+      "iq_key": "case_49",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01744861512800611,
+          "angle": 1.2349065850398866,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05011977711162856,
+          "angle": 1.2139626340159546,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 50,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2130960490217597,
+        "dr": 0.0,
+        "strong_angle": 1.2000060796318022
+      },
+      "iq_key": "case_50",
+      "outcomes": {
+        "coherent": {
+          "score": 0.06235790183125416,
+          "angle": 1.2122173047639602,
+          "dr": -0.049999999999999996,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0991062186383286,
+          "angle": 1.2052359877559828,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 51,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2136603757136315,
+        "dr": 0.0,
+        "strong_angle": 1.200570406323674
+      },
+      "iq_key": "case_51",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03055052971417442,
+          "angle": 1.210471975511966,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.036249241399994504,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 52,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117064030442872,
+        "dr": 0.0,
+        "strong_angle": 1.1986164336543297
+      },
+      "iq_key": "case_52",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04831417207521912,
+          "angle": 1.2349065850398866,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.22340682130103656,
+          "angle": 1.2331612557878922,
+          "dr": -0.039999999999999994,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 53,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2137598011870905,
+        "dr": 0.0,
+        "strong_angle": 1.200669831797133
+      },
+      "iq_key": "case_53",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009968942515156582,
+          "angle": 1.1773107197240738,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04114596804250613,
+          "angle": 1.2349065850398866,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 54,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2120793775434693,
+        "dr": 0.0,
+        "strong_angle": 1.1989894081535117
+      },
+      "iq_key": "case_54",
+      "outcomes": {
+        "coherent": {
+          "score": 0.05466691243845235,
+          "angle": 1.189528024488034,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09814151288937269,
+          "angle": 1.2349065850398866,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 55,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212244170971315,
+        "dr": 0.0,
+        "strong_angle": 1.1991542015813574
+      },
+      "iq_key": "case_55",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01224679914264865,
+          "angle": 1.2261799387799148,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03183408242686657,
+          "angle": 1.1860373659840453,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 56,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2141644282714703,
+        "dr": 0.0,
+        "strong_angle": 1.2010744588815128
+      },
+      "iq_key": "case_56",
+      "outcomes": {
+        "coherent": {
+          "score": 0.10546227080826945,
+          "angle": 1.2174532925199433,
+          "dr": -0.019999999999999997,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1776881546850575,
+          "angle": 1.2226892802759262,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 57,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211860904226938,
+        "dr": 0.0,
+        "strong_angle": 1.1987709348369804
+      },
+      "iq_key": "case_57",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010727060258695792,
+          "angle": 1.1930186829920226,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.044138409729531175,
+          "angle": 1.1825467074800566,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 58,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2125214102975763,
+        "dr": 0.0,
+        "strong_angle": 1.1994314409076188
+      },
+      "iq_key": "case_58",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04610515618724609,
+          "angle": 1.1930186829920226,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.18458183280667198,
+          "angle": 1.194764012244017,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 59,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2125232794631342,
+        "dr": 0.0,
+        "strong_angle": 1.1994333100731767
+      },
+      "iq_key": "case_59",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009968996643887906,
+          "angle": 1.1650934149601133,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.037368034183752216,
+          "angle": 1.1650934149601133,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 60,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.21327822957039,
+        "dr": 0.0,
+        "strong_angle": 1.2001882601804326
+      },
+      "iq_key": "case_60",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04660391193931816,
+          "angle": 1.1773107197240738,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.18993764701459948,
+          "angle": 1.1650934149601133,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 61,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121156407457665,
+        "dr": 0.0,
+        "strong_angle": 1.199025671355809
+      },
+      "iq_key": "case_61",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010027954259196892,
+          "angle": 1.2052359877559828,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.030792150969863638,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 62,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2119351633959674,
+        "dr": 0.0,
+        "strong_angle": 1.1988451940060099
+      },
+      "iq_key": "case_62",
+      "outcomes": {
+        "coherent": {
+          "score": 0.033962953417364446,
+          "angle": 1.1773107197240738,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11457474674334274,
+          "angle": 1.1825467074800566,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 63,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2135845838987431,
+        "dr": 0.0,
+        "strong_angle": 1.2004946145087856
+      },
+      "iq_key": "case_63",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01249125259950602,
+          "angle": 1.2139626340159546,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03726511407272765,
+          "angle": 1.1650934149601133,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 64,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2141802099959986,
+        "dr": 0.0,
+        "strong_angle": 1.201090240606041
+      },
+      "iq_key": "case_64",
+      "outcomes": {
+        "coherent": {
+          "score": 0.05011159305166362,
+          "angle": 1.2069813170079773,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09683315548527291,
+          "angle": 1.2157079632679488,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 65,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2120415928565413,
+        "dr": 0.0,
+        "strong_angle": 1.1989516234665838
+      },
+      "iq_key": "case_65",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013045524791642268,
+          "angle": 1.2087266462599715,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.046626594322875296,
+          "angle": 1.2139626340159546,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 66,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2132182062991363,
+        "dr": 0.0,
+        "strong_angle": 1.2001282369091788
+      },
+      "iq_key": "case_66",
+      "outcomes": {
+        "coherent": {
+          "score": 0.046986898905580894,
+          "angle": 1.2349065850398866,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1679010704503353,
+          "angle": 1.2349065850398866,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 67,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212609911516004,
+        "dr": 0.0,
+        "strong_angle": 1.1995199421260465
+      },
+      "iq_key": "case_67",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01667716422589056,
+          "angle": 1.1877826952360397,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.039365819160666025,
+          "angle": 1.2034906585039886,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 68,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211848276252105,
+        "dr": 0.0,
+        "strong_angle": 1.1987583068621475
+      },
+      "iq_key": "case_68",
+      "outcomes": {
+        "coherent": {
+          "score": 0.06626450508941928,
+          "angle": 1.2069813170079773,
+          "dr": -0.009999999999999995,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12029970142823605,
+          "angle": 1.2034906585039886,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 69,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134911617890598,
+        "dr": 0.0,
+        "strong_angle": 1.2004011923991023
+      },
+      "iq_key": "case_69",
+      "outcomes": {
+        "coherent": {
+          "score": 0.008635865413328558,
+          "angle": 1.2174532925199433,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03451851358967308,
+          "angle": 1.194764012244017,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 70,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2140583231886484,
+        "dr": 0.0,
+        "strong_angle": 1.2009683537986908
+      },
+      "iq_key": "case_70",
+      "outcomes": {
+        "coherent": {
+          "score": 0.06365062629479952,
+          "angle": 1.179056048976068,
+          "dr": -0.03,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.17217074002255575,
+          "angle": 1.1808013782280624,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 71,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2136995134701245,
+        "dr": 0.0,
+        "strong_angle": 1.200609544080167
+      },
+      "iq_key": "case_71",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014030453136698477,
+          "angle": 1.1877826952360397,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.02938800926317182,
+          "angle": 1.2052359877559828,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 72,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211871131882564,
+        "dr": 0.0,
+        "strong_angle": 1.1987811624926064
+      },
+      "iq_key": "case_72",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01702773912076939,
+          "angle": 1.1720747319680906,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.06038595395270145,
+          "angle": 1.2261799387799148,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 73,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2122538176378232,
+        "dr": 0.0,
+        "strong_angle": 1.1991638482478657
+      },
+      "iq_key": "case_73",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013316253895547544,
+          "angle": 1.220943951023932,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03416333631604269,
+          "angle": 1.2052359877559828,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 74,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212414383547486,
+        "dr": 0.0,
+        "strong_angle": 1.1993244141575286
+      },
+      "iq_key": "case_74",
+      "outcomes": {
+        "coherent": {
+          "score": 0.030861908475167517,
+          "angle": 1.173820061220085,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.15498371621931586,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 75,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124628802952582,
+        "dr": 0.0,
+        "strong_angle": 1.1993729109053006
+      },
+      "iq_key": "case_75",
+      "outcomes": {
+        "coherent": {
+          "score": 0.015188688330500421,
+          "angle": 1.1982546707480057,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04345720756835092,
+          "angle": 1.2174532925199433,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 76,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213567357006858,
+        "dr": 0.0,
+        "strong_angle": 1.2004773876169004
+      },
+      "iq_key": "case_76",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02390678438614061,
+          "angle": 1.2157079632679488,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10028777182753087,
+          "angle": 1.2279252680319093,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 77,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139464211967166,
+        "dr": 0.0,
+        "strong_angle": 1.200856451806759
+      },
+      "iq_key": "case_77",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0077125221237203745,
+          "angle": 1.1930186829920226,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04098797311397852,
+          "angle": 1.1965093414960113,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 78,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2143587270809713,
+        "dr": 0.0,
+        "strong_angle": 1.2012687576910137
+      },
+      "iq_key": "case_78",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02699658007497145,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.08345820919860085,
+          "angle": 1.2191986217719375,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 79,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2130093949012022,
+        "dr": 0.0,
+        "strong_angle": 1.1999194255112446
+      },
+      "iq_key": "case_79",
+      "outcomes": {
+        "coherent": {
+          "score": 0.027891545283868717,
+          "angle": 1.1773107197240738,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04889564927122701,
+          "angle": 1.1720747319680906,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 80,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131132910643976,
+        "dr": 0.0,
+        "strong_angle": 1.20002332167444
+      },
+      "iq_key": "case_80",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03653153516685198,
+          "angle": 1.2349065850398866,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12631807140360551,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 81,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211917213415297,
+        "dr": 0.0,
+        "strong_angle": 1.1988272440253394
+      },
+      "iq_key": "case_81",
+      "outcomes": {
+        "coherent": {
+          "score": 0.017191883990118655,
+          "angle": 1.1755653904720793,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.042169099224013566,
+          "angle": 1.173820061220085,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 82,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117694604704818,
+        "dr": 0.0,
+        "strong_angle": 1.1986794910805243
+      },
+      "iq_key": "case_82",
+      "outcomes": {
+        "coherent": {
+          "score": 0.06460164311976724,
+          "angle": 1.1650934149601133,
+          "dr": -0.03,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.23252302904329505,
+          "angle": 1.184292036732051,
+          "dr": -0.06,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 83,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124869071937185,
+        "dr": 0.0,
+        "strong_angle": 1.199396937803761
+      },
+      "iq_key": "case_83",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02230392140058077,
+          "angle": 1.173820061220085,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.050541640086297884,
+          "angle": 1.1825467074800566,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 84,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2141331196988985,
+        "dr": 0.0,
+        "strong_angle": 1.201043150308941
+      },
+      "iq_key": "case_84",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03139432735838696,
+          "angle": 1.1650934149601133,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.08905754582174322,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 85,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139888976575623,
+        "dr": 0.0,
+        "strong_angle": 1.2008989282676048
+      },
+      "iq_key": "case_85",
+      "outcomes": {
+        "coherent": {
+          "score": 0.016132084484396604,
+          "angle": 1.1650934149601133,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03808572667754833,
+          "angle": 1.2157079632679488,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 86,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2132602934469583,
+        "dr": 0.0,
+        "strong_angle": 1.2001703240570007
+      },
+      "iq_key": "case_86",
+      "outcomes": {
+        "coherent": {
+          "score": 0.027784036129423813,
+          "angle": 1.1912733537400284,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10637044464998484,
+          "angle": 1.184292036732051,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 87,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2122279110153993,
+        "dr": 0.0,
+        "strong_angle": 1.1991379416254417
+      },
+      "iq_key": "case_87",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01542973439089738,
+          "angle": 1.2174532925199433,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04164187561429347,
+          "angle": 1.210471975511966,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 88,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2143225708694432,
+        "dr": 0.0,
+        "strong_angle": 1.2012326014794856
+      },
+      "iq_key": "case_88",
+      "outcomes": {
+        "coherent": {
+          "score": 0.021401220161815872,
+          "angle": 1.2139626340159546,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09099970570061548,
+          "angle": 1.194764012244017,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 89,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117669806936757,
+        "dr": 0.0,
+        "strong_angle": 1.1986770113037182
+      },
+      "iq_key": "case_89",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01647518258059408,
+          "angle": 1.1650934149601133,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.037260866193902197,
+          "angle": 1.184292036732051,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 90,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211775306101324,
+        "dr": 0.0,
+        "strong_angle": 1.1986853367113663
+      },
+      "iq_key": "case_90",
+      "outcomes": {
+        "coherent": {
+          "score": 0.030931622464331263,
+          "angle": 1.173820061220085,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11481280357453835,
+          "angle": 1.2349065850398866,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 91,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212733134685451,
+        "dr": 0.0,
+        "strong_angle": 1.1996431652954935
+      },
+      "iq_key": "case_91",
+      "outcomes": {
+        "coherent": {
+          "score": 0.00876119560103565,
+          "angle": 1.2261799387799148,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.057997889606707154,
+          "angle": 1.2069813170079773,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 92,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2130969949164374,
+        "dr": 0.0,
+        "strong_angle": 1.2000070255264799
+      },
+      "iq_key": "case_92",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03197392000622195,
+          "angle": 1.2261799387799148,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09196608860323588,
+          "angle": 1.1930186829920226,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 93,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2123903582351383,
+        "dr": 0.0,
+        "strong_angle": 1.1993003888451808
+      },
+      "iq_key": "case_93",
+      "outcomes": {
+        "coherent": {
+          "score": 0.00889496937366989,
+          "angle": 1.2226892802759262,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.026502990200899464,
+          "angle": 1.1650934149601133,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 94,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212885029033407,
+        "dr": 0.0,
+        "strong_angle": 1.1997950596434495
+      },
+      "iq_key": "case_94",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01627356240807967,
+          "angle": 1.1650934149601133,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05369362606110294,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 95,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121744574721756,
+        "dr": 0.0,
+        "strong_angle": 1.199084488082218
+      },
+      "iq_key": "case_95",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013561344568127175,
+          "angle": 1.184292036732051,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03280547092918289,
+          "angle": 1.2034906585039886,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 96,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2116940606830349,
+        "dr": 0.0,
+        "strong_angle": 1.1986040912930773
+      },
+      "iq_key": "case_96",
+      "outcomes": {
+        "coherent": {
+          "score": 0.05345004025100626,
+          "angle": 1.1860373659840453,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.13650828027942696,
+          "angle": 1.2052359877559828,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 97,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121729688988148,
+        "dr": 0.0,
+        "strong_angle": 1.1990829995088572
+      },
+      "iq_key": "case_97",
+      "outcomes": {
+        "coherent": {
+          "score": 0.012944467336223366,
+          "angle": 1.2157079632679488,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.033563210312906724,
+          "angle": 1.2052359877559828,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 98,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2137662332030992,
+        "dr": 0.0,
+        "strong_angle": 1.2006762638131416
+      },
+      "iq_key": "case_98",
+      "outcomes": {
+        "coherent": {
+          "score": 0.028973943371552038,
+          "angle": 1.1668387442121078,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10507265722467275,
+          "angle": 1.1650934149601133,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "strong_only",
+      "seed": 99,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2125525408984312,
+        "dr": 0.0,
+        "strong_angle": 1.1994625715084737
+      },
+      "iq_key": "case_99",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013352950929371936,
+          "angle": 1.2087266462599715,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.025884698018105425,
+          "angle": 1.2034906585039886,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 0,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2125964022287445,
+        "dr": 0.0,
+        "strong_angle": 1.199506432838787
+      },
+      "iq_key": "case_100",
+      "outcomes": {
+        "coherent": {
+          "score": 0.044125786821624734,
+          "angle": 1.2034906585039886,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09847154457675009,
+          "angle": 1.2034906585039886,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 1,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2116961931456198,
+        "dr": 0.0,
+        "strong_angle": 1.1986062237556623
+      },
+      "iq_key": "case_101",
+      "outcomes": {
+        "coherent": {
+          "score": 0.008274284021913684,
+          "angle": 1.2052359877559828,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04266691459098775,
+          "angle": 1.2191986217719375,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 2,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.214269255288338,
+        "dr": 0.0,
+        "strong_angle": 1.2011792858983805
+      },
+      "iq_key": "case_102",
+      "outcomes": {
+        "coherent": {
+          "score": 0.05148041275841108,
+          "angle": 1.1720747319680906,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11691899924166325,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 3,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212537547042468,
+        "dr": 0.0,
+        "strong_angle": 1.1994475776525104
+      },
+      "iq_key": "case_103",
+      "outcomes": {
+        "coherent": {
+          "score": 0.006457895442244495,
+          "angle": 1.1982546707480057,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.014336125720039264,
+          "angle": 1.184292036732051,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 4,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121447862257106,
+        "dr": 0.0,
+        "strong_angle": 1.199054816835753
+      },
+      "iq_key": "case_104",
+      "outcomes": {
+        "coherent": {
+          "score": 0.040980427770172696,
+          "angle": 1.1703294027160964,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12141150819885473,
+          "angle": 1.1703294027160964,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 5,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212352209364062,
+        "dr": 0.0,
+        "strong_angle": 1.1992622399741044
+      },
+      "iq_key": "case_105",
+      "outcomes": {
+        "coherent": {
+          "score": 0.008586285751427544,
+          "angle": 1.2349065850398866,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.023856100720721668,
+          "angle": 1.1755653904720793,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 6,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2136773531793872,
+        "dr": 0.0,
+        "strong_angle": 1.2005873837894296
+      },
+      "iq_key": "case_106",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0225483255007058,
+          "angle": 1.1860373659840453,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.17902232231503323,
+          "angle": 1.1825467074800566,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 7,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2132147359006118,
+        "dr": 0.0,
+        "strong_angle": 1.2001247665106543
+      },
+      "iq_key": "case_107",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01155709072214572,
+          "angle": 1.2349065850398866,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.023682058181878983,
+          "angle": 1.1808013782280624,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 8,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121231804494823,
+        "dr": 0.0,
+        "strong_angle": 1.1990332110595248
+      },
+      "iq_key": "case_108",
+      "outcomes": {
+        "coherent": {
+          "score": 0.011817685461344823,
+          "angle": 1.2,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.06615660427684159,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 9,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117910497363253,
+        "dr": 0.0,
+        "strong_angle": 1.1987010803463678
+      },
+      "iq_key": "case_109",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009598257091001407,
+          "angle": 1.1703294027160964,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03713333686326588,
+          "angle": 1.2349065850398866,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 10,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2138381285632036,
+        "dr": 0.0,
+        "strong_angle": 1.200748159173246
+      },
+      "iq_key": "case_110",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01718594012141271,
+          "angle": 1.1650934149601133,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07230332252425865,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 11,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131214999140958,
+        "dr": 0.0,
+        "strong_angle": 1.2000315305241382
+      },
+      "iq_key": "case_111",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009169691640992026,
+          "angle": 1.184292036732051,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.030232182454766214,
+          "angle": 1.1650934149601133,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 12,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2128598847443153,
+        "dr": 0.0,
+        "strong_angle": 1.1997699153543577
+      },
+      "iq_key": "case_112",
+      "outcomes": {
+        "coherent": {
+          "score": 0.030301056800468296,
+          "angle": 1.1877826952360397,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12910309303453002,
+          "angle": 1.2191986217719375,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 13,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2137064878939094,
+        "dr": 0.0,
+        "strong_angle": 1.200616518503952
+      },
+      "iq_key": "case_113",
+      "outcomes": {
+        "coherent": {
+          "score": 0.013668680548452095,
+          "angle": 1.2261799387799148,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.039234373234335755,
+          "angle": 1.2244346095279206,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 14,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2125195190694154,
+        "dr": 0.0,
+        "strong_angle": 1.1994295496794578
+      },
+      "iq_key": "case_114",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01918665324313489,
+          "angle": 1.2349065850398866,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07291030463380055,
+          "angle": 1.2349065850398866,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 15,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.21271898693261,
+        "dr": 0.0,
+        "strong_angle": 1.1996290175426525
+      },
+      "iq_key": "case_115",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0066126159902354514,
+          "angle": 1.179056048976068,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04882039722143538,
+          "angle": 1.1703294027160964,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 16,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139592596096915,
+        "dr": 0.0,
+        "strong_angle": 1.200869290219734
+      },
+      "iq_key": "case_116",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03458313095295102,
+          "angle": 1.2279252680319093,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.06921730488662468,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 17,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211799991493003,
+        "dr": 0.0,
+        "strong_angle": 1.1987100221030456
+      },
+      "iq_key": "case_117",
+      "outcomes": {
+        "coherent": {
+          "score": 0.004590166585436142,
+          "angle": 1.1668387442121078,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.018425041856923768,
+          "angle": 1.1703294027160964,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 18,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142015250625529,
+        "dr": 0.0,
+        "strong_angle": 1.2011115556725953
+      },
+      "iq_key": "case_118",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01982513232890574,
+          "angle": 1.2331612557878922,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1387422935431237,
+          "angle": 1.2349065850398866,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 19,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131600388610875,
+        "dr": 0.0,
+        "strong_angle": 1.20007006947113
+      },
+      "iq_key": "case_119",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014182855787518283,
+          "angle": 1.2034906585039886,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03291087960474728,
+          "angle": 1.2157079632679488,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 20,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212667305398052,
+        "dr": 0.0,
+        "strong_angle": 1.1995773360080944
+      },
+      "iq_key": "case_120",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02451357807516091,
+          "angle": 1.2261799387799148,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10945966507723225,
+          "angle": 1.220943951023932,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 21,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139811555353774,
+        "dr": 0.0,
+        "strong_angle": 1.20089118614542
+      },
+      "iq_key": "case_121",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009215503918415502,
+          "angle": 1.2226892802759262,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0433410488343758,
+          "angle": 1.2069813170079773,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 22,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2126318119274162,
+        "dr": 0.0,
+        "strong_angle": 1.1995418425374587
+      },
+      "iq_key": "case_122",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01235667413579,
+          "angle": 1.184292036732051,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0628348561043115,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 23,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2132679605128078,
+        "dr": 0.0,
+        "strong_angle": 1.2001779911228503
+      },
+      "iq_key": "case_123",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01327568025331266,
+          "angle": 1.1703294027160964,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03362107454871763,
+          "angle": 1.1965093414960113,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 24,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2130510902152567,
+        "dr": 0.0,
+        "strong_angle": 1.1999611208252992
+      },
+      "iq_key": "case_124",
+      "outcomes": {
+        "coherent": {
+          "score": 0.022783264912595087,
+          "angle": 1.2139626340159546,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09681826460050144,
+          "angle": 1.2349065850398866,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 25,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212860731950467,
+        "dr": 0.0,
+        "strong_angle": 1.1997707625605094
+      },
+      "iq_key": "case_125",
+      "outcomes": {
+        "coherent": {
+          "score": 0.011496711730223541,
+          "angle": 1.194764012244017,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03792410079417742,
+          "angle": 1.1755653904720793,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 26,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211824566824004,
+        "dr": 0.0,
+        "strong_angle": 1.1987345974340464
+      },
+      "iq_key": "case_126",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014525556665451909,
+          "angle": 1.2349065850398866,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07682202985965512,
+          "angle": 1.2296705972839035,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 27,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2128779284688964,
+        "dr": 0.0,
+        "strong_angle": 1.1997879590789389
+      },
+      "iq_key": "case_127",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0062750177870545525,
+          "angle": 1.1860373659840453,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.022759725919228726,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 28,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2135890239219582,
+        "dr": 0.0,
+        "strong_angle": 1.2004990545320007
+      },
+      "iq_key": "case_128",
+      "outcomes": {
+        "coherent": {
+          "score": 0.045956590714012625,
+          "angle": 1.2349065850398866,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09715642243579178,
+          "angle": 1.1825467074800566,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 29,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134324342609137,
+        "dr": 0.0,
+        "strong_angle": 1.2003424648709562
+      },
+      "iq_key": "case_129",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0063675842432974975,
+          "angle": 1.1650934149601133,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0333643995608849,
+          "angle": 1.2034906585039886,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 30,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124268634943134,
+        "dr": 0.0,
+        "strong_angle": 1.1993368941043558
+      },
+      "iq_key": "case_130",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010097383527008905,
+          "angle": 1.2296705972839035,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04111657252906806,
+          "angle": 1.2296705972839035,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 31,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134891802022707,
+        "dr": 0.0,
+        "strong_angle": 1.2003992108123132
+      },
+      "iq_key": "case_131",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007119058737590731,
+          "angle": 1.210471975511966,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.045880809660812705,
+          "angle": 1.2279252680319093,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 32,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2128609860113182,
+        "dr": 0.0,
+        "strong_angle": 1.1997710166213607
+      },
+      "iq_key": "case_132",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02189181567207186,
+          "angle": 1.189528024488034,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.08461034792269208,
+          "angle": 1.189528024488034,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 33,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2123208991608738,
+        "dr": 0.0,
+        "strong_angle": 1.1992309297709163
+      },
+      "iq_key": "case_133",
+      "outcomes": {
+        "coherent": {
+          "score": 0.006649785343112559,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03331779210264237,
+          "angle": 1.2349065850398866,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 34,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213052109707435,
+        "dr": 0.0,
+        "strong_angle": 1.1999621403174774
+      },
+      "iq_key": "case_134",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03886305231513379,
+          "angle": 1.1668387442121078,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1288516216172636,
+          "angle": 1.1703294027160964,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 35,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121998228629653,
+        "dr": 0.0,
+        "strong_angle": 1.1991098534730078
+      },
+      "iq_key": "case_135",
+      "outcomes": {
+        "coherent": {
+          "score": 0.00808969333357236,
+          "angle": 1.2244346095279206,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03229436305900722,
+          "angle": 1.220943951023932,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 36,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2133363853619352,
+        "dr": 0.0,
+        "strong_angle": 1.2002464159719777
+      },
+      "iq_key": "case_136",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02626490143863574,
+          "angle": 1.1982546707480057,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.19760961439640173,
+          "angle": 1.1825467074800566,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 37,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2132761623071562,
+        "dr": 0.0,
+        "strong_angle": 1.2001861929171986
+      },
+      "iq_key": "case_137",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014554537911270702,
+          "angle": 1.1808013782280624,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.023623086820518495,
+          "angle": 1.2244346095279206,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 38,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142051354436276,
+        "dr": 0.0,
+        "strong_angle": 1.20111516605367
+      },
+      "iq_key": "case_138",
+      "outcomes": {
+        "coherent": {
+          "score": 0.025199313566824384,
+          "angle": 1.2157079632679488,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.133543409487838,
+          "angle": 1.2122173047639602,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 39,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2137002060490454,
+        "dr": 0.0,
+        "strong_angle": 1.2006102366590878
+      },
+      "iq_key": "case_139",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007622089549309647,
+          "angle": 1.1825467074800566,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0373285150831371,
+          "angle": 1.2034906585039886,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 40,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2130679409850276,
+        "dr": 0.0,
+        "strong_angle": 1.19997797159507
+      },
+      "iq_key": "case_140",
+      "outcomes": {
+        "coherent": {
+          "score": 0.047200007460995105,
+          "angle": 1.1703294027160964,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.183922751575316,
+          "angle": 1.1703294027160964,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 41,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212643691672755,
+        "dr": 0.0,
+        "strong_angle": 1.1995537222827974
+      },
+      "iq_key": "case_141",
+      "outcomes": {
+        "coherent": {
+          "score": 0.008605767932193305,
+          "angle": 1.2226892802759262,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.01893588577333755,
+          "angle": 1.2226892802759262,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 42,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211723512249083,
+        "dr": 0.0,
+        "strong_angle": 1.1986335428591255
+      },
+      "iq_key": "case_142",
+      "outcomes": {
+        "coherent": {
+          "score": 0.026191894576585665,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.08158098875354125,
+          "angle": 1.2349065850398866,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 43,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2118642109209912,
+        "dr": 0.0,
+        "strong_angle": 1.1987742415310336
+      },
+      "iq_key": "case_143",
+      "outcomes": {
+        "coherent": {
+          "score": 0.00523360446735302,
+          "angle": 1.1650934149601133,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03347544799409235,
+          "angle": 1.1650934149601133,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 44,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134814687095568,
+        "dr": 0.0,
+        "strong_angle": 1.2003914993195992
+      },
+      "iq_key": "case_144",
+      "outcomes": {
+        "coherent": {
+          "score": 0.06514801757437623,
+          "angle": 1.1650934149601133,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09498172635859448,
+          "angle": 1.1703294027160964,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 45,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131676397605133,
+        "dr": 0.0,
+        "strong_angle": 1.2000776703705558
+      },
+      "iq_key": "case_145",
+      "outcomes": {
+        "coherent": {
+          "score": 0.017638157646440267,
+          "angle": 1.1877826952360397,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.059698939067145566,
+          "angle": 1.1825467074800566,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 46,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117511458155286,
+        "dr": 0.0,
+        "strong_angle": 1.198661176425571
+      },
+      "iq_key": "case_146",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009546929165128837,
+          "angle": 1.2349065850398866,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0970254388641198,
+          "angle": 1.2296705972839035,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 47,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211777590272661,
+        "dr": 0.0,
+        "strong_angle": 1.1986876208827035
+      },
+      "iq_key": "case_147",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009066463270446802,
+          "angle": 1.2296705972839035,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05815483389687804,
+          "angle": 1.2244346095279206,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 48,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134553176603367,
+        "dr": 0.0,
+        "strong_angle": 1.200365348270379
+      },
+      "iq_key": "case_148",
+      "outcomes": {
+        "coherent": {
+          "score": 0.025794483774915836,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10886639077318738,
+          "angle": 1.194764012244017,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 49,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2143900902935858,
+        "dr": 0.0,
+        "strong_angle": 1.2013001209036283
+      },
+      "iq_key": "case_149",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010564522467457977,
+          "angle": 1.1720747319680906,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03630415580114188,
+          "angle": 1.1720747319680906,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 50,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.214049000752183,
+        "dr": 0.0,
+        "strong_angle": 1.2009590313622254
+      },
+      "iq_key": "case_150",
+      "outcomes": {
+        "coherent": {
+          "score": 0.018422717823551073,
+          "angle": 1.173820061220085,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12069656567772388,
+          "angle": 1.1808013782280624,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 51,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2128765091192757,
+        "dr": 0.0,
+        "strong_angle": 1.1997865397293181
+      },
+      "iq_key": "case_151",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010828629219861396,
+          "angle": 1.2261799387799148,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03178741114124251,
+          "angle": 1.210471975511966,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 52,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213364792316812,
+        "dr": 0.0,
+        "strong_angle": 1.2002748229268545
+      },
+      "iq_key": "case_152",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04983953867722687,
+          "angle": 1.2244346095279206,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07332819666720056,
+          "angle": 1.2017453292519942,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 53,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.211739266715703,
+        "dr": 0.0,
+        "strong_angle": 1.1986492973257454
+      },
+      "iq_key": "case_153",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007388109968156934,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.036366321987591765,
+          "angle": 1.1650934149601133,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 54,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213107314856868,
+        "dr": 0.0,
+        "strong_angle": 1.2000173454669105
+      },
+      "iq_key": "case_154",
+      "outcomes": {
+        "coherent": {
+          "score": 0.016774923954376898,
+          "angle": 1.2052359877559828,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.047254726072422495,
+          "angle": 1.2139626340159546,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 55,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2129379089053989,
+        "dr": 0.0,
+        "strong_angle": 1.1998479395154413
+      },
+      "iq_key": "case_155",
+      "outcomes": {
+        "coherent": {
+          "score": 0.012111264343093453,
+          "angle": 1.1825467074800566,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03471453686370322,
+          "angle": 1.2087266462599715,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 56,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2122466118429365,
+        "dr": 0.0,
+        "strong_angle": 1.199156642452979
+      },
+      "iq_key": "case_156",
+      "outcomes": {
+        "coherent": {
+          "score": 0.022670679218949743,
+          "angle": 1.1825467074800566,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03182074751174112,
+          "angle": 1.1650934149601133,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 57,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2128633777634608,
+        "dr": 0.0,
+        "strong_angle": 1.1997734083735032
+      },
+      "iq_key": "case_157",
+      "outcomes": {
+        "coherent": {
+          "score": 0.006306183729444457,
+          "angle": 1.210471975511966,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03789513123577678,
+          "angle": 1.1912733537400284,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 58,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213146621346761,
+        "dr": 0.0,
+        "strong_angle": 1.2000566519568034
+      },
+      "iq_key": "case_158",
+      "outcomes": {
+        "coherent": {
+          "score": 0.02336627457390483,
+          "angle": 1.1650934149601133,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0893835175902637,
+          "angle": 1.2226892802759262,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 59,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139041742350247,
+        "dr": 0.0,
+        "strong_angle": 1.2008142048450672
+      },
+      "iq_key": "case_159",
+      "outcomes": {
+        "coherent": {
+          "score": 0.003968311571720842,
+          "angle": 1.1965093414960113,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.02068415593092081,
+          "angle": 1.1912733537400284,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 60,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139594489450372,
+        "dr": 0.0,
+        "strong_angle": 1.2008694795550796
+      },
+      "iq_key": "case_160",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01702801922148857,
+          "angle": 1.2,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07925098479061196,
+          "angle": 1.1755653904720793,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 61,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2140692990088882,
+        "dr": 0.0,
+        "strong_angle": 1.2009793296189306
+      },
+      "iq_key": "case_161",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01203533143569315,
+          "angle": 1.1755653904720793,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.051997757793400864,
+          "angle": 1.1860373659840453,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 62,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139568273567896,
+        "dr": 0.0,
+        "strong_angle": 1.200866857966832
+      },
+      "iq_key": "case_162",
+      "outcomes": {
+        "coherent": {
+          "score": 0.028124224158197157,
+          "angle": 1.2349065850398866,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07767913372852894,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 63,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2143357280834484,
+        "dr": 0.0,
+        "strong_angle": 1.2012457586934908
+      },
+      "iq_key": "case_163",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007512337820355965,
+          "angle": 1.2017453292519942,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.02755306376967538,
+          "angle": 1.2122173047639602,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 64,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2143168754596676,
+        "dr": 0.0,
+        "strong_angle": 1.20122690606971
+      },
+      "iq_key": "case_164",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03652551044862994,
+          "angle": 1.2296705972839035,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0946295592329731,
+          "angle": 1.2296705972839035,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 65,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213161319001954,
+        "dr": 0.0,
+        "strong_angle": 1.2000713496119964
+      },
+      "iq_key": "case_165",
+      "outcomes": {
+        "coherent": {
+          "score": 0.012159444361496305,
+          "angle": 1.2174532925199433,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03479971260807626,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 66,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2139485098792637,
+        "dr": 0.0,
+        "strong_angle": 1.2008585404893062
+      },
+      "iq_key": "case_166",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010227035941763263,
+          "angle": 1.2191986217719375,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05988759537486201,
+          "angle": 1.2069813170079773,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 67,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2136513754273734,
+        "dr": 0.0,
+        "strong_angle": 1.200561406037416
+      },
+      "iq_key": "case_167",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0062876525279318505,
+          "angle": 1.1755653904720793,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04119417706147926,
+          "angle": 1.1668387442121078,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 68,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117121518200942,
+        "dr": 0.0,
+        "strong_angle": 1.1986221824301366
+      },
+      "iq_key": "case_168",
+      "outcomes": {
+        "coherent": {
+          "score": 0.031084807730099723,
+          "angle": 1.231415926535898,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1914750264390761,
+          "angle": 1.1650934149601133,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 69,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2128371190727545,
+        "dr": 0.0,
+        "strong_angle": 1.199747149682797
+      },
+      "iq_key": "case_169",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010151879800288163,
+          "angle": 1.2191986217719375,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.038076716632385224,
+          "angle": 1.2331612557878922,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 70,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2123985151500263,
+        "dr": 0.0,
+        "strong_angle": 1.1993085457600687
+      },
+      "iq_key": "case_170",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03675411584890418,
+          "angle": 1.2349065850398866,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.08913295283318548,
+          "angle": 1.2349065850398866,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 71,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213750478048078,
+        "dr": 0.0,
+        "strong_angle": 1.2006605086581204
+      },
+      "iq_key": "case_171",
+      "outcomes": {
+        "coherent": {
+          "score": 0.01089111677149448,
+          "angle": 1.1720747319680906,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03694171757793037,
+          "angle": 1.2349065850398866,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 72,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2133385490894073,
+        "dr": 0.0,
+        "strong_angle": 1.2002485796994498
+      },
+      "iq_key": "case_172",
+      "outcomes": {
+        "coherent": {
+          "score": 0.037296014022205545,
+          "angle": 1.2139626340159546,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10869571958065653,
+          "angle": 1.1650934149601133,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 73,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124636554585952,
+        "dr": 0.0,
+        "strong_angle": 1.1993736860686377
+      },
+      "iq_key": "case_173",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007431796679375803,
+          "angle": 1.1912733537400284,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.020571730431150903,
+          "angle": 1.2244346095279206,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 74,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212633247515266,
+        "dr": 0.0,
+        "strong_angle": 1.1995432781253084
+      },
+      "iq_key": "case_174",
+      "outcomes": {
+        "coherent": {
+          "score": 0.008687493597021088,
+          "angle": 1.1808013782280624,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.057747111721281726,
+          "angle": 1.184292036732051,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 75,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2134490641720304,
+        "dr": 0.0,
+        "strong_angle": 1.2003590947820728
+      },
+      "iq_key": "case_175",
+      "outcomes": {
+        "coherent": {
+          "score": 0.00835058300585903,
+          "angle": 1.1650934149601133,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.02046942617023294,
+          "angle": 1.2349065850398866,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 76,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2141210139755632,
+        "dr": 0.0,
+        "strong_angle": 1.2010310445856056
+      },
+      "iq_key": "case_176",
+      "outcomes": {
+        "coherent": {
+          "score": 0.020297744565138286,
+          "angle": 1.2069813170079773,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.10207588214909682,
+          "angle": 1.2139626340159546,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 77,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2140490203613008,
+        "dr": 0.0,
+        "strong_angle": 1.2009590509713433
+      },
+      "iq_key": "case_177",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009810575786618946,
+          "angle": 1.1912733537400284,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.033541165071874386,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 78,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2126202078491783,
+        "dr": 0.0,
+        "strong_angle": 1.1995302384592208
+      },
+      "iq_key": "case_178",
+      "outcomes": {
+        "coherent": {
+          "score": 0.020874321020603673,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1168753526421801,
+          "angle": 1.1650934149601133,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 79,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212785746663177,
+        "dr": 0.0,
+        "strong_angle": 1.1996957772732195
+      },
+      "iq_key": "case_179",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009040381135287462,
+          "angle": 1.2296705972839035,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.023051871375027535,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 80,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2123933967915261,
+        "dr": 0.0,
+        "strong_angle": 1.1993034274015686
+      },
+      "iq_key": "case_180",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03423647968910111,
+          "angle": 1.1965093414960113,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07608281634993548,
+          "angle": 1.1650934149601133,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 81,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2122058049350029,
+        "dr": 0.0,
+        "strong_angle": 1.1991158355450453
+      },
+      "iq_key": "case_181",
+      "outcomes": {
+        "coherent": {
+          "score": 0.007644393491555326,
+          "angle": 1.2349065850398866,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.02130572707193135,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 82,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2118611791791636,
+        "dr": 0.0,
+        "strong_angle": 1.198771209789206
+      },
+      "iq_key": "case_182",
+      "outcomes": {
+        "coherent": {
+          "score": 0.023514354938203343,
+          "angle": 1.2087266462599715,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.06844639408029907,
+          "angle": 1.2122173047639602,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 83,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2124081523185217,
+        "dr": 0.0,
+        "strong_angle": 1.1993181829285642
+      },
+      "iq_key": "case_183",
+      "outcomes": {
+        "coherent": {
+          "score": 0.009249064305460802,
+          "angle": 1.2296705972839035,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.028202451989919497,
+          "angle": 1.2139626340159546,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 84,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117050263821347,
+        "dr": 0.0,
+        "strong_angle": 1.1986150569921772
+      },
+      "iq_key": "case_184",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010152364738379287,
+          "angle": 1.1650934149601133,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.06714894410414564,
+          "angle": 1.1650934149601133,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 85,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2136082238709454,
+        "dr": 0.0,
+        "strong_angle": 1.2005182544809878
+      },
+      "iq_key": "case_185",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0141640273783514,
+          "angle": 1.1668387442121078,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04392910496378702,
+          "angle": 1.189528024488034,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 86,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212969855972961,
+        "dr": 0.0,
+        "strong_angle": 1.1998798865830034
+      },
+      "iq_key": "case_186",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03940448532902032,
+          "angle": 1.2244346095279206,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11518045594606043,
+          "angle": 1.2349065850398866,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 87,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.212280313765138,
+        "dr": 0.0,
+        "strong_angle": 1.1991903443751804
+      },
+      "iq_key": "case_187",
+      "outcomes": {
+        "coherent": {
+          "score": 0.008351859910956322,
+          "angle": 1.1860373659840453,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05202315618781174,
+          "angle": 1.1650934149601133,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 88,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.21220252426482,
+        "dr": 0.0,
+        "strong_angle": 1.1991125548748625
+      },
+      "iq_key": "case_188",
+      "outcomes": {
+        "coherent": {
+          "score": 0.016805256000399605,
+          "angle": 1.1808013782280624,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.08159071557367105,
+          "angle": 1.1773107197240738,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 89,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213876375035346,
+        "dr": 0.0,
+        "strong_angle": 1.2007864056453885
+      },
+      "iq_key": "case_189",
+      "outcomes": {
+        "coherent": {
+          "score": 0.00941222154129023,
+          "angle": 1.173820061220085,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03487802041490568,
+          "angle": 1.2349065850398866,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 90,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213882679657807,
+        "dr": 0.0,
+        "strong_angle": 1.2007927102678495
+      },
+      "iq_key": "case_190",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04502315272109171,
+          "angle": 1.1668387442121078,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.2012384661667234,
+          "angle": 1.1912733537400284,
+          "dr": -0.049999999999999996,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 91,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2131991052617526,
+        "dr": 0.0,
+        "strong_angle": 1.200109135871795
+      },
+      "iq_key": "case_191",
+      "outcomes": {
+        "coherent": {
+          "score": 0.010730060096208437,
+          "angle": 1.168584073464102,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.038300436029006714,
+          "angle": 1.2122173047639602,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 92,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117537634373963,
+        "dr": 0.0,
+        "strong_angle": 1.1986637940474387
+      },
+      "iq_key": "case_192",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04058482324554163,
+          "angle": 1.2349065850398866,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.09931123477109782,
+          "angle": 1.2296705972839035,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 93,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2144437273283633,
+        "dr": 0.0,
+        "strong_angle": 1.2013537579384057
+      },
+      "iq_key": "case_193",
+      "outcomes": {
+        "coherent": {
+          "score": 0.005527640204099624,
+          "angle": 1.2191986217719375,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0405356419710736,
+          "angle": 1.2244346095279206,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 94,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2121638254578528,
+        "dr": 0.0,
+        "strong_angle": 1.1990738560678953
+      },
+      "iq_key": "case_194",
+      "outcomes": {
+        "coherent": {
+          "score": 0.045220352498467266,
+          "angle": 1.1877826952360397,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11510668388200689,
+          "angle": 1.189528024488034,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 95,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142831245853365,
+        "dr": 0.0,
+        "strong_angle": 1.201193155195379
+      },
+      "iq_key": "case_195",
+      "outcomes": {
+        "coherent": {
+          "score": 0.006792634515521826,
+          "angle": 1.2349065850398866,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.03255816769588313,
+          "angle": 1.1650934149601133,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 96,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2125684800272816,
+        "dr": 0.0,
+        "strong_angle": 1.199478510637324
+      },
+      "iq_key": "case_196",
+      "outcomes": {
+        "coherent": {
+          "score": 0.07772819899968765,
+          "angle": 1.2349065850398866,
+          "dr": -0.009999999999999995,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.13503401721285443,
+          "angle": 1.2331612557878922,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 97,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.21364998253892,
+        "dr": 0.0,
+        "strong_angle": 1.2005600131489624
+      },
+      "iq_key": "case_197",
+      "outcomes": {
+        "coherent": {
+          "score": 0.012076592900221752,
+          "angle": 1.2349065850398866,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.031008455962668272,
+          "angle": 1.220943951023932,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 98,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2132286517659887,
+        "dr": 0.0,
+        "strong_angle": 1.2001386823760312
+      },
+      "iq_key": "case_198",
+      "outcomes": {
+        "coherent": {
+          "score": 0.023722235249420402,
+          "angle": 1.2052359877559828,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05302410001073985,
+          "angle": 1.2349065850398866,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "empty",
+      "seed": 99,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.213889559895109,
+        "dr": 0.0,
+        "strong_angle": 1.2007995905051514
+      },
+      "iq_key": "case_199",
+      "outcomes": {
+        "coherent": {
+          "score": 0.014536845682712688,
+          "angle": 1.210471975511966,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.04306927019181988,
+          "angle": 1.2244346095279206,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 0,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2122551305065337,
+        "dr": 0.0,
+        "strong_angle": 1.1991651611165761
+      },
+      "iq_key": "case_200",
+      "outcomes": {
+        "coherent": {
+          "score": 0.11773748405580285,
+          "angle": 1.2349065850398866,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.188044497932286,
+          "angle": 1.2349065850398866,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 1,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2120640150693724,
+        "dr": 0.0,
+        "strong_angle": 1.198974045679415
+      },
+      "iq_key": "case_201",
+      "outcomes": {
+        "coherent": {
+          "score": 0.023053968906910798,
+          "angle": 1.2174532925199433,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.0668964797470469,
+          "angle": 1.2261799387799148,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 2,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2127870168998653,
+        "dr": 0.0,
+        "strong_angle": 1.1996970475099078
+      },
+      "iq_key": "case_202",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04956937701186052,
+          "angle": 1.1877826952360397,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05319750034689724,
+          "angle": 1.1930186829920226,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 3,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2117234707896452,
+        "dr": 0.0,
+        "strong_angle": 1.1986335013996876
+      },
+      "iq_key": "case_203",
+      "outcomes": {
+        "coherent": {
+          "score": 0.048032509825432584,
+          "angle": 1.2139626340159546,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07408865889804782,
+          "angle": 1.220943951023932,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 4,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2142759126035596,
+        "dr": 0.0,
+        "strong_angle": 1.201185943213602
+      },
+      "iq_key": "case_204",
+      "outcomes": {
+        "coherent": {
+          "score": 0.036634646061729684,
+          "angle": 1.1650934149601133,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1225128896660641,
+          "angle": 1.1650934149601133,
+          "dr": 0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 5,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2140344265954697,
+        "dr": 0.0,
+        "strong_angle": 1.2009444572055121
+      },
+      "iq_key": "case_205",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0721639172514918,
+          "angle": 1.2191986217719375,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12104165618919506,
+          "angle": 1.220943951023932,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 6,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.214227966081921,
+        "dr": 0.0,
+        "strong_angle": 1.2011379966919635
+      },
+      "iq_key": "case_206",
+      "outcomes": {
+        "coherent": {
+          "score": 0.04183297568911278,
+          "angle": 1.1965093414960113,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.14604379704874187,
+          "angle": 1.1703294027160964,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 7,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.21274778972612,
+        "dr": 0.0,
+        "strong_angle": 1.1996578203361625
+      },
+      "iq_key": "case_207",
+      "outcomes": {
+        "coherent": {
+          "score": 0.03116037652264278,
+          "angle": 1.2191986217719375,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05944038554228436,
+          "angle": 1.2244346095279206,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 8,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2118144782731537,
+        "dr": 0.0,
+        "strong_angle": 1.1987245088831961
+      },
+      "iq_key": "case_208",
+      "outcomes": {
+        "coherent": {
+          "score": 0.06048270511117169,
+          "angle": 1.2034906585039886,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.15442331952474686,
+          "angle": 1.2279252680319093,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 9,
+      "separation": 0.75,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2129209567022616,
+        "dr": 0.0,
+        "strong_angle": 1.199830987312304
+      },
+      "iq_key": "case_209",
+      "outcomes": {
+        "coherent": {
+          "score": 0.025166106170399015,
+          "angle": 1.2069813170079773,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.05530930010364528,
+          "angle": 1.2279252680319093,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 0,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2131761542358632,
+        "dr": 0.02,
+        "strong_angle": 1.2000861848459057
+      },
+      "iq_key": "case_210",
+      "outcomes": {
+        "coherent": {
+          "score": 0.13047385026294991,
+          "angle": 1.2191986217719375,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.16064104905304583,
+          "angle": 1.1720747319680906,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 1,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2143079913811847,
+        "dr": 0.02,
+        "strong_angle": 1.2012180219912272
+      },
+      "iq_key": "case_211",
+      "outcomes": {
+        "coherent": {
+          "score": 0.1602605974548014,
+          "angle": 1.2139626340159546,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.0759249894572455,
+          "angle": 1.210471975511966,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 2,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2118804383098736,
+        "dr": 0.02,
+        "strong_angle": 1.198790468919916
+      },
+      "iq_key": "case_212",
+      "outcomes": {
+        "coherent": {
+          "score": 0.1898106453882133,
+          "angle": 1.2122173047639602,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.18239907427715119,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 3,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2133784338891367,
+        "dr": 0.02,
+        "strong_angle": 1.2002884644991791
+      },
+      "iq_key": "case_213",
+      "outcomes": {
+        "coherent": {
+          "score": 0.10604623554008352,
+          "angle": 1.2174532925199433,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.09851550221603403,
+          "angle": 1.231415926535898,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 4,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2130225661372274,
+        "dr": 0.02,
+        "strong_angle": 1.1999325967472698
+      },
+      "iq_key": "case_214",
+      "outcomes": {
+        "coherent": {
+          "score": 0.13667381719326865,
+          "angle": 1.2122173047639602,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.13490744382886677,
+          "angle": 1.2349065850398866,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 5,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2137405108275938,
+        "dr": 0.02,
+        "strong_angle": 1.2006505414376363
+      },
+      "iq_key": "case_215",
+      "outcomes": {
+        "coherent": {
+          "score": 0.09605329287142779,
+          "angle": 1.2139626340159546,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.07168396051024001,
+          "angle": 1.2139626340159546,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 6,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2121291229977071,
+        "dr": 0.02,
+        "strong_angle": 1.1990391536077496
+      },
+      "iq_key": "case_216",
+      "outcomes": {
+        "coherent": {
+          "score": 0.11807835088234803,
+          "angle": 1.2174532925199433,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.21113237916568078,
+          "angle": 1.1860373659840453,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 7,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2131215113763587,
+        "dr": 0.02,
+        "strong_angle": 1.2000315419864012
+      },
+      "iq_key": "case_217",
+      "outcomes": {
+        "coherent": {
+          "score": 0.10741199017491945,
+          "angle": 1.210471975511966,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.047575511714328396,
+          "angle": 1.210471975511966,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 8,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2136088440552182,
+        "dr": 0.02,
+        "strong_angle": 1.2005188746652606
+      },
+      "iq_key": "case_218",
+      "outcomes": {
+        "coherent": {
+          "score": 0.16468931719937588,
+          "angle": 1.210471975511966,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.13285448833597835,
+          "angle": 1.210471975511966,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 9,
+      "separation": 0.75,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2117925660478164,
+        "dr": 0.02,
+        "strong_angle": 1.1987025966578588
+      },
+      "iq_key": "case_219",
+      "outcomes": {
+        "coherent": {
+          "score": 0.1359051433033242,
+          "angle": 1.2157079632679488,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.09519250214913787,
+          "angle": 1.2174532925199433,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 0,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2119052803184156,
+        "dr": 0.06,
+        "strong_angle": 1.198815310928458
+      },
+      "iq_key": "case_220",
+      "outcomes": {
+        "coherent": {
+          "score": 0.10257105907213349,
+          "angle": 1.2157079632679488,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.2477351247570075,
+          "angle": 1.2052359877559828,
+          "dr": -0.039999999999999994,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 1,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.21277441707519,
+        "dr": 0.06,
+        "strong_angle": 1.1996844476852324
+      },
+      "iq_key": "case_221",
+      "outcomes": {
+        "coherent": {
+          "score": 0.16373880211064704,
+          "angle": 1.2087266462599715,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.053167899104782805,
+          "angle": 1.2174532925199433,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 2,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2133963957985003,
+        "dr": 0.06,
+        "strong_angle": 1.2003064264085428
+      },
+      "iq_key": "case_222",
+      "outcomes": {
+        "coherent": {
+          "score": 0.18947796754070106,
+          "angle": 1.2174532925199433,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.30531335967834317,
+          "angle": 1.2331612557878922,
+          "dr": -0.049999999999999996,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 3,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.212300470753026,
+        "dr": 0.06,
+        "strong_angle": 1.1992105013630685
+      },
+      "iq_key": "case_223",
+      "outcomes": {
+        "coherent": {
+          "score": 0.21122869880663045,
+          "angle": 1.2139626340159546,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.09425289011363187,
+          "angle": 1.2191986217719375,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 4,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2121464054630624,
+        "dr": 0.06,
+        "strong_angle": 1.1990564360731049
+      },
+      "iq_key": "case_224",
+      "outcomes": {
+        "coherent": {
+          "score": 0.18986354143720566,
+          "angle": 1.220943951023932,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1871749647829226,
+          "angle": 1.2279252680319093,
+          "dr": 0.0,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 5,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2125413860651713,
+        "dr": 0.06,
+        "strong_angle": 1.1994514166752137
+      },
+      "iq_key": "case_225",
+      "outcomes": {
+        "coherent": {
+          "score": 0.16748518046401403,
+          "angle": 1.2122173047639602,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.1026800788437226,
+          "angle": 1.2052359877559828,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 6,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.214124791351989,
+        "dr": 0.06,
+        "strong_angle": 1.2010348219620315
+      },
+      "iq_key": "case_226",
+      "outcomes": {
+        "coherent": {
+          "score": 0.3069408506921279,
+          "angle": 1.2034906585039886,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.07139486472471054,
+          "angle": 1.2279252680319093,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 7,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2126574290711774,
+        "dr": 0.06,
+        "strong_angle": 1.1995674596812198
+      },
+      "iq_key": "case_227",
+      "outcomes": {
+        "coherent": {
+          "score": 0.1559424610010724,
+          "angle": 1.2122173047639602,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.08671656026392932,
+          "angle": 1.2331612557878922,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 8,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2140982859543021,
+        "dr": 0.06,
+        "strong_angle": 1.2010083165643446
+      },
+      "iq_key": "case_228",
+      "outcomes": {
+        "coherent": {
+          "score": 0.13514344555231342,
+          "angle": 1.2261799387799148,
+          "dr": 0.05,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.32687644257875603,
+          "angle": 1.2349065850398866,
+          "dr": -0.06,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 9,
+      "separation": 0.75,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2131242981792418,
+        "dr": 0.06,
+        "strong_angle": 1.2000343287892843
+      },
+      "iq_key": "case_229",
+      "outcomes": {
+        "coherent": {
+          "score": 0.18414892184261766,
+          "angle": 1.210471975511966,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.053089848937451445,
+          "angle": 1.210471975511966,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 0,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2263809750264272,
+        "dr": 0.0,
+        "strong_angle": 1.2002010362465123
+      },
+      "iq_key": "case_230",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0400618970907994,
+          "angle": 1.184292036732051,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.24573151366926407,
+          "angle": 1.1930186829920226,
+          "dr": -0.039999999999999994,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 1,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2248577904560793,
+        "dr": 0.0,
+        "strong_angle": 1.1986778516761645
+      },
+      "iq_key": "case_231",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0979011423502929,
+          "angle": 1.220943951023932,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.11515110237096304,
+          "angle": 1.2191986217719375,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 2,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2249600131405332,
+        "dr": 0.0,
+        "strong_angle": 1.1987800743606183
+      },
+      "iq_key": "case_232",
+      "outcomes": {
+        "coherent": {
+          "score": 0.1022807364626659,
+          "angle": 1.2296705972839035,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.12159291533547975,
+          "angle": 1.2261799387799148,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 3,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2272685270458872,
+        "dr": 0.0,
+        "strong_angle": 1.2010885882659723
+      },
+      "iq_key": "case_233",
+      "outcomes": {
+        "coherent": {
+          "score": 0.10966687501611033,
+          "angle": 1.231415926535898,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.14563776379353013,
+          "angle": 1.231415926535898,
+          "dr": 0.010000000000000009,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 4,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2260045037347032,
+        "dr": 0.0,
+        "strong_angle": 1.1998245649547883
+      },
+      "iq_key": "case_234",
+      "outcomes": {
+        "coherent": {
+          "score": 0.15889966210792833,
+          "angle": 1.2244346095279206,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.255793968590849,
+          "angle": 1.2261799387799148,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": true
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 5,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2248392834908308,
+        "dr": 0.0,
+        "strong_angle": 1.198659344710916
+      },
+      "iq_key": "case_235",
+      "outcomes": {
+        "coherent": {
+          "score": 0.12591722042225176,
+          "angle": 1.220943951023932,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.14715206505084527,
+          "angle": 1.2226892802759262,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 6,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2253213708559532,
+        "dr": 0.0,
+        "strong_angle": 1.1991414320760383
+      },
+      "iq_key": "case_236",
+      "outcomes": {
+        "coherent": {
+          "score": 0.21898732163718274,
+          "angle": 1.2349065850398866,
+          "dr": 0.010000000000000009,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.32003321512887417,
+          "angle": 1.2349065850398866,
+          "dr": -0.039999999999999994,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 7,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.227114132690889,
+        "dr": 0.0,
+        "strong_angle": 1.2009341939109741
+      },
+      "iq_key": "case_237",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0998494677326349,
+          "angle": 1.220943951023932,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.11588175554570593,
+          "angle": 1.2226892802759262,
+          "dr": 0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 8,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.2271620532478758,
+        "dr": 0.0,
+        "strong_angle": 1.2009821144679609
+      },
+      "iq_key": "case_238",
+      "outcomes": {
+        "coherent": {
+          "score": 0.13038752195568742,
+          "angle": 1.2331612557878922,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.3412304407163244,
+          "angle": 1.2349065850398866,
+          "dr": -0.03,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 9,
+      "separation": 1.5,
+      "dr": 0.0,
+      "truth": {
+        "weak_angle": 1.226138269789236,
+        "dr": 0.0,
+        "strong_angle": 1.1999583310093211
+      },
+      "iq_key": "case_239",
+      "outcomes": {
+        "coherent": {
+          "score": 0.0762533919263518,
+          "angle": 1.231415926535898,
+          "dr": 0.0,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.1050228568202273,
+          "angle": 1.2261799387799148,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 0,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.227112608307846,
+        "dr": 0.02,
+        "strong_angle": 1.2009326695279312
+      },
+      "iq_key": "case_240",
+      "outcomes": {
+        "coherent": {
+          "score": 0.14611804767811873,
+          "angle": 1.231415926535898,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.1791839354031728,
+          "angle": 1.2331612557878922,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 1,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.227543075962784,
+        "dr": 0.02,
+        "strong_angle": 1.201363137182869
+      },
+      "iq_key": "case_241",
+      "outcomes": {
+        "coherent": {
+          "score": 0.12653124410525227,
+          "angle": 1.2226892802759262,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.08742060522465542,
+          "angle": 1.2296705972839035,
+          "dr": 0.04000000000000001,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 2,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2266840986951673,
+        "dr": 0.02,
+        "strong_angle": 1.2005041599152524
+      },
+      "iq_key": "case_242",
+      "outcomes": {
+        "coherent": {
+          "score": 0.1365764821860709,
+          "angle": 1.2226892802759262,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.2058096956414642,
+          "angle": 1.2191986217719375,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 3,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2259268139614794,
+        "dr": 0.02,
+        "strong_angle": 1.1997468751815645
+      },
+      "iq_key": "case_243",
+      "outcomes": {
+        "coherent": {
+          "score": 0.1452288226853418,
+          "angle": 1.2261799387799148,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.14777478178853992,
+          "angle": 1.2226892802759262,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 4,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2248915593038576,
+        "dr": 0.02,
+        "strong_angle": 1.1987116205239428
+      },
+      "iq_key": "case_244",
+      "outcomes": {
+        "coherent": {
+          "score": 0.19460627352846824,
+          "angle": 1.231415926535898,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.3488004929618764,
+          "angle": 1.2331612557878922,
+          "dr": -0.019999999999999997,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 5,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2265060983212748,
+        "dr": 0.02,
+        "strong_angle": 1.20032615954136
+      },
+      "iq_key": "case_245",
+      "outcomes": {
+        "coherent": {
+          "score": 0.14905973573445055,
+          "angle": 1.2261799387799148,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.14258299628143414,
+          "angle": 1.2279252680319093,
+          "dr": -0.039999999999999994,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 6,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2250178603503288,
+        "dr": 0.02,
+        "strong_angle": 1.198837921570414
+      },
+      "iq_key": "case_246",
+      "outcomes": {
+        "coherent": {
+          "score": 0.10140699659096966,
+          "angle": 1.2226892802759262,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.18828230106946794,
+          "angle": 1.2349065850398866,
+          "dr": 0.05,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 7,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2254866877876063,
+        "dr": 0.02,
+        "strong_angle": 1.1993067490076914
+      },
+      "iq_key": "case_247",
+      "outcomes": {
+        "coherent": {
+          "score": 0.13086864782301696,
+          "angle": 1.2244346095279206,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.10930015413561611,
+          "angle": 1.2296705972839035,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 8,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2248881759416,
+        "dr": 0.02,
+        "strong_angle": 1.198708237161685
+      },
+      "iq_key": "case_248",
+      "outcomes": {
+        "coherent": {
+          "score": 0.21230273658211357,
+          "angle": 1.2191986217719375,
+          "dr": 0.020000000000000004,
+          "detected": true,
+          "weak_correct": false
+        },
+        "band_power": {
+          "score": 0.22154657397045285,
+          "angle": 1.2052359877559828,
+          "dr": -0.019999999999999997,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 9,
+      "separation": 1.5,
+      "dr": 0.02,
+      "truth": {
+        "weak_angle": 1.2273273408063976,
+        "dr": 0.02,
+        "strong_angle": 1.2011474020264827
+      },
+      "iq_key": "case_249",
+      "outcomes": {
+        "coherent": {
+          "score": 0.2167522792540593,
+          "angle": 1.2279252680319093,
+          "dr": 0.03,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.2053879843198523,
+          "angle": 1.2279252680319093,
+          "dr": 0.05,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 0,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2249079500652038,
+        "dr": 0.06,
+        "strong_angle": 1.198728011285289
+      },
+      "iq_key": "case_250",
+      "outcomes": {
+        "coherent": {
+          "score": 0.2095299120412954,
+          "angle": 1.2244346095279206,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.22857369094019864,
+          "angle": 1.2331612557878922,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 1,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2265111952625394,
+        "dr": 0.06,
+        "strong_angle": 1.2003312564826245
+      },
+      "iq_key": "case_251",
+      "outcomes": {
+        "coherent": {
+          "score": 0.10421688371617324,
+          "angle": 1.2244346095279206,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.12466509611860835,
+          "angle": 1.2174532925199433,
+          "dr": -0.06,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 2,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2273939552588187,
+        "dr": 0.06,
+        "strong_angle": 1.2012140164789038
+      },
+      "iq_key": "case_252",
+      "outcomes": {
+        "coherent": {
+          "score": 0.22426198174778986,
+          "angle": 1.2244346095279206,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.18595611604015536,
+          "angle": 1.2279252680319093,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 3,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2252718220562149,
+        "dr": 0.06,
+        "strong_angle": 1.1990918832763
+      },
+      "iq_key": "case_253",
+      "outcomes": {
+        "coherent": {
+          "score": 0.225853154709074,
+          "angle": 1.2261799387799148,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.18660665677668306,
+          "angle": 1.2279252680319093,
+          "dr": -0.03,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 4,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.225270896737343,
+        "dr": 0.06,
+        "strong_angle": 1.199090957957428
+      },
+      "iq_key": "case_254",
+      "outcomes": {
+        "coherent": {
+          "score": 0.15242208577725563,
+          "angle": 1.2226892802759262,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.1802471590083424,
+          "angle": 1.2157079632679488,
+          "dr": -0.009999999999999995,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 5,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2256191181581055,
+        "dr": 0.06,
+        "strong_angle": 1.1994391793781907
+      },
+      "iq_key": "case_255",
+      "outcomes": {
+        "coherent": {
+          "score": 0.19310473797399513,
+          "angle": 1.2261799387799148,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.1780160240784361,
+          "angle": 1.2261799387799148,
+          "dr": -0.019999999999999997,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 6,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2270654039525744,
+        "dr": 0.06,
+        "strong_angle": 1.2008854651726595
+      },
+      "iq_key": "case_256",
+      "outcomes": {
+        "coherent": {
+          "score": 0.19312283189849813,
+          "angle": 1.2244346095279206,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.2160759503729205,
+          "angle": 1.220943951023932,
+          "dr": -0.03,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 7,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2269087193899588,
+        "dr": 0.06,
+        "strong_angle": 1.200728780610044
+      },
+      "iq_key": "case_257",
+      "outcomes": {
+        "coherent": {
+          "score": 0.20437352955133423,
+          "angle": 1.2279252680319093,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.18904366401312098,
+          "angle": 1.231415926535898,
+          "dr": 0.020000000000000004,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 8,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.2266509042551947,
+        "dr": 0.06,
+        "strong_angle": 1.2004709654752799
+      },
+      "iq_key": "case_258",
+      "outcomes": {
+        "coherent": {
+          "score": 0.17490505077877516,
+          "angle": 1.2296705972839035,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.3684920189837492,
+          "angle": 1.2296705972839035,
+          "dr": -0.06,
+          "detected": true,
+          "weak_correct": false
+        }
+      }
+    },
+    {
+      "kind": "weak",
+      "seed": 9,
+      "separation": 1.5,
+      "dr": 0.06,
+      "truth": {
+        "weak_angle": 1.226484959872337,
+        "dr": 0.06,
+        "strong_angle": 1.2003050210924222
+      },
+      "iq_key": "case_259",
+      "outcomes": {
+        "coherent": {
+          "score": 0.15886721443702476,
+          "angle": 1.2279252680319093,
+          "dr": 0.06,
+          "detected": true,
+          "weak_correct": true
+        },
+        "band_power": {
+          "score": 0.16065562041984963,
+          "angle": 1.2261799387799148,
+          "dr": -0.049999999999999996,
+          "detected": false,
+          "weak_correct": false
+        }
+      }
+    }
+  ],
+  "thresholds_sha256": "32dd1f7bcbe3ba526bd4e9a024bb86f71fe13a5c1a639e6cb0f830349695c83c",
+  "iq_sha256": "3e965a5989d5816de973f88d4b03ea7a3af07a58f274677a98d0d0be7a54e328"
+}

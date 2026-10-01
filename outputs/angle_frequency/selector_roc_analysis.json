@@ -1,0 +1,17 @@
+{
+  "descriptive_equal_false_alarm": {
+    "coherent": {
+      "threshold": 0.07332997493644171,
+      "false_alarms": 5,
+      "weak_correct": 36,
+      "same_range_correct": 4
+    },
+    "band_power": {
+      "threshold": 0.18516479974083636,
+      "false_alarms": 5,
+      "weak_correct": 1,
+      "same_range_correct": 1
+    }
+  },
+  "notice": "Post-hoc ROC on evaluation set, not independently validated thresholds"
+}
