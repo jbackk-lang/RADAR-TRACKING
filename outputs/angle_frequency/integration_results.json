@@ -1,0 +1,1387 @@
+{
+  "summary": {
+    "single": {
+      "mae_deg": 0.028151455615400327,
+      "p95_deg": 0.06735877857336879,
+      "cases": 30
+    },
+    "clock_0.1ms": {
+      "mae_deg": 0.03996742142248046,
+      "p95_deg": 0.09894236574184702,
+      "cases": 30
+    },
+    "clock_2ms": {
+      "mae_deg": 0.718963562697157,
+      "p95_deg": 0.7958549704067944,
+      "cases": 30
+    },
+    "pair_0.75deg": {
+      "mae_deg": 0.3703044684184577,
+      "p95_deg": 0.40208333640456684,
+      "cases": 30
+    },
+    "pair_3deg": {
+      "mae_deg": 1.460081481131904,
+      "p95_deg": 1.5115055445268468,
+      "cases": 30
+    }
+  },
+  "runs": [
+    {
+      "seed": 0,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.4000964660553352,
+      "angle_error_deg": 0.0055270978369823115,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.014674764659756
+    },
+    {
+      "seed": 0,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.40069291338342167,
+      "angle_error_deg": 0.03970101243819044,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.014674764659756
+    },
+    {
+      "seed": 0,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.412106004234545,
+      "angle_error_deg": 0.6936229494069311,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.014674764659756
+    },
+    {
+      "seed": 0,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.40646836491171146,
+      "angle_error_deg": 0.37061000979157643,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.014674764659756
+    },
+    {
+      "seed": 0,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.4255149434724891,
+      "angle_error_deg": 1.4618985754884923,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.014674764659756
+    },
+    {
+      "seed": 0,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.1990849153633711,
+      "angle_error_deg": 0.05243048757609368,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.003296225714883
+    },
+    {
+      "seed": 0,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.1997480060209875,
+      "angle_error_deg": 0.014438191460120632,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.003296225714883
+    },
+    {
+      "seed": 0,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.2120277812260098,
+      "angle_error_deg": 0.6891411011570537,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.003296225714883
+    },
+    {
+      "seed": 0,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.206124787985695,
+      "angle_error_deg": 0.3509245019927526,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.003296225714883
+    },
+    {
+      "seed": 0,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2246084625898028,
+      "angle_error_deg": 1.4099610467012802,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.003296225714883
+    },
+    {
+      "seed": 0,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 1.9998951421546183,
+      "angle_error_deg": 0.006007911989208068,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010512542117062
+    },
+    {
+      "seed": 0,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.0004891552138693,
+      "angle_error_deg": 0.02802652928152858,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010512542117062
+    },
+    {
+      "seed": 0,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.0118103431944814,
+      "angle_error_deg": 0.6766828196448372,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010512542117062
+    },
+    {
+      "seed": 0,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.0063760700493924,
+      "angle_error_deg": 0.3653219037099575,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010512542117062
+    },
+    {
+      "seed": 0,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.0247831490728183,
+      "angle_error_deg": 1.4199698449160485,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010512542117062
+    },
+    {
+      "seed": 1,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.3999069845515734,
+      "angle_error_deg": 0.00532939262436114,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0163951198451997
+    },
+    {
+      "seed": 1,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.40051522349847746,
+      "angle_error_deg": 0.029520131968722028,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0163951198451997
+    },
+    {
+      "seed": 1,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.4122461520791956,
+      "angle_error_deg": 0.701652829413266,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0163951198451997
+    },
+    {
+      "seed": 1,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.40624632710784303,
+      "angle_error_deg": 0.3578881807375622,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0163951198451997
+    },
+    {
+      "seed": 1,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.42538851459857663,
+      "angle_error_deg": 1.454654734604717,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0163951198451997
+    },
+    {
+      "seed": 1,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.1987276869139576,
+      "angle_error_deg": 0.07289817004949267,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.012571889609713
+    },
+    {
+      "seed": 1,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.199359586829714,
+      "angle_error_deg": 0.036692971801978315,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.012571889609713
+    },
+    {
+      "seed": 1,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.2115708704561874,
+      "angle_error_deg": 0.6629620424321534,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.012571889609713
+    },
+    {
+      "seed": 1,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.2058335277382723,
+      "angle_error_deg": 0.33423651907550483,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.012571889609713
+    },
+    {
+      "seed": 1,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2253034809495973,
+      "angle_error_deg": 1.4497826654016077,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.012571889609713
+    },
+    {
+      "seed": 1,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 1.9997894674568615,
+      "angle_error_deg": 0.012062626171993114,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0177854863947804
+    },
+    {
+      "seed": 1,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.0004386331734385,
+      "angle_error_deg": 0.025131829592456318,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0177854863947804
+    },
+    {
+      "seed": 1,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.012915988126243,
+      "angle_error_deg": 0.7400316078748117,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0177854863947804
+    },
+    {
+      "seed": 1,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.0060743093878624,
+      "angle_error_deg": 0.34803229138120745,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0177854863947804
+    },
+    {
+      "seed": 1,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.0246145629772596,
+      "angle_error_deg": 1.410310573155946,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0177854863947804
+    },
+    {
+      "seed": 2,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.39962846359737414,
+      "angle_error_deg": 0.021287467805936357,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9928891289004032
+    },
+    {
+      "seed": 2,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.4002512155398785,
+      "angle_error_deg": 0.014393590183138596,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9928891289004032
+    },
+    {
+      "seed": 2,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.41237058724461256,
+      "angle_error_deg": 0.7087824392146688,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9928891289004032
+    },
+    {
+      "seed": 2,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.4063914474550625,
+      "angle_error_deg": 0.3662029641547111,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9928891289004032
+    },
+    {
+      "seed": 2,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.4245929978893736,
+      "angle_error_deg": 1.4090749846352475,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9928891289004032
+    },
+    {
+      "seed": 2,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.200070209702367,
+      "angle_error_deg": 0.0040227196265011245,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0117477862944764
+    },
+    {
+      "seed": 2,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.2007146858886422,
+      "angle_error_deg": 0.040948485096755256,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0117477862944764
+    },
+    {
+      "seed": 2,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.2129965594632428,
+      "angle_error_deg": 0.744648005434626,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0117477862944764
+    },
+    {
+      "seed": 2,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.2067031303761966,
+      "angle_error_deg": 0.38406108008200673,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0117477862944764
+    },
+    {
+      "seed": 2,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2252857020678933,
+      "angle_error_deg": 1.4487640105155088,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0117477862944764
+    },
+    {
+      "seed": 2,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 1.999756872523334,
+      "angle_error_deg": 0.013930178296633226,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9873287522287275
+    },
+    {
+      "seed": 2,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.000374306493316,
+      "angle_error_deg": 0.02144618231134481,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9873287522287275
+    },
+    {
+      "seed": 2,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.0121254426964166,
+      "angle_error_deg": 0.6947366912323986,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9873287522287275
+    },
+    {
+      "seed": 2,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.0062228467564727,
+      "angle_error_deg": 0.3565428557025574,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9873287522287275
+    },
+    {
+      "seed": 2,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.025280409465784,
+      "angle_error_deg": 1.4484607667519944,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9873287522287275
+    },
+    {
+      "seed": 3,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.3992234098792172,
+      "angle_error_deg": 0.04449533633241212,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9806358363850702
+    },
+    {
+      "seed": 3,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.39988909987310434,
+      "angle_error_deg": 0.006354109218588048,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9806358363850702
+    },
+    {
+      "seed": 3,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.4123494673061278,
+      "angle_error_deg": 0.7075723558759167,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9806358363850702
+    },
+    {
+      "seed": 3,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.4061732737489626,
+      "angle_error_deg": 0.35370253159445986,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9806358363850702
+    },
+    {
+      "seed": 3,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.4258953246188814,
+      "angle_error_deg": 1.4836928097831206,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9806358363850702
+    },
+    {
+      "seed": 3,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.1997129240365028,
+      "angle_error_deg": 0.016448241108041037,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9957077665255794
+    },
+    {
+      "seed": 3,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.2003220242080663,
+      "angle_error_deg": 0.0184506280232459,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9957077665255794
+    },
+    {
+      "seed": 3,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.211712341025082,
+      "angle_error_deg": 0.6710677089551337,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9957077665255794
+    },
+    {
+      "seed": 3,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.206426548869279,
+      "angle_error_deg": 0.3682141270442557,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9957077665255794
+    },
+    {
+      "seed": 3,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2256864662079248,
+      "angle_error_deg": 1.4717261043194996,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9957077665255794
+    },
+    {
+      "seed": 3,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 1.9995349534430782,
+      "angle_error_deg": 0.026645204988710168,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9881988851905932
+    },
+    {
+      "seed": 3,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.000155380607248,
+      "angle_error_deg": 0.008902653013481417,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9881988851905932
+    },
+    {
+      "seed": 3,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.011803204301873,
+      "angle_error_deg": 0.6762737912279919,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9881988851905932
+    },
+    {
+      "seed": 3,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.0064681966428495,
+      "angle_error_deg": 0.37060036869596297,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9881988851905932
+    },
+    {
+      "seed": 3,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.0260235042865498,
+      "angle_error_deg": 1.4910369637599077,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9881988851905932
+    },
+    {
+      "seed": 4,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.40012242887281374,
+      "angle_error_deg": 0.0070146577027699825,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9939672553129368
+    },
+    {
+      "seed": 4,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.40073345877977185,
+      "angle_error_deg": 0.04202409252774077,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9939672553129368
+    },
+    {
+      "seed": 4,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.41238774818698054,
+      "angle_error_deg": 0.709765688784821,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9939672553129368
+    },
+    {
+      "seed": 4,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.4064856967641798,
+      "angle_error_deg": 0.37160305178915504,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9939672553129368
+    },
+    {
+      "seed": 4,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.42540177714253824,
+      "angle_error_deg": 1.455414622399324,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9939672553129368
+    },
+    {
+      "seed": 4,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.200630702543562,
+      "angle_error_deg": 0.036136593874275584,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9882861632326791
+    },
+    {
+      "seed": 4,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.2012730050475655,
+      "angle_error_deg": 0.07293781652435699,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9882861632326791
+    },
+    {
+      "seed": 4,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.213789691494795,
+      "angle_error_deg": 0.7900911234392027,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9882861632326791
+    },
+    {
+      "seed": 4,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.206857127412018,
+      "angle_error_deg": 0.39288446029209256,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9882861632326791
+    },
+    {
+      "seed": 4,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2262521033162386,
+      "angle_error_deg": 1.5041347233618652,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9882861632326791
+    },
+    {
+      "seed": 4,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 1.9995573584485187,
+      "angle_error_deg": 0.025361492737002757,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010646668450413
+    },
+    {
+      "seed": 4,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.0001973261832235,
+      "angle_error_deg": 0.011305957486134326,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010646668450413
+    },
+    {
+      "seed": 4,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.0125437778412296,
+      "angle_error_deg": 0.71870552945218,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010646668450413
+    },
+    {
+      "seed": 4,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.00633504059251,
+      "angle_error_deg": 0.36297108899489205,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010646668450413
+    },
+    {
+      "seed": 4,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.0258353515045866,
+      "angle_error_deg": 1.4802566034497735,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.010646668450413
+    },
+    {
+      "seed": 5,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.39900605411457096,
+      "angle_error_deg": 0.05694890429947878,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.972524863827746
+    },
+    {
+      "seed": 5,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.39964683518720984,
+      "angle_error_deg": 0.02023485324540546,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.972524863827746
+    },
+    {
+      "seed": 5,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.41202369428184055,
+      "angle_error_deg": 0.6889069365050434,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.972524863827746
+    },
+    {
+      "seed": 5,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.40644347656258806,
+      "angle_error_deg": 0.36918401242775767,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.972524863827746
+    },
+    {
+      "seed": 5,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.42596822182622834,
+      "angle_error_deg": 1.48786951210239,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.972524863827746
+    },
+    {
+      "seed": 5,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.2011180405756368,
+      "angle_error_deg": 0.06405900630836589,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.020689937105099
+    },
+    {
+      "seed": 5,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.2017067076544217,
+      "angle_error_deg": 0.09778714546103637,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.020689937105099
+    },
+    {
+      "seed": 5,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.21300241071513,
+      "angle_error_deg": 0.7449832574726325,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.020689937105099
+    },
+    {
+      "seed": 5,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.2070433370342961,
+      "angle_error_deg": 0.4035534857533599,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.020689937105099
+    },
+    {
+      "seed": 5,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2262976217656567,
+      "angle_error_deg": 1.506742738403504,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.020689937105099
+    },
+    {
+      "seed": 5,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 2.0004048587985204,
+      "angle_error_deg": 0.023196700453954475,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.984977727053075
+    },
+    {
+      "seed": 5,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.001067476493984,
+      "angle_error_deg": 0.06116189783471679,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.984977727053075
+    },
+    {
+      "seed": 5,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.013546248540726,
+      "angle_error_deg": 0.7761428696188534,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.984977727053075
+    },
+    {
+      "seed": 5,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.0066371687493945,
+      "angle_error_deg": 0.38028175725642543,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.984977727053075
+    },
+    {
+      "seed": 5,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.025230734676227,
+      "angle_error_deg": 1.4456146109621857,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.984977727053075
+    },
+    {
+      "seed": 6,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.3996914347545122,
+      "angle_error_deg": 0.017679486270871122,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0060707234514688
+    },
+    {
+      "seed": 6,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.4003738664353207,
+      "angle_error_deg": 0.021420968845475098,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0060707234514688
+    },
+    {
+      "seed": 6,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.41283324891978135,
+      "angle_error_deg": 0.7352910005442927,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0060707234514688
+    },
+    {
+      "seed": 6,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.4062224881834639,
+      "angle_error_deg": 0.3565223109825067,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0060707234514688
+    },
+    {
+      "seed": 6,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.42466855320502095,
+      "angle_error_deg": 1.4134039853416194,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0060707234514688
+    },
+    {
+      "seed": 6,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.1998449875136779,
+      "angle_error_deg": 0.00888156123808594,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.029844839458283
+    },
+    {
+      "seed": 6,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.200454479787721,
+      "angle_error_deg": 0.026039773710418466,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.029844839458283
+    },
+    {
+      "seed": 6,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.2121428363032665,
+      "angle_error_deg": 0.6957332714954098,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.029844839458283
+    },
+    {
+      "seed": 6,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.2066894757574782,
+      "angle_error_deg": 0.383278728058583,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.029844839458283
+    },
+    {
+      "seed": 6,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2252447173385712,
+      "angle_error_deg": 1.446415758500865,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.029844839458283
+    },
+    {
+      "seed": 6,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 2.0006139432199754,
+      "angle_error_deg": 0.03517635536526418,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.04107399507423
+    },
+    {
+      "seed": 6,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.001241846656885,
+      "angle_error_deg": 0.07115257224193394,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.04107399507423
+    },
+    {
+      "seed": 6,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.013255013173549,
+      "angle_error_deg": 0.7594563122346614,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.04107399507423
+    },
+    {
+      "seed": 6,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.006988456480052,
+      "angle_error_deg": 0.40040906161784207,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.04107399507423
+    },
+    {
+      "seed": 6,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.02660947917075,
+      "angle_error_deg": 1.5246108515252401,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.04107399507423
+    },
+    {
+      "seed": 7,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.4003944936597949,
+      "angle_error_deg": 0.022602821750916418,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0165115645104685
+    },
+    {
+      "seed": 7,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.4010015421694985,
+      "angle_error_deg": 0.057384139316639764,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0165115645104685
+    },
+    {
+      "seed": 7,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.4125759622462085,
+      "angle_error_deg": 0.7205495600236094,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0165115645104685
+    },
+    {
+      "seed": 7,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.4065332631476374,
+      "angle_error_deg": 0.3743284048079763,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0165115645104685
+    },
+    {
+      "seed": 7,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.4255219369255113,
+      "angle_error_deg": 1.4622992708308897,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0165115645104685
+    },
+    {
+      "seed": 7,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.1999678959419844,
+      "angle_error_deg": 0.0018394270295352786,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0223694326518986
+    },
+    {
+      "seed": 7,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.2006087048592102,
+      "angle_error_deg": 0.034876219401853675,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0223694326518986
+    },
+    {
+      "seed": 7,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.2125011324362098,
+      "angle_error_deg": 0.7162621277289225,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0223694326518986
+    },
+    {
+      "seed": 7,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.2065138125211479,
+      "angle_error_deg": 0.37321396600124557,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0223694326518986
+    },
+    {
+      "seed": 7,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2255736554115648,
+      "angle_error_deg": 1.4652625218045652,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0223694326518986
+    },
+    {
+      "seed": 7,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 2.0004032214728573,
+      "angle_error_deg": 0.0231028886037732,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0200903200884848
+    },
+    {
+      "seed": 7,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.00100900294378,
+      "angle_error_deg": 0.05781161019487826,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0200903200884848
+    },
+    {
+      "seed": 7,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.012603699532639,
+      "angle_error_deg": 0.722138789471214,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0200903200884848
+    },
+    {
+      "seed": 7,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.0064349398813537,
+      "angle_error_deg": 0.36869489662198085,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0200903200884848
+    },
+    {
+      "seed": 7,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.0249286731714053,
+      "angle_error_deg": 1.4283077615825315,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0200903200884848
+    },
+    {
+      "seed": 8,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.4011032789079895,
+      "angle_error_deg": 0.06321322505360076,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.965148409882877
+    },
+    {
+      "seed": 8,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.40174336655894166,
+      "angle_error_deg": 0.0998875459716012,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.965148409882877
+    },
+    {
+      "seed": 8,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.413972597144187,
+      "angle_error_deg": 0.8005708451984604,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.965148409882877
+    },
+    {
+      "seed": 8,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.40704158667570944,
+      "angle_error_deg": 0.40345319759370535,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.965148409882877
+    },
+    {
+      "seed": 8,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.4264487611265413,
+      "angle_error_deg": 1.515402385900491,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.965148409882877
+    },
+    {
+      "seed": 8,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.2004333189525014,
+      "angle_error_deg": 0.02482734716136155,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9860030652012381
+    },
+    {
+      "seed": 8,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.2010285039548534,
+      "angle_error_deg": 0.058928935825615446,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9860030652012381
+    },
+    {
+      "seed": 8,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.2123422363427199,
+      "angle_error_deg": 0.7071580521908317,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9860030652012381
+    },
+    {
+      "seed": 8,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.2066851671770484,
+      "angle_error_deg": 0.38303186458426464,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9860030652012381
+    },
+    {
+      "seed": 8,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2260083823533394,
+      "angle_error_deg": 1.4901705408088792,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9860030652012381
+    },
+    {
+      "seed": 8,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 1.9990171639028966,
+      "angle_error_deg": 0.05631236031713293,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9650337947921648
+    },
+    {
+      "seed": 8,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.9996190484000511,
+      "angle_error_deg": 0.02182691887582735,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9650337947921648
+    },
+    {
+      "seed": 8,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.0111821944914747,
+      "angle_error_deg": 0.6406925500559397,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9650337947921648
+    },
+    {
+      "seed": 8,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.0060225483679046,
+      "angle_error_deg": 0.3450666033943365,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9650337947921648
+    },
+    {
+      "seed": 8,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.025110960923014,
+      "angle_error_deg": 1.4387520804066245,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 1.9650337947921648
+    },
+    {
+      "seed": 9,
+      "theta": 0.4,
+      "condition": "single",
+      "estimated_angle": 0.4012227531039828,
+      "angle_error_deg": 0.07005859224473483,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.022623682584082
+    },
+    {
+      "seed": 9,
+      "theta": 0.4,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 0.4018858525587005,
+      "angle_error_deg": 0.10805139239748575,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.022623682584082
+    },
+    {
+      "seed": 9,
+      "theta": 0.4,
+      "condition": "clock_2ms",
+      "estimated_angle": 0.41434071712658704,
+      "angle_error_deg": 0.8216625665444135,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.022623682584082
+    },
+    {
+      "seed": 9,
+      "theta": 0.4,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 0.4069770578545769,
+      "angle_error_deg": 0.3997559684858551,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.022623682584082
+    },
+    {
+      "seed": 9,
+      "theta": 0.4,
+      "condition": "pair_3deg",
+      "estimated_angle": 0.42570330021164077,
+      "angle_error_deg": 1.4726906216847304,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.022623682584082
+    },
+    {
+      "seed": 9,
+      "theta": 1.2,
+      "condition": "single",
+      "estimated_angle": 1.1995824756781703,
+      "angle_error_deg": 0.023922381484899186,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.009749978501554
+    },
+    {
+      "seed": 9,
+      "theta": 1.2,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 1.2002054915503744,
+      "angle_error_deg": 0.01177379856205392,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.009749978501554
+    },
+    {
+      "seed": 9,
+      "theta": 1.2,
+      "condition": "clock_2ms",
+      "estimated_angle": 1.2121299769676777,
+      "angle_error_deg": 0.6949964858388286,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.009749978501554
+    },
+    {
+      "seed": 9,
+      "theta": 1.2,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 1.2059681172426608,
+      "angle_error_deg": 0.341947929643723,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.009749978501554
+    },
+    {
+      "seed": 9,
+      "theta": 1.2,
+      "condition": "pair_3deg",
+      "estimated_angle": 1.2248809534383418,
+      "angle_error_deg": 1.425573622278502,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.009749978501554
+    },
+    {
+      "seed": 9,
+      "theta": 2.0,
+      "condition": "single",
+      "estimated_angle": 2.000054542100416,
+      "angle_error_deg": 0.0031250321596218702,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0020377044208555
+    },
+    {
+      "seed": 9,
+      "theta": 2.0,
+      "condition": "clock_0.1ms",
+      "estimated_angle": 2.000705299591089,
+      "angle_error_deg": 0.040410689861689955,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0020377044208555
+    },
+    {
+      "seed": 9,
+      "theta": 2.0,
+      "condition": "clock_2ms",
+      "estimated_angle": 2.0132405140290026,
+      "angle_error_deg": 0.7586255724456071,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0020377044208555
+    },
+    {
+      "seed": 9,
+      "theta": 2.0,
+      "condition": "pair_0.75deg",
+      "estimated_angle": 2.006503374828864,
+      "angle_error_deg": 0.37261593028551393,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0020377044208555
+    },
+    {
+      "seed": 9,
+      "theta": 2.0,
+      "condition": "pair_3deg",
+      "estimated_angle": 2.025834174090289,
+      "angle_error_deg": 1.4801891425797817,
+      "range_m": 1499.5849159999998,
+      "velocity_m_s": 2.0020377044208555
+    }
+  ],
+  "range_velocity_invariance_checks": 150,
+  "hashes": {
+    "INTEGRATION_PROTOCOL.md": "b129eeb9af81dcb82f8c9f0e770699dadc645c0a46daf5b2c8d0078153a03265",
+    "check_integration.py": "8bd954bde21a8e7e99a3e2154389365e1ae08394261f1664806b4ed98f68e131",
+    "rotation_model.py": "0f06846b2dfff927ff7bb1eacf7e18eb7ec72b27efa955619f1e689ae3e40493"
+  }
+}

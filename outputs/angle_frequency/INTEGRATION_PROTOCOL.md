@@ -1,0 +1,5 @@
+# Mały test integracji kąta
+
+10 nowych ziaren, 3 kąty (.4,1.2,2 rad), 5 warunków = 150 przypadków. Obrót ±5%, wiązka 1.5°, dotychczasowy estimator enkoder+środek wiązki, bez strojenia. Warunki: pojedynczy cel, przesunięcie czasu .1 ms i 2 ms, dwa równie silne cele w tej samej komórce odległości i prędkości oddalone o .75° oraz 3°. Dla par sumujemy moce (model niespójnych ech), nie pełną interferencję koherentną. Pierwszy cel jest punktem odniesienia błędu; raportować przyciąganie ku drugiemu, nie udawać rozdzielenia dwóch celów.
+
+W torze dotychczasowego radar_compensation zastąpić metadaną bearing estymatą ze skanu; bearing_bias=0. Korekty R i v pozostają te same. Sprawdzić dokładną zgodność R i v przed i po zastąpieniu kąta dla tych samych I/Q. Znacznik czasu skanu wyrównuje się o 2*zmierzona_odległość/c, zatem uwzględniamy błąd zwykłego pomiaru R. Bez pełnego skanu I/Q dla wszystkich komórek, listków bocznych, ruchu celu i sprzętu. To mały test połączenia modeli, nie przebudowa głównego symulatora ani produkcyjne wdrożenie.
