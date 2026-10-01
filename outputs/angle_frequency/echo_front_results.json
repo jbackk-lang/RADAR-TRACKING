@@ -1,0 +1,3655 @@
+{
+  "threshold": 1.6475400872530381,
+  "summary": {
+    "empty": {
+      "dominant": {
+        "detections": 0,
+        "correct_front": null,
+        "mae_detected_m": null
+      },
+      "first_peak": {
+        "detections": 0,
+        "correct_front": null,
+        "mae_detected_m": null
+      }
+    },
+    "visible_front": {
+      "dominant": {
+        "detections": 100,
+        "correct_front": 0,
+        "mae_detected_m": 28.317769059776506
+      },
+      "first_peak": {
+        "detections": 100,
+        "correct_front": 56,
+        "mae_detected_m": 12.23961857804187
+      }
+    },
+    "weak_front": {
+      "dominant": {
+        "detections": 100,
+        "correct_front": 0,
+        "mae_detected_m": 29.98683893948488
+      },
+      "first_peak": {
+        "detections": 100,
+        "correct_front": 0,
+        "mae_detected_m": 29.98683893948488
+      }
+    },
+    "unresolved": {
+      "dominant": {
+        "detections": 100,
+        "correct_front": 88,
+        "mae_detected_m": 4.193093234267395
+      },
+      "first_peak": {
+        "detections": 100,
+        "correct_front": 88,
+        "mae_detected_m": 4.256959269582158
+      }
+    }
+  },
+  "runs": [
+    {
+      "case": "empty",
+      "seed": 0,
+      "front_sample": 164.9337998054661,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 1,
+      "front_sample": 156.84712283789884,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 2,
+      "front_sample": 161.4684480865982,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 3,
+      "front_sample": 155.64332077582603,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 4,
+      "front_sample": 165.0438103220036,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 5,
+      "front_sample": 165.26793147716262,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 6,
+      "front_sample": 158.6897571122454,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 7,
+      "front_sample": 155.1346972053629,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 8,
+      "front_sample": 156.48339974412772,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 9,
+      "front_sample": 161.78372421016138,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 10,
+      "front_sample": 163.17412189217015,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 11,
+      "front_sample": 167.96030313435148,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 12,
+      "front_sample": 159.86957890988123,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 13,
+      "front_sample": 160.8230994516734,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 14,
+      "front_sample": 162.47611654255653,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 15,
+      "front_sample": 156.4086068957133,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 16,
+      "front_sample": 166.14431868817869,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 17,
+      "front_sample": 162.93140593450337,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 18,
+      "front_sample": 150.0549172922141,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 19,
+      "front_sample": 168.35600849984942,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 20,
+      "front_sample": 158.30764050115036,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 21,
+      "front_sample": 152.3237192240465,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 22,
+      "front_sample": 165.68389670982657,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 23,
+      "front_sample": 152.4762272877529,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 24,
+      "front_sample": 155.97390760540867,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 25,
+      "front_sample": 163.58616309079426,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 26,
+      "front_sample": 157.1804527205581,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 27,
+      "front_sample": 161.2216159242534,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 28,
+      "front_sample": 159.2634298568346,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 29,
+      "front_sample": 165.26065090988868,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 30,
+      "front_sample": 150.62699470718343,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 31,
+      "front_sample": 158.84598948059607,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 32,
+      "front_sample": 150.8801460381468,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 33,
+      "front_sample": 151.8002570335858,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 34,
+      "front_sample": 166.38502935891293,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 35,
+      "front_sample": 152.1323600619317,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 36,
+      "front_sample": 156.8429950133244,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 37,
+      "front_sample": 166.70715005841157,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 38,
+      "front_sample": 161.19915054562262,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 39,
+      "front_sample": 163.131827059534,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 40,
+      "front_sample": 151.7281998132486,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 41,
+      "front_sample": 153.3746279088967,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 42,
+      "front_sample": 159.10469429981364,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 43,
+      "front_sample": 156.34873525930897,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 44,
+      "front_sample": 151.59433889266364,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 45,
+      "front_sample": 155.1460659186477,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 46,
+      "front_sample": 165.7124163903327,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 47,
+      "front_sample": 157.12062678416237,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 48,
+      "front_sample": 159.27977641184012,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 49,
+      "front_sample": 156.29209810221997,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 50,
+      "front_sample": 164.48341317399553,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 51,
+      "front_sample": 159.63936122715594,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 52,
+      "front_sample": 158.18319042367838,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 53,
+      "front_sample": 152.0489631891991,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 54,
+      "front_sample": 157.07096418597314,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 55,
+      "front_sample": 162.4870823083265,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 56,
+      "front_sample": 156.2983910689032,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 57,
+      "front_sample": 165.445770107815,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 58,
+      "front_sample": 157.7322399546503,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 59,
+      "front_sample": 168.42466313522334,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 60,
+      "front_sample": 154.3129306555729,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 61,
+      "front_sample": 166.20223968948125,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 62,
+      "front_sample": 154.88110088386858,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 63,
+      "front_sample": 162.15913728928527,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 64,
+      "front_sample": 155.90781339005775,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 65,
+      "front_sample": 163.24698650671004,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 66,
+      "front_sample": 169.26545113757967,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 67,
+      "front_sample": 159.0580676904042,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 68,
+      "front_sample": 151.02722693476647,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 69,
+      "front_sample": 165.79295130132707,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 70,
+      "front_sample": 153.27853810187634,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 71,
+      "front_sample": 159.5836244324201,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 72,
+      "front_sample": 162.9468261090122,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 73,
+      "front_sample": 162.89735490979342,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 74,
+      "front_sample": 157.69051878071613,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 75,
+      "front_sample": 150.15227381367802,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 76,
+      "front_sample": 167.96285192883965,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 77,
+      "front_sample": 161.7409357088986,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 78,
+      "front_sample": 159.90943356273866,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 79,
+      "front_sample": 154.3132983763923,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 80,
+      "front_sample": 158.0196153839018,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 81,
+      "front_sample": 162.23769216166824,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 82,
+      "front_sample": 160.26634380730982,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 83,
+      "front_sample": 166.726851410808,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 84,
+      "front_sample": 156.5057481120991,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 85,
+      "front_sample": 157.10943471553153,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 86,
+      "front_sample": 167.62524413927912,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 87,
+      "front_sample": 158.29203350014097,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 88,
+      "front_sample": 155.391419364307,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 89,
+      "front_sample": 156.5593526601803,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 90,
+      "front_sample": 155.2371175574126,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 91,
+      "front_sample": 154.8773594959143,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 92,
+      "front_sample": 168.362296328658,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 93,
+      "front_sample": 168.49097366760097,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 94,
+      "front_sample": 168.49879935255768,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 95,
+      "front_sample": 152.5329419709876,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 96,
+      "front_sample": 156.65518213446728,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 97,
+      "front_sample": 155.22112817606973,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 98,
+      "front_sample": 166.15889958270614,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "empty",
+      "seed": 99,
+      "front_sample": 167.6326336761278,
+      "outputs": {
+        "dominant": null,
+        "first_peak": null
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 0,
+      "front_sample": 156.6694201640405,
+      "outputs": {
+        "dominant": 159.83247224238818,
+        "first_peak": 159.83247224238818
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 1,
+      "front_sample": 150.09362314974769,
+      "outputs": {
+        "dominant": 154.28310546139642,
+        "first_peak": 149.8487531849605
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 2,
+      "front_sample": 162.05769011801377,
+      "outputs": {
+        "dominant": 166.34952529110723,
+        "first_peak": 161.5540491960008
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 3,
+      "front_sample": 159.8931533539623,
+      "outputs": {
+        "dominant": 163.20364317064377,
+        "first_peak": 163.20364317064377
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 4,
+      "front_sample": 155.14433380386782,
+      "outputs": {
+        "dominant": 158.29087192809595,
+        "first_peak": 158.29087192809595
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 5,
+      "front_sample": 162.94123854490547,
+      "outputs": {
+        "dominant": 167.22130618058213,
+        "first_peak": 162.6374809691524
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 6,
+      "front_sample": 161.45176359280606,
+      "outputs": {
+        "dominant": 165.1915535558689,
+        "first_peak": 162.3942101385214
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 7,
+      "front_sample": 159.80234672990372,
+      "outputs": {
+        "dominant": 162.98148049267036,
+        "first_peak": 162.98148049267036
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 8,
+      "front_sample": 157.15093861807705,
+      "outputs": {
+        "dominant": 159.99144389725953,
+        "first_peak": 159.99144389725953
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 9,
+      "front_sample": 168.71460354867625,
+      "outputs": {
+        "dominant": 172.5597287029267,
+        "first_peak": 169.27060330551416
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 10,
+      "front_sample": 162.86942761795257,
+      "outputs": {
+        "dominant": 167.12604320877995,
+        "first_peak": 162.8147224961795
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 11,
+      "front_sample": 159.87681479566862,
+      "outputs": {
+        "dominant": 164.24022538514657,
+        "first_peak": 159.13963797509655
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 12,
+      "front_sample": 167.17083010571983,
+      "outputs": {
+        "dominant": 170.4456449130906,
+        "first_peak": 170.4456449130906
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 13,
+      "front_sample": 155.19350779496085,
+      "outputs": {
+        "dominant": 159.6158930135559,
+        "first_peak": 154.78566671922653
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 14,
+      "front_sample": 151.5266979589536,
+      "outputs": {
+        "dominant": 155.77193253761484,
+        "first_peak": 151.15955409672978
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 15,
+      "front_sample": 152.0546367483588,
+      "outputs": {
+        "dominant": 156.09485218168834,
+        "first_peak": 152.1675611281392
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 16,
+      "front_sample": 158.43450337468084,
+      "outputs": {
+        "dominant": 162.66284349301895,
+        "first_peak": 158.07122153028368
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 17,
+      "front_sample": 152.68946722519095,
+      "outputs": {
+        "dominant": 155.24382301765604,
+        "first_peak": 155.24382301765604
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 18,
+      "front_sample": 151.20195139143408,
+      "outputs": {
+        "dominant": 155.47240388946815,
+        "first_peak": 150.81293327331537
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 19,
+      "front_sample": 158.00874914355055,
+      "outputs": {
+        "dominant": 161.23590118795494,
+        "first_peak": 161.23590118795494
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 20,
+      "front_sample": 164.6796173923612,
+      "outputs": {
+        "dominant": 168.58046196917275,
+        "first_peak": 165.44547720102426
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 21,
+      "front_sample": 163.46681246106394,
+      "outputs": {
+        "dominant": 166.84602780683193,
+        "first_peak": 166.84602780683193
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 22,
+      "front_sample": 165.5357927556123,
+      "outputs": {
+        "dominant": 168.703432175024,
+        "first_peak": 168.703432175024
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 23,
+      "front_sample": 158.3440694736744,
+      "outputs": {
+        "dominant": 161.8661313234371,
+        "first_peak": 161.8661313234371
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 24,
+      "front_sample": 163.41560022001414,
+      "outputs": {
+        "dominant": 166.70686423744021,
+        "first_peak": 166.70686423744021
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 25,
+      "front_sample": 166.6780477139041,
+      "outputs": {
+        "dominant": 169.6839167515883,
+        "first_peak": 169.6839167515883
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 26,
+      "front_sample": 164.497506005891,
+      "outputs": {
+        "dominant": 168.24211574857338,
+        "first_peak": 168.24211574857338
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 27,
+      "front_sample": 158.22569426406474,
+      "outputs": {
+        "dominant": 161.34376031503214,
+        "first_peak": 161.34376031503214
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 28,
+      "front_sample": 159.48193824505702,
+      "outputs": {
+        "dominant": 163.33869782485118,
+        "first_peak": 163.33869782485118
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 29,
+      "front_sample": 158.4535530347078,
+      "outputs": {
+        "dominant": 161.74981772532132,
+        "first_peak": 161.74981772532132
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 30,
+      "front_sample": 168.16666123257772,
+      "outputs": {
+        "dominant": 172.4764369851142,
+        "first_peak": 167.6724749403375
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 31,
+      "front_sample": 157.32701132287562,
+      "outputs": {
+        "dominant": 160.59933319486402,
+        "first_peak": 160.59933319486402
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 32,
+      "front_sample": 154.70415405623248,
+      "outputs": {
+        "dominant": 157.82270615351467,
+        "first_peak": 157.82270615351467
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 33,
+      "front_sample": 160.12152290604655,
+      "outputs": {
+        "dominant": 164.337483083702,
+        "first_peak": 159.92416044101898
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 34,
+      "front_sample": 167.15949257906954,
+      "outputs": {
+        "dominant": 171.2862463943608,
+        "first_peak": 166.78867326386
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 35,
+      "front_sample": 154.18768046290478,
+      "outputs": {
+        "dominant": 157.93795783105244,
+        "first_peak": 155.32838933987176
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 36,
+      "front_sample": 151.1260157730063,
+      "outputs": {
+        "dominant": 155.53915153155936,
+        "first_peak": 150.38459886898158
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 37,
+      "front_sample": 150.68610296506634,
+      "outputs": {
+        "dominant": 154.16414902449446,
+        "first_peak": 154.16414902449446
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 38,
+      "front_sample": 165.55914480090485,
+      "outputs": {
+        "dominant": 169.6976098858235,
+        "first_peak": 165.21977311486273
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 39,
+      "front_sample": 153.9491096930132,
+      "outputs": {
+        "dominant": 157.0282869013968,
+        "first_peak": 157.0282869013968
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 40,
+      "front_sample": 160.56332128273817,
+      "outputs": {
+        "dominant": 164.44658226131543,
+        "first_peak": 161.22535945231107
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 41,
+      "front_sample": 159.33003166230074,
+      "outputs": {
+        "dominant": 163.76140653277946,
+        "first_peak": 158.70102081844166
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 42,
+      "front_sample": 159.3128160546099,
+      "outputs": {
+        "dominant": 162.76936594258368,
+        "first_peak": 162.76936594258368
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 43,
+      "front_sample": 158.19805466715158,
+      "outputs": {
+        "dominant": 161.9554549091116,
+        "first_peak": 159.19074919540213
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 44,
+      "front_sample": 153.64375457864256,
+      "outputs": {
+        "dominant": 157.16822631157999,
+        "first_peak": 157.16822631157999
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 45,
+      "front_sample": 169.4788743337997,
+      "outputs": {
+        "dominant": 173.89393569278903,
+        "first_peak": 168.93974810802274
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 46,
+      "front_sample": 152.13820261968087,
+      "outputs": {
+        "dominant": 155.84942760397593,
+        "first_peak": 155.84942760397593
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 47,
+      "front_sample": 164.9461144787455,
+      "outputs": {
+        "dominant": 169.21342345003998,
+        "first_peak": 164.52719480553785
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 48,
+      "front_sample": 160.05231753846215,
+      "outputs": {
+        "dominant": 164.30320938079353,
+        "first_peak": 159.67406746118436
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 49,
+      "front_sample": 150.6357705226029,
+      "outputs": {
+        "dominant": 155.04388998610702,
+        "first_peak": 149.99455558248943
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 50,
+      "front_sample": 154.75238475933617,
+      "outputs": {
+        "dominant": 157.5703637712829,
+        "first_peak": 157.5703637712829
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 51,
+      "front_sample": 156.15660016701372,
+      "outputs": {
+        "dominant": 159.5184264578353,
+        "first_peak": 159.5184264578353
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 52,
+      "front_sample": 151.0355708812509,
+      "outputs": {
+        "dominant": 155.40138942842032,
+        "first_peak": 150.35425710138713
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 53,
+      "front_sample": 169.76322950257588,
+      "outputs": {
+        "dominant": 173.12320144247786,
+        "first_peak": 173.12320144247786
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 54,
+      "front_sample": 158.0553006153507,
+      "outputs": {
+        "dominant": 162.5361536854636,
+        "first_peak": 157.47827089035653
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 55,
+      "front_sample": 165.24228431103734,
+      "outputs": {
+        "dominant": 169.32592417636837,
+        "first_peak": 165.23727843917115
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 56,
+      "front_sample": 155.64700830753907,
+      "outputs": {
+        "dominant": 160.10183126977833,
+        "first_peak": 155.04302897625024
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 57,
+      "front_sample": 167.2638419051314,
+      "outputs": {
+        "dominant": 170.88276762186072,
+        "first_peak": 170.88276762186072
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 58,
+      "front_sample": 169.93448396731657,
+      "outputs": {
+        "dominant": 173.94876587918785,
+        "first_peak": 169.92682816346468
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 59,
+      "front_sample": 156.64774050381533,
+      "outputs": {
+        "dominant": 160.94920953443264,
+        "first_peak": 156.05485375030193
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 60,
+      "front_sample": 160.08445346259157,
+      "outputs": {
+        "dominant": 164.22705527109287,
+        "first_peak": 159.93785288126222
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 61,
+      "front_sample": 160.25658768416528,
+      "outputs": {
+        "dominant": 164.60193342630228,
+        "first_peak": 159.8953135348154
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 62,
+      "front_sample": 160.1179771337071,
+      "outputs": {
+        "dominant": 164.2491796044748,
+        "first_peak": 159.87058275718232
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 63,
+      "front_sample": 167.66543220848823,
+      "outputs": {
+        "dominant": 170.67559954545234,
+        "first_peak": 170.67559954545234
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 64,
+      "front_sample": 163.06643451548652,
+      "outputs": {
+        "dominant": 167.45009261336224,
+        "first_peak": 162.37756365577502
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 65,
+      "front_sample": 158.38143084193283,
+      "outputs": {
+        "dominant": 162.7944429304673,
+        "first_peak": 157.89502985212982
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 66,
+      "front_sample": 167.83466013318017,
+      "outputs": {
+        "dominant": 170.94525602899253,
+        "first_peak": 170.94525602899253
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 67,
+      "front_sample": 163.69740795398434,
+      "outputs": {
+        "dominant": 166.64893742395876,
+        "first_peak": 166.64893742395876
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 68,
+      "front_sample": 152.3178713322328,
+      "outputs": {
+        "dominant": 155.54836013802338,
+        "first_peak": 155.54836013802338
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 69,
+      "front_sample": 164.81139257656633,
+      "outputs": {
+        "dominant": 169.15740240798107,
+        "first_peak": 164.42565816740424
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 70,
+      "front_sample": 157.5404012215825,
+      "outputs": {
+        "dominant": 160.9671302067475,
+        "first_peak": 160.9671302067475
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 71,
+      "front_sample": 167.52183492484403,
+      "outputs": {
+        "dominant": 171.8834381516129,
+        "first_peak": 166.892626376033
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 72,
+      "front_sample": 150.6384788039971,
+      "outputs": {
+        "dominant": 154.8293026061577,
+        "first_peak": 150.6094069186
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 73,
+      "front_sample": 160.7667438458377,
+      "outputs": {
+        "dominant": 164.8467585894928,
+        "first_peak": 161.00111542636495
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 74,
+      "front_sample": 168.3913268540672,
+      "outputs": {
+        "dominant": 172.60640455375489,
+        "first_peak": 168.12473382713273
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 75,
+      "front_sample": 163.22913822992058,
+      "outputs": {
+        "dominant": 167.66162492664114,
+        "first_peak": 162.72638459597704
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 76,
+      "front_sample": 156.5399926054079,
+      "outputs": {
+        "dominant": 160.48103908654306,
+        "first_peak": 157.00580290777856
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 77,
+      "front_sample": 158.83882913755397,
+      "outputs": {
+        "dominant": 162.95674082759132,
+        "first_peak": 158.80652310814008
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 78,
+      "front_sample": 160.14282049814335,
+      "outputs": {
+        "dominant": 163.4480394319841,
+        "first_peak": 163.4480394319841
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 79,
+      "front_sample": 168.3143290467193,
+      "outputs": {
+        "dominant": 171.2681992453549,
+        "first_peak": 171.2681992453549
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 80,
+      "front_sample": 151.54493525669713,
+      "outputs": {
+        "dominant": 155.45062278244654,
+        "first_peak": 152.3111857848258
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 81,
+      "front_sample": 161.92673069620673,
+      "outputs": {
+        "dominant": 166.24659635105039,
+        "first_peak": 161.38043772902907
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 82,
+      "front_sample": 157.01887272586316,
+      "outputs": {
+        "dominant": 160.94675929120544,
+        "first_peak": 157.29049523135728
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 83,
+      "front_sample": 167.1069447540961,
+      "outputs": {
+        "dominant": 171.51470224522805,
+        "first_peak": 166.52282117324282
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 84,
+      "front_sample": 163.66712953777568,
+      "outputs": {
+        "dominant": 166.7669335984826,
+        "first_peak": 166.7669335984826
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 85,
+      "front_sample": 158.62780319779935,
+      "outputs": {
+        "dominant": 162.89904084552322,
+        "first_peak": 158.38802619223236
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 86,
+      "front_sample": 168.12225086910252,
+      "outputs": {
+        "dominant": 170.50177305755201,
+        "first_peak": 170.50177305755201
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 87,
+      "front_sample": 164.99527808211775,
+      "outputs": {
+        "dominant": 167.69669187299834,
+        "first_peak": 167.69669187299834
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 88,
+      "front_sample": 168.31558481883926,
+      "outputs": {
+        "dominant": 172.60060609213284,
+        "first_peak": 167.70607631321775
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 89,
+      "front_sample": 165.39192814823616,
+      "outputs": {
+        "dominant": 169.82645293455093,
+        "first_peak": 164.81587852207576
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 90,
+      "front_sample": 168.4875491234288,
+      "outputs": {
+        "dominant": 172.74255058197718,
+        "first_peak": 168.44370195208353
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 91,
+      "front_sample": 163.0390440859115,
+      "outputs": {
+        "dominant": 167.44200266122976,
+        "first_peak": 162.46479830354585
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 92,
+      "front_sample": 163.7339313732233,
+      "outputs": {
+        "dominant": 167.30553665226137,
+        "first_peak": 167.30553665226137
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 93,
+      "front_sample": 167.02180473313982,
+      "outputs": {
+        "dominant": 171.00035702249994,
+        "first_peak": 167.20427965079193
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 94,
+      "front_sample": 159.8587256058423,
+      "outputs": {
+        "dominant": 162.73975857048137,
+        "first_peak": 162.73975857048137
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 95,
+      "front_sample": 156.38574219642058,
+      "outputs": {
+        "dominant": 159.3371573221354,
+        "first_peak": 159.3371573221354
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 96,
+      "front_sample": 161.65537931770496,
+      "outputs": {
+        "dominant": 165.20813554905124,
+        "first_peak": 165.20813554905124
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 97,
+      "front_sample": 156.64672527423977,
+      "outputs": {
+        "dominant": 159.7092780083835,
+        "first_peak": 159.7092780083835
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 98,
+      "front_sample": 162.3259915756599,
+      "outputs": {
+        "dominant": 166.47471034964877,
+        "first_peak": 162.11174087518958
+      }
+    },
+    {
+      "case": "visible_front",
+      "seed": 99,
+      "front_sample": 151.692742804562,
+      "outputs": {
+        "dominant": 155.8783668060007,
+        "first_peak": 151.296881908139
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 0,
+      "front_sample": 157.51468680830416,
+      "outputs": {
+        "dominant": 161.49290556761122,
+        "first_peak": 161.49290556761122
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 1,
+      "front_sample": 169.42431951400542,
+      "outputs": {
+        "dominant": 173.44781983891474,
+        "first_peak": 173.44781983891474
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 2,
+      "front_sample": 152.59182004488255,
+      "outputs": {
+        "dominant": 156.69186927458816,
+        "first_peak": 156.69186927458816
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 3,
+      "front_sample": 160.9650102494096,
+      "outputs": {
+        "dominant": 165.02893249865204,
+        "first_peak": 165.02893249865204
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 4,
+      "front_sample": 168.22366975864372,
+      "outputs": {
+        "dominant": 172.18818187026267,
+        "first_peak": 172.18818187026267
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 5,
+      "front_sample": 165.60248012636904,
+      "outputs": {
+        "dominant": 169.54360592789772,
+        "first_peak": 169.54360592789772
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 6,
+      "front_sample": 169.57428210682292,
+      "outputs": {
+        "dominant": 173.54867410093203,
+        "first_peak": 173.54867410093203
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 7,
+      "front_sample": 157.90567701449532,
+      "outputs": {
+        "dominant": 161.8047756894734,
+        "first_peak": 161.8047756894734
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 8,
+      "front_sample": 157.48702188636173,
+      "outputs": {
+        "dominant": 161.4288679821853,
+        "first_peak": 161.4288679821853
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 9,
+      "front_sample": 160.9985940558333,
+      "outputs": {
+        "dominant": 165.06957951370882,
+        "first_peak": 165.06957951370882
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 10,
+      "front_sample": 150.3722022439594,
+      "outputs": {
+        "dominant": 154.28697949063587,
+        "first_peak": 154.28697949063587
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 11,
+      "front_sample": 150.30303782502236,
+      "outputs": {
+        "dominant": 154.32063328803858,
+        "first_peak": 154.32063328803858
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 12,
+      "front_sample": 151.7257101992003,
+      "outputs": {
+        "dominant": 155.88887105636823,
+        "first_peak": 155.88887105636823
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 13,
+      "front_sample": 168.88248082927706,
+      "outputs": {
+        "dominant": 172.76868940380993,
+        "first_peak": 172.76868940380993
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 14,
+      "front_sample": 151.24932945419044,
+      "outputs": {
+        "dominant": 155.15591756655581,
+        "first_peak": 155.15591756655581
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 15,
+      "front_sample": 152.8167242908025,
+      "outputs": {
+        "dominant": 156.83863191570268,
+        "first_peak": 156.83863191570268
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 16,
+      "front_sample": 164.23980338439577,
+      "outputs": {
+        "dominant": 168.14276808426573,
+        "first_peak": 168.14276808426573
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 17,
+      "front_sample": 167.30850681331924,
+      "outputs": {
+        "dominant": 171.10943036879382,
+        "first_peak": 171.10943036879382
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 18,
+      "front_sample": 168.49837815115416,
+      "outputs": {
+        "dominant": 172.5816376450679,
+        "first_peak": 172.5816376450679
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 19,
+      "front_sample": 159.3395150727796,
+      "outputs": {
+        "dominant": 163.5121132845387,
+        "first_peak": 163.5121132845387
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 20,
+      "front_sample": 165.6223012886254,
+      "outputs": {
+        "dominant": 169.73471326606557,
+        "first_peak": 169.73471326606557
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 21,
+      "front_sample": 151.20428520874484,
+      "outputs": {
+        "dominant": 155.06270805919323,
+        "first_peak": 155.06270805919323
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 22,
+      "front_sample": 159.59505056919107,
+      "outputs": {
+        "dominant": 163.6170751830532,
+        "first_peak": 163.6170751830532
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 23,
+      "front_sample": 163.70005698505355,
+      "outputs": {
+        "dominant": 167.7917356327462,
+        "first_peak": 167.7917356327462
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 24,
+      "front_sample": 157.46987683335124,
+      "outputs": {
+        "dominant": 161.50326206538278,
+        "first_peak": 161.50326206538278
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 25,
+      "front_sample": 154.01886048194456,
+      "outputs": {
+        "dominant": 158.02480397223414,
+        "first_peak": 158.02480397223414
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 26,
+      "front_sample": 163.58249314906317,
+      "outputs": {
+        "dominant": 167.52357365443345,
+        "first_peak": 167.52357365443345
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 27,
+      "front_sample": 151.88448449867607,
+      "outputs": {
+        "dominant": 155.94283364854638,
+        "first_peak": 155.94283364854638
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 28,
+      "front_sample": 165.41946686983025,
+      "outputs": {
+        "dominant": 169.48774731263848,
+        "first_peak": 169.48774731263848
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 29,
+      "front_sample": 155.07650641192782,
+      "outputs": {
+        "dominant": 159.14262605697166,
+        "first_peak": 159.14262605697166
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 30,
+      "front_sample": 162.55489310577192,
+      "outputs": {
+        "dominant": 166.69988088786872,
+        "first_peak": 166.69988088786872
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 31,
+      "front_sample": 158.71364512458956,
+      "outputs": {
+        "dominant": 162.82292593938232,
+        "first_peak": 162.82292593938232
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 32,
+      "front_sample": 151.53766297198976,
+      "outputs": {
+        "dominant": 155.64473750180906,
+        "first_peak": 155.64473750180906
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 33,
+      "front_sample": 166.7817915515708,
+      "outputs": {
+        "dominant": 170.76183525575584,
+        "first_peak": 170.76183525575584
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 34,
+      "front_sample": 165.29998947322846,
+      "outputs": {
+        "dominant": 169.2658431006281,
+        "first_peak": 169.2658431006281
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 35,
+      "front_sample": 163.61864263016156,
+      "outputs": {
+        "dominant": 167.6021006173116,
+        "first_peak": 167.6021006173116
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 36,
+      "front_sample": 157.34325264241605,
+      "outputs": {
+        "dominant": 161.29990198846343,
+        "first_peak": 161.29990198846343
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 37,
+      "front_sample": 169.36787101885727,
+      "outputs": {
+        "dominant": 173.4679720116706,
+        "first_peak": 173.4679720116706
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 38,
+      "front_sample": 155.8192598967075,
+      "outputs": {
+        "dominant": 159.98097561204256,
+        "first_peak": 159.98097561204256
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 39,
+      "front_sample": 168.74553372362047,
+      "outputs": {
+        "dominant": 172.8686754510057,
+        "first_peak": 172.8686754510057
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 40,
+      "front_sample": 152.2965809839796,
+      "outputs": {
+        "dominant": 156.21750061976007,
+        "first_peak": 156.21750061976007
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 41,
+      "front_sample": 166.28062762836933,
+      "outputs": {
+        "dominant": 170.34098539857936,
+        "first_peak": 170.34098539857936
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 42,
+      "front_sample": 168.48053422518703,
+      "outputs": {
+        "dominant": 172.56754173500659,
+        "first_peak": 172.56754173500659
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 43,
+      "front_sample": 162.20856947672823,
+      "outputs": {
+        "dominant": 166.30715821071763,
+        "first_peak": 166.30715821071763
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 44,
+      "front_sample": 155.89413218842364,
+      "outputs": {
+        "dominant": 159.8741678541608,
+        "first_peak": 159.8741678541608
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 45,
+      "front_sample": 151.06067673076063,
+      "outputs": {
+        "dominant": 155.06209755939042,
+        "first_peak": 155.06209755939042
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 46,
+      "front_sample": 162.523439767277,
+      "outputs": {
+        "dominant": 166.4373031913356,
+        "first_peak": 166.4373031913356
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 47,
+      "front_sample": 163.07924840585937,
+      "outputs": {
+        "dominant": 167.10630652908486,
+        "first_peak": 167.10630652908486
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 48,
+      "front_sample": 168.12465570636704,
+      "outputs": {
+        "dominant": 172.1837210977448,
+        "first_peak": 172.1837210977448
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 49,
+      "front_sample": 169.46678462458044,
+      "outputs": {
+        "dominant": 173.55156622064425,
+        "first_peak": 173.55156622064425
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 50,
+      "front_sample": 167.56702535069437,
+      "outputs": {
+        "dominant": 171.61141710739898,
+        "first_peak": 171.61141710739898
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 51,
+      "front_sample": 150.1920424683677,
+      "outputs": {
+        "dominant": 154.23065695285294,
+        "first_peak": 154.23065695285294
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 52,
+      "front_sample": 164.39549169000097,
+      "outputs": {
+        "dominant": 168.47853790037024,
+        "first_peak": 168.47853790037024
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 53,
+      "front_sample": 154.7980790792042,
+      "outputs": {
+        "dominant": 158.8244191495675,
+        "first_peak": 158.8244191495675
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 54,
+      "front_sample": 150.56988279171554,
+      "outputs": {
+        "dominant": 154.75162892403011,
+        "first_peak": 154.75162892403011
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 55,
+      "front_sample": 155.848075224575,
+      "outputs": {
+        "dominant": 159.76865743640403,
+        "first_peak": 159.76865743640403
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 56,
+      "front_sample": 162.35015620635306,
+      "outputs": {
+        "dominant": 166.4442851156652,
+        "first_peak": 166.4442851156652
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 57,
+      "front_sample": 154.06127539258037,
+      "outputs": {
+        "dominant": 157.92480414304416,
+        "first_peak": 157.92480414304416
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 58,
+      "front_sample": 168.3454932819233,
+      "outputs": {
+        "dominant": 172.27161497667487,
+        "first_peak": 172.27161497667487
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 59,
+      "front_sample": 162.43701858158937,
+      "outputs": {
+        "dominant": 166.58241786461653,
+        "first_peak": 166.58241786461653
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 60,
+      "front_sample": 159.60300420310682,
+      "outputs": {
+        "dominant": 163.38044193957825,
+        "first_peak": 163.38044193957825
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 61,
+      "front_sample": 162.7719492192266,
+      "outputs": {
+        "dominant": 166.79701857781197,
+        "first_peak": 166.79701857781197
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 62,
+      "front_sample": 168.2089778031719,
+      "outputs": {
+        "dominant": 172.03416159123512,
+        "first_peak": 172.03416159123512
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 63,
+      "front_sample": 158.2624843242295,
+      "outputs": {
+        "dominant": 162.22712156069525,
+        "first_peak": 162.22712156069525
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 64,
+      "front_sample": 163.58699120298638,
+      "outputs": {
+        "dominant": 167.6854811760903,
+        "first_peak": 167.6854811760903
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 65,
+      "front_sample": 150.20670994687944,
+      "outputs": {
+        "dominant": 154.15619757925847,
+        "first_peak": 154.15619757925847
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 66,
+      "front_sample": 157.1464434395498,
+      "outputs": {
+        "dominant": 161.26371862648406,
+        "first_peak": 161.26371862648406
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 67,
+      "front_sample": 160.26205395380885,
+      "outputs": {
+        "dominant": 164.26513043299371,
+        "first_peak": 164.26513043299371
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 68,
+      "front_sample": 157.13841226210235,
+      "outputs": {
+        "dominant": 161.2716755045992,
+        "first_peak": 161.2716755045992
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 69,
+      "front_sample": 169.47334523914617,
+      "outputs": {
+        "dominant": 173.39752022735516,
+        "first_peak": 173.39752022735516
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 70,
+      "front_sample": 169.96725195502785,
+      "outputs": {
+        "dominant": 173.93039819125437,
+        "first_peak": 173.93039819125437
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 71,
+      "front_sample": 164.6137483261345,
+      "outputs": {
+        "dominant": 168.7361188313779,
+        "first_peak": 168.7361188313779
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 72,
+      "front_sample": 164.5505063171102,
+      "outputs": {
+        "dominant": 168.4550533911779,
+        "first_peak": 168.4550533911779
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 73,
+      "front_sample": 153.32739667075356,
+      "outputs": {
+        "dominant": 157.38552733004238,
+        "first_peak": 157.38552733004238
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 74,
+      "front_sample": 151.46407219037332,
+      "outputs": {
+        "dominant": 155.4403279134192,
+        "first_peak": 155.4403279134192
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 75,
+      "front_sample": 153.7215705641255,
+      "outputs": {
+        "dominant": 157.7576338290396,
+        "first_peak": 157.7576338290396
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 76,
+      "front_sample": 168.65080228113118,
+      "outputs": {
+        "dominant": 172.76222026465058,
+        "first_peak": 172.76222026465058
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 77,
+      "front_sample": 169.81185626958535,
+      "outputs": {
+        "dominant": 173.83447364164826,
+        "first_peak": 173.83447364164826
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 78,
+      "front_sample": 154.0573155634144,
+      "outputs": {
+        "dominant": 158.0525676358169,
+        "first_peak": 158.0525676358169
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 79,
+      "front_sample": 158.92035389282006,
+      "outputs": {
+        "dominant": 162.7787684647544,
+        "first_peak": 162.7787684647544
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 80,
+      "front_sample": 167.37235404469413,
+      "outputs": {
+        "dominant": 171.4599008193059,
+        "first_peak": 171.4599008193059
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 81,
+      "front_sample": 161.72308337298279,
+      "outputs": {
+        "dominant": 165.61334508399332,
+        "first_peak": 165.61334508399332
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 82,
+      "front_sample": 168.35378643914544,
+      "outputs": {
+        "dominant": 172.24146794407892,
+        "first_peak": 172.24146794407892
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 83,
+      "front_sample": 169.9116505493522,
+      "outputs": {
+        "dominant": 173.95167867405664,
+        "first_peak": 173.95167867405664
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 84,
+      "front_sample": 167.45952851740108,
+      "outputs": {
+        "dominant": 171.30149138053338,
+        "first_peak": 171.30149138053338
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 85,
+      "front_sample": 164.08210905792603,
+      "outputs": {
+        "dominant": 168.1851301948545,
+        "first_peak": 168.1851301948545
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 86,
+      "front_sample": 153.19745645452429,
+      "outputs": {
+        "dominant": 157.1805811208901,
+        "first_peak": 157.1805811208901
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 87,
+      "front_sample": 156.5736879741768,
+      "outputs": {
+        "dominant": 160.5129341024048,
+        "first_peak": 160.5129341024048
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 88,
+      "front_sample": 163.88923582869626,
+      "outputs": {
+        "dominant": 167.95649119215534,
+        "first_peak": 167.95649119215534
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 89,
+      "front_sample": 150.2513611220743,
+      "outputs": {
+        "dominant": 154.15546534974288,
+        "first_peak": 154.15546534974288
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 90,
+      "front_sample": 154.13631782757267,
+      "outputs": {
+        "dominant": 157.98885171578758,
+        "first_peak": 157.98885171578758
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 91,
+      "front_sample": 165.3519876493642,
+      "outputs": {
+        "dominant": 169.10633006872862,
+        "first_peak": 169.10633006872862
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 92,
+      "front_sample": 164.96951999403126,
+      "outputs": {
+        "dominant": 168.9063052812023,
+        "first_peak": 168.9063052812023
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 93,
+      "front_sample": 150.38925134557576,
+      "outputs": {
+        "dominant": 154.22727619157,
+        "first_peak": 154.22727619157
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 94,
+      "front_sample": 163.5841193127668,
+      "outputs": {
+        "dominant": 167.47293728257642,
+        "first_peak": 167.47293728257642
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 95,
+      "front_sample": 164.69267546595856,
+      "outputs": {
+        "dominant": 168.79475307035273,
+        "first_peak": 168.79475307035273
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 96,
+      "front_sample": 168.02130501343197,
+      "outputs": {
+        "dominant": 171.97305427685868,
+        "first_peak": 171.97305427685868
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 97,
+      "front_sample": 150.42827142156307,
+      "outputs": {
+        "dominant": 154.40350534090933,
+        "first_peak": 154.40350534090933
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 98,
+      "front_sample": 164.14842125685414,
+      "outputs": {
+        "dominant": 167.98996344947614,
+        "first_peak": 167.98996344947614
+      }
+    },
+    {
+      "case": "weak_front",
+      "seed": 99,
+      "front_sample": 161.15312835376022,
+      "outputs": {
+        "dominant": 165.22815382268539,
+        "first_peak": 165.22815382268539
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 0,
+      "front_sample": 159.62159231827198,
+      "outputs": {
+        "dominant": 160.0376709288827,
+        "first_peak": 160.0376709288827
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 1,
+      "front_sample": 159.62794061879262,
+      "outputs": {
+        "dominant": 160.06644437198582,
+        "first_peak": 160.06644437198582
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 2,
+      "front_sample": 166.80790642066358,
+      "outputs": {
+        "dominant": 167.27989478182357,
+        "first_peak": 167.27989478182357
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 3,
+      "front_sample": 169.5554308157342,
+      "outputs": {
+        "dominant": 169.9555110760252,
+        "first_peak": 169.9555110760252
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 4,
+      "front_sample": 165.7344747116493,
+      "outputs": {
+        "dominant": 167.46962070477878,
+        "first_peak": 167.46962070477878
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 5,
+      "front_sample": 161.40913048979877,
+      "outputs": {
+        "dominant": 161.81658007854418,
+        "first_peak": 161.81658007854418
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 6,
+      "front_sample": 166.34319479574233,
+      "outputs": {
+        "dominant": 167.97780793546409,
+        "first_peak": 167.97780793546409
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 7,
+      "front_sample": 159.97171866533563,
+      "outputs": {
+        "dominant": 160.5363817412827,
+        "first_peak": 160.5363817412827
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 8,
+      "front_sample": 160.76129601170175,
+      "outputs": {
+        "dominant": 161.1690854616704,
+        "first_peak": 161.1690854616704
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 9,
+      "front_sample": 163.60747347862042,
+      "outputs": {
+        "dominant": 163.95587524154024,
+        "first_peak": 163.95587524154024
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 10,
+      "front_sample": 150.63663226356437,
+      "outputs": {
+        "dominant": 151.5745586392407,
+        "first_peak": 151.5745586392407
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 11,
+      "front_sample": 150.7944285266349,
+      "outputs": {
+        "dominant": 151.3278299217367,
+        "first_peak": 151.3278299217367
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 12,
+      "front_sample": 155.2131193985907,
+      "outputs": {
+        "dominant": 155.6312659707335,
+        "first_peak": 155.6312659707335
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 13,
+      "front_sample": 151.9320454369235,
+      "outputs": {
+        "dominant": 152.24643924010513,
+        "first_peak": 152.24643924010513
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 14,
+      "front_sample": 168.51534913131505,
+      "outputs": {
+        "dominant": 169.38030694934866,
+        "first_peak": 169.38030694934866
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 15,
+      "front_sample": 165.1485759248467,
+      "outputs": {
+        "dominant": 166.7711074258663,
+        "first_peak": 166.7711074258663
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 16,
+      "front_sample": 165.78677474721405,
+      "outputs": {
+        "dominant": 167.66405398249978,
+        "first_peak": 167.66405398249978
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 17,
+      "front_sample": 167.82793009824786,
+      "outputs": {
+        "dominant": 168.12514658687297,
+        "first_peak": 168.12514658687297
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 18,
+      "front_sample": 153.24303819678465,
+      "outputs": {
+        "dominant": 153.6843126735369,
+        "first_peak": 153.6843126735369
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 19,
+      "front_sample": 151.15536183478645,
+      "outputs": {
+        "dominant": 151.6571548004053,
+        "first_peak": 151.6571548004053
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 20,
+      "front_sample": 161.31295604562442,
+      "outputs": {
+        "dominant": 161.6356754878719,
+        "first_peak": 161.6356754878719
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 21,
+      "front_sample": 166.93803810553808,
+      "outputs": {
+        "dominant": 167.37235456039483,
+        "first_peak": 167.37235456039483
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 22,
+      "front_sample": 152.054829393599,
+      "outputs": {
+        "dominant": 152.44129261244035,
+        "first_peak": 152.44129261244035
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 23,
+      "front_sample": 150.24010816915754,
+      "outputs": {
+        "dominant": 151.93242781338935,
+        "first_peak": 151.93242781338935
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 24,
+      "front_sample": 154.69974077019148,
+      "outputs": {
+        "dominant": 155.13335753556998,
+        "first_peak": 155.13335753556998
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 25,
+      "front_sample": 169.8264391071899,
+      "outputs": {
+        "dominant": 170.15611175233738,
+        "first_peak": 170.15611175233738
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 26,
+      "front_sample": 165.37360579262324,
+      "outputs": {
+        "dominant": 165.84242198300967,
+        "first_peak": 165.84242198300967
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 27,
+      "front_sample": 169.03265034649837,
+      "outputs": {
+        "dominant": 169.45961471261322,
+        "first_peak": 169.45961471261322
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 28,
+      "front_sample": 167.92131692336278,
+      "outputs": {
+        "dominant": 168.27354148746596,
+        "first_peak": 168.27354148746596
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 29,
+      "front_sample": 161.12305122397782,
+      "outputs": {
+        "dominant": 161.39161749506,
+        "first_peak": 161.39161749506
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 30,
+      "front_sample": 162.95924275282772,
+      "outputs": {
+        "dominant": 163.28358785249338,
+        "first_peak": 163.28358785249338
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 31,
+      "front_sample": 159.6275084884233,
+      "outputs": {
+        "dominant": 159.9677722425969,
+        "first_peak": 159.9677722425969
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 32,
+      "front_sample": 166.29964345133135,
+      "outputs": {
+        "dominant": 166.657252841805,
+        "first_peak": 166.657252841805
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 33,
+      "front_sample": 160.85941138754004,
+      "outputs": {
+        "dominant": 161.23569325662132,
+        "first_peak": 161.23569325662132
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 34,
+      "front_sample": 153.0358927797445,
+      "outputs": {
+        "dominant": 153.43861224416995,
+        "first_peak": 153.43861224416995
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 35,
+      "front_sample": 154.77788401281634,
+      "outputs": {
+        "dominant": 156.36810191147458,
+        "first_peak": 156.36810191147458
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 36,
+      "front_sample": 167.37923991936003,
+      "outputs": {
+        "dominant": 167.89679056946466,
+        "first_peak": 167.89679056946466
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 37,
+      "front_sample": 154.90528741220024,
+      "outputs": {
+        "dominant": 155.29926707919475,
+        "first_peak": 155.29926707919475
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 38,
+      "front_sample": 169.69859581439167,
+      "outputs": {
+        "dominant": 170.1148715135284,
+        "first_peak": 170.1148715135284
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 39,
+      "front_sample": 159.00919255518411,
+      "outputs": {
+        "dominant": 159.50594147788368,
+        "first_peak": 159.50594147788368
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 40,
+      "front_sample": 166.14459914190962,
+      "outputs": {
+        "dominant": 167.2188328262346,
+        "first_peak": 167.2188328262346
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 41,
+      "front_sample": 157.10779828071844,
+      "outputs": {
+        "dominant": 157.57501603810334,
+        "first_peak": 157.57501603810334
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 42,
+      "front_sample": 151.65232554417986,
+      "outputs": {
+        "dominant": 152.33530897701004,
+        "first_peak": 152.33530897701004
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 43,
+      "front_sample": 150.48887956225036,
+      "outputs": {
+        "dominant": 150.91416286651955,
+        "first_peak": 150.91416286651955
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 44,
+      "front_sample": 162.02259731142968,
+      "outputs": {
+        "dominant": 163.21921204909833,
+        "first_peak": 163.21921204909833
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 45,
+      "front_sample": 169.17967297743795,
+      "outputs": {
+        "dominant": 169.71322151651998,
+        "first_peak": 169.71322151651998
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 46,
+      "front_sample": 159.66481121925753,
+      "outputs": {
+        "dominant": 160.12473767771726,
+        "first_peak": 160.12473767771726
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 47,
+      "front_sample": 150.0945949947286,
+      "outputs": {
+        "dominant": 150.45117981131375,
+        "first_peak": 150.45117981131375
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 48,
+      "front_sample": 154.06276962296243,
+      "outputs": {
+        "dominant": 154.41724867006815,
+        "first_peak": 154.41724867006815
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 49,
+      "front_sample": 168.45676735617033,
+      "outputs": {
+        "dominant": 169.28814774211975,
+        "first_peak": 169.28814774211975
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 50,
+      "front_sample": 162.84965606882656,
+      "outputs": {
+        "dominant": 163.197619643239,
+        "first_peak": 163.197619643239
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 51,
+      "front_sample": 157.99464603252818,
+      "outputs": {
+        "dominant": 158.34983942901852,
+        "first_peak": 158.34983942901852
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 52,
+      "front_sample": 154.8151670070077,
+      "outputs": {
+        "dominant": 155.11629835601323,
+        "first_peak": 155.11629835601323
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 53,
+      "front_sample": 164.9149681028913,
+      "outputs": {
+        "dominant": 165.2897136761146,
+        "first_peak": 165.2897136761146
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 54,
+      "front_sample": 157.826982170016,
+      "outputs": {
+        "dominant": 158.23800206011867,
+        "first_peak": 158.23800206011867
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 55,
+      "front_sample": 151.5369637293836,
+      "outputs": {
+        "dominant": 151.98489780378864,
+        "first_peak": 151.98489780378864
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 56,
+      "front_sample": 160.6681876405826,
+      "outputs": {
+        "dominant": 161.06615516055317,
+        "first_peak": 161.06615516055317
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 57,
+      "front_sample": 157.2439545813079,
+      "outputs": {
+        "dominant": 157.53777577999327,
+        "first_peak": 157.53777577999327
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 58,
+      "front_sample": 158.6450437235164,
+      "outputs": {
+        "dominant": 159.00694099447077,
+        "first_peak": 159.00694099447077
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 59,
+      "front_sample": 163.43947773466448,
+      "outputs": {
+        "dominant": 163.80946889212228,
+        "first_peak": 163.80946889212228
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 60,
+      "front_sample": 156.9560637313435,
+      "outputs": {
+        "dominant": 157.2652420964415,
+        "first_peak": 157.2652420964415
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 61,
+      "front_sample": 166.2912933317332,
+      "outputs": {
+        "dominant": 166.74117201575777,
+        "first_peak": 166.74117201575777
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 62,
+      "front_sample": 168.99079058720974,
+      "outputs": {
+        "dominant": 169.41492472429232,
+        "first_peak": 169.41492472429232
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 63,
+      "front_sample": 158.75917935564445,
+      "outputs": {
+        "dominant": 159.1640049274174,
+        "first_peak": 159.1640049274174
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 64,
+      "front_sample": 153.8648166405763,
+      "outputs": {
+        "dominant": 154.27540704924118,
+        "first_peak": 154.27540704924118
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 65,
+      "front_sample": 163.1983048640978,
+      "outputs": {
+        "dominant": 163.64329626975126,
+        "first_peak": 163.64329626975126
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 66,
+      "front_sample": 155.58504219187185,
+      "outputs": {
+        "dominant": 155.99220323997298,
+        "first_peak": 155.99220323997298
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 67,
+      "front_sample": 155.769020715999,
+      "outputs": {
+        "dominant": 157.61629681745853,
+        "first_peak": 153.069607963193
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 68,
+      "front_sample": 162.40189397804536,
+      "outputs": {
+        "dominant": 162.87431711960969,
+        "first_peak": 162.87431711960969
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 69,
+      "front_sample": 162.72333423165801,
+      "outputs": {
+        "dominant": 163.14396487546128,
+        "first_peak": 163.14396487546128
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 70,
+      "front_sample": 158.1443867992969,
+      "outputs": {
+        "dominant": 158.56147882606183,
+        "first_peak": 158.56147882606183
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 71,
+      "front_sample": 153.71679548234223,
+      "outputs": {
+        "dominant": 154.23498610801047,
+        "first_peak": 154.23498610801047
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 72,
+      "front_sample": 166.85078753229158,
+      "outputs": {
+        "dominant": 168.11811469867828,
+        "first_peak": 168.11811469867828
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 73,
+      "front_sample": 156.8014446258463,
+      "outputs": {
+        "dominant": 157.31927316426348,
+        "first_peak": 157.31927316426348
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 74,
+      "front_sample": 165.13308450639892,
+      "outputs": {
+        "dominant": 165.58216016569068,
+        "first_peak": 165.58216016569068
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 75,
+      "front_sample": 156.05039901104576,
+      "outputs": {
+        "dominant": 156.36245341266763,
+        "first_peak": 156.36245341266763
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 76,
+      "front_sample": 159.3238596262957,
+      "outputs": {
+        "dominant": 159.8034180088521,
+        "first_peak": 159.8034180088521
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 77,
+      "front_sample": 156.13488495114325,
+      "outputs": {
+        "dominant": 156.61896583510904,
+        "first_peak": 156.61896583510904
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 78,
+      "front_sample": 160.4760778095436,
+      "outputs": {
+        "dominant": 160.96198735696998,
+        "first_peak": 160.96198735696998
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 79,
+      "front_sample": 156.31569858005716,
+      "outputs": {
+        "dominant": 156.7757483219256,
+        "first_peak": 156.7757483219256
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 80,
+      "front_sample": 159.76246767276214,
+      "outputs": {
+        "dominant": 160.17602841197586,
+        "first_peak": 160.17602841197586
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 81,
+      "front_sample": 165.3909657986224,
+      "outputs": {
+        "dominant": 165.91406047435132,
+        "first_peak": 165.91406047435132
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 82,
+      "front_sample": 151.24498599981953,
+      "outputs": {
+        "dominant": 151.8841510322209,
+        "first_peak": 151.8841510322209
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 83,
+      "front_sample": 152.07460018238817,
+      "outputs": {
+        "dominant": 152.4174568225398,
+        "first_peak": 152.4174568225398
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 84,
+      "front_sample": 157.58583455097698,
+      "outputs": {
+        "dominant": 158.13811883401365,
+        "first_peak": 158.13811883401365
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 85,
+      "front_sample": 156.36287344320573,
+      "outputs": {
+        "dominant": 156.7657955951597,
+        "first_peak": 156.7657955951597
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 86,
+      "front_sample": 160.32640825282624,
+      "outputs": {
+        "dominant": 160.76572456985994,
+        "first_peak": 160.76572456985994
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 87,
+      "front_sample": 162.50283224730612,
+      "outputs": {
+        "dominant": 162.88901633236998,
+        "first_peak": 162.88901633236998
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 88,
+      "front_sample": 153.22525931934325,
+      "outputs": {
+        "dominant": 153.5167146393324,
+        "first_peak": 153.5167146393324
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 89,
+      "front_sample": 155.92865485336546,
+      "outputs": {
+        "dominant": 156.2851887978188,
+        "first_peak": 156.2851887978188
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 90,
+      "front_sample": 150.2367992377873,
+      "outputs": {
+        "dominant": 150.6921600710992,
+        "first_peak": 150.6921600710992
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 91,
+      "front_sample": 163.7495388914055,
+      "outputs": {
+        "dominant": 164.07932039204405,
+        "first_peak": 164.07932039204405
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 92,
+      "front_sample": 150.37233389253115,
+      "outputs": {
+        "dominant": 150.73815040942105,
+        "first_peak": 150.73815040942105
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 93,
+      "front_sample": 151.5742690976843,
+      "outputs": {
+        "dominant": 152.9413727180745,
+        "first_peak": 152.9413727180745
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 94,
+      "front_sample": 169.9984204609493,
+      "outputs": {
+        "dominant": 170.36445785588435,
+        "first_peak": 170.36445785588435
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 95,
+      "front_sample": 169.49526170548017,
+      "outputs": {
+        "dominant": 169.8752541221011,
+        "first_peak": 169.8752541221011
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 96,
+      "front_sample": 151.20742227560635,
+      "outputs": {
+        "dominant": 151.54334887101808,
+        "first_peak": 151.54334887101808
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 97,
+      "front_sample": 150.05637371158156,
+      "outputs": {
+        "dominant": 150.46247905962417,
+        "first_peak": 150.46247905962417
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 98,
+      "front_sample": 164.0207324176073,
+      "outputs": {
+        "dominant": 165.190848328565,
+        "first_peak": 165.190848328565
+      }
+    },
+    {
+      "case": "unresolved",
+      "seed": 99,
+      "front_sample": 159.2378005520539,
+      "outputs": {
+        "dominant": 159.6693210021369,
+        "first_peak": 159.6693210021369
+      }
+    }
+  ]
+}

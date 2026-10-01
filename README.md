@@ -204,3 +204,9 @@ detekcjach).
 
 
 [Ruch w widmie](outputs/angle_frequency/WYNIK_RANGE_MOTION.md) — wyrownanie fazy z Dopplera poprawilo R o ~25% przy stalej predkosci30m/s w osobnym modelu3GHz, ale model stalej predkosci pogorszyl R przy przyspieszeniu. Migracja zakresu dala maly dodatkowy zysk. Bez walidacji czola rozciaglego celu i bez integracji z trackerem.
+
+
+[Czolo rozciaglego celu](outputs/angle_frequency/WYNIK_ECHO_FRONT.md) — pierwszy wiarygodny pik poprawil lokalizacje przedniej powierzchni z0 do56/100 przy rozciaglosci30m, ale slaby przod pozostal niewykryty (0/100). Wykrycie obiektu nie gwarantuje wykrycia jego czola. Osobna symulacja bez integracji z trackerem.
+
+
+[Ksztalt Gaussa i statystyka szumu](outputs/angle_frequency/WYNIK_GAUSSIAN_SHAPE.md) — test zaakceptowal93/100 Gaussow, odrzucil96/100 ogonow i100/100 podwojnych odbic. Narzucenie Gaussa na ogon dalo~29m bledu. Skalarne I/Q nie okresla polaryzacji; szum Gaussa w generatorze nie dowodzi normalnosci zaklocen sprzetowych. Tracker bez zmian.
