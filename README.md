@@ -192,3 +192,12 @@ detekcjach).
 
 
 [Dwie nosne i dudnienie](outputs/angle_frequency/WYNIK_DUAL_BEAT.md) — zmniejszenie dudnienia z 38.5 do 19.25 GHz podwaja okres niejednoznacznosci R z 3.893 do 7.787 mm, lecz nie poprawilo odleglosci. Przy stalej energii dwa pasma pogorszyly wynik slabego echa. Osobny eksperyment syntetyczny.
+
+
+[Bliskie nosne, chirp i rezonans odbicia](outputs/angle_frequency/WYNIK_WAVE_METHODS.md) — automatyczna detekcja na nowych scenach po zamrozeniu progow szumu. Bliskie nosne poprawily silne skalibrowane R (~51%), lecz szkodzily slabemu echu i przy bledzie fazy. Chirp poprawil lokalizacje przy zakloceniu impulsowym (51/100 zamiast 0/100). Pasywny rezonans odbicia pogorszyl wynik w tym modelu. Bez integracji z trackerem.
+
+
+[Blysk energii](outputs/angle_frequency/WYNIK_FLASH.md) — idealny model specjalnego reflektora z kompresja odpowiedzi przy stalej energii. Slabe echo: warunkowy MAE R 2.445 do 1.933 m, wykrycia 97 do 98/100; bez odpornosci na zaklocenia impulsowe. Wymaga znanej zwloki, szerszego pasma i specjalnego celu; nie zwykly pasywny rezonans.
+
+
+[Dopasowanie calego echa](outputs/angle_frequency/WYNIK_ECHO_SHAPE.md) — bank ksztaltow poprawil lokalizacje zmiennego ogona z 9 do 96/100; nierozpoznany ogon odbiornika nadal dawal ~23.5 m bledu. Sam spadek nie identyfikuje czasu przy nieznanej amplitudzie. Eksperyment syntetyczny, bez integracji z trackerem.
