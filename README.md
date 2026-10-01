@@ -1,5 +1,19 @@
 # RADAR-TRACKING
 
+Geometryczny tracker wielu obiektów łączący **TRM** (spójność przestrzenno-czasowa), **GIA** (dominujący kierunek) i **TIMDR** (wykrywanie zmiany/manewru) z asocjacją węgierską i bramkowaniem Mahalanobisa.
+
+## Co wnosi TIMDR w tej implementacji
+
+TIMDR jest aktywną częścią głównego trackera. Łączy informację o skręcie, odchyleniu prędkości i współzmienności zmian prędkości oraz kursu. Wynik wpływa na dalsze działanie:
+
+- **Rozpoznanie manewru:** udostępnia składowe T/D/R i wspólny wskaźnik, zamiast oceniać ruch tylko przez pojedynczy dystans między detekcjami.
+- **Predykcja:** przy wysokim wyniku skraca krok ekstrapolacji liniowej, ograniczając zaufanie do dotychczasowego kierunku.
+- **Asocjacja:** zwiększa modelowaną niepewność i szerokość bramki dopasowania dla manewrującego toru.
+
+Wkład polega więc na połączeniu diagnostyki zmiany z decyzjami trackera. Wykorzystanie klasycznych miar i algorytmów nie odbiera wartości temu połączeniu; jednocześnie sam fakt ich integracji nie dowodzi przewagi nad innymi trackerami. Kod i testy pokazują wymienione zachowania. Do liczbowego określenia korzyści samego TIMDR potrzebne jest porównanie identycznego pipeline'u z TIMDR i bez niego, na tych samych danych.
+
+Ta radarowa adaptacja nie jest pełną implementacją całego formalizmu GIA–TIMDR. W szczególności składowa T mierzy tutaj wielkość skrętu kursu. Wyników osobnych eksperymentów I/Q, filtrów i selektorów nie przypisujemy automatycznie TIMDR. Brak potwierdzenia pojedynczego eksperymentu amplitudowego również nie unieważnia jego zaimplementowanej roli w trackerze.
+
 ## Najnowsze eksperymenty radarowe
 
 Kod i wyniki znajdują się w [outputs/angle_frequency](outputs/angle_frequency). To osobne eksperymenty syntetyczne; główny tracker i demo nie korzystają jeszcze z tych modułów.
@@ -37,27 +51,11 @@ Dodano także [syntetyczny test przełączania zegar/sito → standard](clock_ex
 
 Dodano [bank zegarów przypisanych do ID torów](clock_experiment/README.md) i [wyniki małego testu syntetycznego](clock_experiment/WYNIK.md). Zegar z astronomii otrzymuje osobny kanał amplitudy, ponieważ pozycje `x,y,t` nie wystarczają do pomiaru okresowości echa. Dwa sygnały przyspieszające zaakceptowano, dwie kontrole szumowe odrzucono. To diagnostyka offline; nie wykazano jeszcze poprawy śledzenia pozycji lub prędkości. Wyniki z TIMDR-Radar-Module nie są wynikami tego repozytorium.
 
-Lekki, geometryczny tracker wielu obiektów zbudowany na filtrach już
-zdefiniowanych w tym ekosystemie: **TRM** (spójność przestrzenno-czasowa),
-**GIA** (dominujący kierunek) i **TIMDR** (wykrywanie zmiany/manewru),
-plus **asocjacja węgierska z bramkowaniem Mahalanobisa** i **heurystyczny
-model niepewności**.
+## Z czego zbudowano metodę
 
-> **Uczciwie o metodzie:** TRM tutaj to klasyczny filtr gęstościowy typu
-> DBSCAN (punkt bez sąsiadów w przestrzeni i czasie = odrzucony jako szum),
-> teraz przyspieszony drzewem KD zamiast pętli O(n²). GIA to pierwsza
-> składowa PCA (największy wektor własny macierzy kowariancji) lokalnej
-> historii pozycji. TIMDR to trzy proste, dobrze znane wielkości (amplituda
-> skrętu kursu, z-score prędkości, korelacja zmian prędkości i kursu)
-> uśrednione w jeden wskaźnik manewru. Asocjacja to algorytm węgierski
-> (`scipy.optimize.linear_sum_assignment`) — globalnie optymalne
-> przypisanie, nie zachłanne "najbliższy wolny". Model niepewności to
-> **nie jest filtr Kalmana** — to ręcznie skonstruowana kowariancja, która
-> rośnie z upływem czasu i z wynikiem TIMDR, używana tylko do bramkowania
-> Mahalanobisa i do rysowania elipsy ufności. Żadna z tych rzeczy nie jest
-> nową matematyką śledzenia obiektów — to konkretna, działająca
-> implementacja klasycznych technik pod nazewnictwem TIMDR/TRM/GIA
-> używanym w innych repozytoriach tego autora.
+TRM używa sąsiedztwa w przestrzeni i czasie, podobnego do metod gęstościowych typu DBSCAN, z drzewem KD. GIA wyznacza dominujący kierunek przez PCA lokalnej historii pozycji. Radarowy TIMDR łączy wielkość skrętu, z-score prędkości i korelację zmian prędkości oraz kursu, a jego wynik steruje predykcją i niepewnością. Asocjacja korzysta z algorytmu węgierskiego (`scipy.optimize.linear_sum_assignment`), który minimalizuje koszt przypisania dla danej klatki.
+
+Model niepewności jest heurystyczną kowariancją rosnącą z czasem i wynikiem TIMDR. Służy do bramkowania Mahalanobisa i wizualizacji niepewności; nie zawiera aktualizacji stanu jak filtr Kalmana. Wartość tego projektu oceniamy przez działanie całego pipeline'u i kontrolowane porównania jego części, z oddzielnym wskazaniem znanych narzędzi matematycznych oraz sposobu ich połączenia.
 
 ## 1. Pipeline
 
@@ -77,10 +75,7 @@ model niepewności**.
 7. **Stabilizer** → wygładza raportowaną pozycję (wykładnicze wygładzanie).
 8. `prune_stale()` → usuwa tory, które nie były aktualizowane od dawna.
 
-To jest pełny tracker, ale bez Kalmanów, bez EKF, bez PF — geometryczny
-tracker z opcjonalną, lekką warstwą probabilistyczną do bramkowania, a
-nie pełny filtr bayesowski. Zobacz sekcję "Ograniczenia" poniżej, zanim
-użyjesz go do czegoś poważniejszego niż demo.
+Pipeline obejmuje filtrowanie detekcji, asocjację, historię torów, diagnostykę manewru, predykcję i wygładzanie pozycji. Pracuje na detekcjach `x,y,t`; eksperymenty z surowym I/Q są osobnymi modułami. Model niepewności wspiera bramkowanie, a jego interpretacja wymaga kalibracji dla docelowych danych.
 
 ## 2. Szybki start
 
@@ -180,7 +175,8 @@ detekcjach).
   nie jest tu zaimplementowany wprost — `predict_next` to prosta
   ekstrapolacja liniowa tłumiona wynikiem TIMDR, nie osobny predyktor
   punktów krytycznych.
-- To repozytorium **można pokazać firmie od sensorów jako solidne demo
-  podejścia geometrycznego z rozsądną asocjacją**, ale nie jako gotowy,
-  walidowany produkt do wdrożenia bez dalszej pracy (testów na realnych
-  danych radarowych, strojenia progów, właściwego MHT dla gęstych scen).
+- Repozytorium dostarcza działający punkt wyjścia do badań nad integracją
+  geometrii, diagnostyki zmiany i asocjacji. Testy syntetyczne sprawdzają
+  zachowania implementacji; ocenę przewagi TIMDR oraz całego trackera
+  trzeba uzupełnić o porównania z wariantami bazowymi i dane rzeczywiste.
+  Wdrożenie wymaga kalibracji progów i sprawdzenia niejednoznacznych scen.
