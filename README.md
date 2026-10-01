@@ -213,3 +213,6 @@ detekcjach).
 
 
 [Koncowy test banku echa](outputs/angle_frequency/WYNIK_FINAL_ECHO.md) — znane rodziny:294/300poprawnych R i6odrzucen. Slaby przod oraz nieznany odbiornik nadal dawaly bledy (18 i78/100). Zgodnosc modeli nie gwarantuje prawdziwego czola; potrzebna kalibracja odbiornika i realne dane. Bez integracji z trackerem.
+
+
+[Rozpoznawanie sceny z historii](outputs/angle_frequency/WYNIK_SCENE_RECOGNITION.md) — 600sekwencji detekcji: rozny ruch pozwolil wskazac2obiekty w100przypadkach; pozostale500pozostawiono nierozstrzygniete. Historia ogranicza nadmierna pewnosc liczenia pikow, ale nie rozroznia jednego duzego i dwoch wspolporuszajacych sie obiektow. Rozciaglosc grupy nie jest pewna wielkoscia celu. Bez dowodu przewagi nad standardowym trackerem i bez integracji z glownym pipeline.
