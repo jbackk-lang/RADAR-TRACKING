@@ -184,3 +184,8 @@ detekcjach).
   zachowania implementacji; ocenę przewagi TIMDR oraz całego trackera
   trzeba uzupełnić o porównania z wariantami bazowymi i dane rzeczywiste.
   Wdrożenie wymaga kalibracji progów i sprawdzenia niejednoznacznych scen.
+
+
+### Pik czasu powrotu
+
+[Pik odwróconej fazy](outputs/angle_frequency/WYNIK_ECHO_PEAK.md) — odwrócenie fazy I/Q nie zmienia piku ani szumu. Filtr dopasowany poprawił lokalizację słabego echa z 4/100 do 45/100 w syntetycznym teście; bez progu detekcji nadal może wskazać szum. Eksperyment nie zmienia głównego trackera.
