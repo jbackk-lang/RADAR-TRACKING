@@ -1,0 +1,1761 @@
+{
+  "summary": {
+    "step_early": {
+      "accepted": 4,
+      "calibrations": 10,
+      "target_cases": 36,
+      "target_mae_deg": 0.42995098389641523,
+      "mean_startup_peak_deg": 1.7157881397169419,
+      "mean_observation_peak_deg": 0.9171977667783585
+    },
+    "gentle_settled": {
+      "accepted": 10,
+      "calibrations": 10,
+      "target_cases": 90,
+      "target_mae_deg": 0.03726385985814705,
+      "mean_startup_peak_deg": 0.037647254749538825,
+      "mean_observation_peak_deg": 1.1384790538428585e-09
+    }
+  },
+  "fits": [
+    {
+      "seed": 0,
+      "gentle": false,
+      "accepted": false,
+      "reason": "Reference fit rejected: boundary or inconsistent reference",
+      "vibrations": [
+        {
+          "startup_peak_deg": 1.0905122996425722,
+          "observation_peak_deg": 0.24057943751449734
+        },
+        {
+          "startup_peak_deg": 1.0905122996425722,
+          "observation_peak_deg": 0.24057943751449734
+        },
+        {
+          "startup_peak_deg": 2.1810245992851445,
+          "observation_peak_deg": 1.2374391933449553
+        },
+        {
+          "startup_peak_deg": 2.1810245992851445,
+          "observation_peak_deg": 1.2374391933449553
+        },
+        {
+          "startup_peak_deg": 3.271536898927718,
+          "observation_peak_deg": 2.421660195146758
+        },
+        {
+          "startup_peak_deg": 3.271536898927718,
+          "observation_peak_deg": 2.421660195146758
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0020500000000000006,
+        "zero_rad": 0.0015864633031374236,
+        "reference_rmse_rad": 0.0005977834841195703,
+        "angle_only_rad": 0.014446303922704296,
+        "measured_speed_std": 2.564327582653941
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.029784501634978908,
+          "observation_peak_deg": 4.598734528145231e-12
+        },
+        {
+          "startup_peak_deg": 0.029784501634978908,
+          "observation_peak_deg": 4.598734528145231e-12
+        },
+        {
+          "startup_peak_deg": 0.059569003269957815,
+          "observation_peak_deg": 2.2030241272441896e-09
+        },
+        {
+          "startup_peak_deg": 0.059569003269957815,
+          "observation_peak_deg": 2.2030241272441896e-09
+        },
+        {
+          "startup_peak_deg": 0.0893535049049368,
+          "observation_peak_deg": 1.8094261227489697e-08
+        },
+        {
+          "startup_peak_deg": 0.0893535049049368,
+          "observation_peak_deg": 1.8094261227489697e-08
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "gentle": false,
+      "accepted": false,
+      "reason": "Reference fit rejected: boundary or inconsistent reference",
+      "vibrations": [
+        {
+          "startup_peak_deg": 1.0223990998782613,
+          "observation_peak_deg": 0.22553697287673927
+        },
+        {
+          "startup_peak_deg": 1.0223990998782613,
+          "observation_peak_deg": 0.22553697287673927
+        },
+        {
+          "startup_peak_deg": 2.0447981997565225,
+          "observation_peak_deg": 1.1601108555638426
+        },
+        {
+          "startup_peak_deg": 2.0447981997565225,
+          "observation_peak_deg": 1.1601108555638426
+        },
+        {
+          "startup_peak_deg": 3.067197299634784,
+          "observation_peak_deg": 2.1020427431716566
+        },
+        {
+          "startup_peak_deg": 3.067197299634784,
+          "observation_peak_deg": 2.1020427431716566
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.002,
+        "zero_rad": 0.002097139380638898,
+        "reference_rmse_rad": 0.0005563612931022723,
+        "angle_only_rad": 0.014663681445491386,
+        "measured_speed_std": 2.5641032511483823
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.026144977985007437,
+          "observation_peak_deg": 1.1533012717501213e-12
+        },
+        {
+          "startup_peak_deg": 0.026144977985007437,
+          "observation_peak_deg": 1.1533012717501213e-12
+        },
+        {
+          "startup_peak_deg": 0.05228995597001487,
+          "observation_peak_deg": 6.6749471281991e-10
+        },
+        {
+          "startup_peak_deg": 0.05228995597001487,
+          "observation_peak_deg": 6.6749471281991e-10
+        },
+        {
+          "startup_peak_deg": 0.0784349339550223,
+          "observation_peak_deg": 7.865823942490242e-09
+        },
+        {
+          "startup_peak_deg": 0.0784349339550223,
+          "observation_peak_deg": 7.865823942490242e-09
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "gentle": false,
+      "accepted": false,
+      "reason": "Reference fit rejected: boundary or inconsistent reference",
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.9622551696776898,
+          "observation_peak_deg": 0.1757280878181452
+        },
+        {
+          "startup_peak_deg": 0.9622551696776898,
+          "observation_peak_deg": 0.1757280878181452
+        },
+        {
+          "startup_peak_deg": 1.9245103393553795,
+          "observation_peak_deg": 1.0212171545038038
+        },
+        {
+          "startup_peak_deg": 1.9245103393553795,
+          "observation_peak_deg": 1.0212171545038038
+        },
+        {
+          "startup_peak_deg": 2.886765509033068,
+          "observation_peak_deg": 1.9784031690414359
+        },
+        {
+          "startup_peak_deg": 2.886765509033068,
+          "observation_peak_deg": 1.9784031690414359
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0021000000000000003,
+        "zero_rad": 0.001595684521880673,
+        "reference_rmse_rad": 0.0003825323008344769,
+        "angle_only_rad": 0.014789552264712569,
+        "measured_speed_std": 2.567033916765039
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.023163286389511373,
+          "observation_peak_deg": 2.9334790269453065e-13
+        },
+        {
+          "startup_peak_deg": 0.023163286389511373,
+          "observation_peak_deg": 2.9334790269453065e-13
+        },
+        {
+          "startup_peak_deg": 0.046326572779022746,
+          "observation_peak_deg": 2.4778152354577395e-10
+        },
+        {
+          "startup_peak_deg": 0.046326572779022746,
+          "observation_peak_deg": 2.4778152354577395e-10
+        },
+        {
+          "startup_peak_deg": 0.06948985916853412,
+          "observation_peak_deg": 2.96984665691024e-09
+        },
+        {
+          "startup_peak_deg": 0.06948985916853412,
+          "observation_peak_deg": 2.96984665691024e-09
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "gentle": false,
+      "accepted": false,
+      "reason": "Reference fit rejected: boundary or inconsistent reference",
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.908832601784654,
+          "observation_peak_deg": 0.16596260161728738
+        },
+        {
+          "startup_peak_deg": 0.908832601784654,
+          "observation_peak_deg": 0.16596260161728738
+        },
+        {
+          "startup_peak_deg": 1.817665203569308,
+          "observation_peak_deg": 0.853708064568807
+        },
+        {
+          "startup_peak_deg": 1.817665203569308,
+          "observation_peak_deg": 0.853708064568807
+        },
+        {
+          "startup_peak_deg": 2.72649780535396,
+          "observation_peak_deg": 1.8685507334106863
+        },
+        {
+          "startup_peak_deg": 2.72649780535396,
+          "observation_peak_deg": 1.8685507334106863
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0020500000000000006,
+        "zero_rad": 0.0014591804318214348,
+        "reference_rmse_rad": 0.0004356635287274334,
+        "angle_only_rad": 0.014340805235334209,
+        "measured_speed_std": 2.5654665397001897
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.020656117625062552,
+          "observation_peak_deg": 7.499503138186403e-14
+        },
+        {
+          "startup_peak_deg": 0.020656117625062552,
+          "observation_peak_deg": 7.499503138186403e-14
+        },
+        {
+          "startup_peak_deg": 0.041312235250125104,
+          "observation_peak_deg": 9.244756077966498e-11
+        },
+        {
+          "startup_peak_deg": 0.041312235250125104,
+          "observation_peak_deg": 9.244756077966498e-11
+        },
+        {
+          "startup_peak_deg": 0.061968352875187684,
+          "observation_peak_deg": 1.108095905461118e-09
+        },
+        {
+          "startup_peak_deg": 0.061968352875187684,
+          "observation_peak_deg": 1.108095905461118e-09
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0029700000000000004,
+        "zero_rad": 0.000747358139965478,
+        "reference_rmse_rad": 0.0004480125966789945,
+        "angle_only_rad": 0.01941344282230543,
+        "measured_speed_std": 2.564254870030102
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.8610452977760653,
+          "observation_peak_deg": 0.13015635180335025
+        },
+        {
+          "startup_peak_deg": 0.8610452977760653,
+          "observation_peak_deg": 0.13015635180335025
+        },
+        {
+          "startup_peak_deg": 1.7220905955521306,
+          "observation_peak_deg": 0.8087839541070403
+        },
+        {
+          "startup_peak_deg": 1.7220905955521306,
+          "observation_peak_deg": 0.8087839541070403
+        },
+        {
+          "startup_peak_deg": 2.583135893328196,
+          "observation_peak_deg": 1.770192072316082
+        },
+        {
+          "startup_peak_deg": 2.583135893328196,
+          "observation_peak_deg": 1.770192072316082
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0019200000000000007,
+        "zero_rad": 0.0022828179395686377,
+        "reference_rmse_rad": 0.00014384301093687242,
+        "angle_only_rad": 0.014367470800740337,
+        "measured_speed_std": 2.5641050157621996
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.018530324925320075,
+          "observation_peak_deg": 1.934713763044383e-14
+        },
+        {
+          "startup_peak_deg": 0.018530324925320075,
+          "observation_peak_deg": 1.934713763044383e-14
+        },
+        {
+          "startup_peak_deg": 0.03706064985064015,
+          "observation_peak_deg": 3.4808519654457015e-11
+        },
+        {
+          "startup_peak_deg": 0.03706064985064015,
+          "observation_peak_deg": 3.4808519654457015e-11
+        },
+        {
+          "startup_peak_deg": 0.05559097477596027,
+          "observation_peak_deg": 5.040272819149885e-10
+        },
+        {
+          "startup_peak_deg": 0.05559097477596027,
+          "observation_peak_deg": 5.040272819149885e-10
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0016100000000000003,
+        "zero_rad": 0.002382445108471335,
+        "reference_rmse_rad": 0.000647495600326346,
+        "angle_only_rad": 0.012452759695553853,
+        "measured_speed_std": 2.565538393144865
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.8180165535754534,
+          "observation_peak_deg": 0.1236415494432784
+        },
+        {
+          "startup_peak_deg": 0.8180165535754534,
+          "observation_peak_deg": 0.1236415494432784
+        },
+        {
+          "startup_peak_deg": 1.6360331071509069,
+          "observation_peak_deg": 0.7683549206367163
+        },
+        {
+          "startup_peak_deg": 1.6360331071509069,
+          "observation_peak_deg": 0.7683549206367163
+        },
+        {
+          "startup_peak_deg": 2.454049660726361,
+          "observation_peak_deg": 1.681782066508381
+        },
+        {
+          "startup_peak_deg": 2.454049660726361,
+          "observation_peak_deg": 1.681782066508381
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0020700000000000007,
+        "zero_rad": 0.0018290145215008973,
+        "reference_rmse_rad": 0.0005631309467259666,
+        "angle_only_rad": 0.014790030793270384,
+        "measured_speed_std": 2.5661801874117147
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.01672605797553444,
+          "observation_peak_deg": 4.82396415395723e-15
+        },
+        {
+          "startup_peak_deg": 0.01672605797553444,
+          "observation_peak_deg": 4.82396415395723e-15
+        },
+        {
+          "startup_peak_deg": 0.03345211595106888,
+          "observation_peak_deg": 1.320020018735709e-11
+        },
+        {
+          "startup_peak_deg": 0.03345211595106888,
+          "observation_peak_deg": 1.320020018735709e-11
+        },
+        {
+          "startup_peak_deg": 0.050178173926603266,
+          "observation_peak_deg": 1.9253881347336015e-10
+        },
+        {
+          "startup_peak_deg": 0.050178173926603266,
+          "observation_peak_deg": 1.9253881347336015e-10
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0003100000000000004,
+        "zero_rad": 0.005720684570180046,
+        "reference_rmse_rad": 0.0007215427143309844,
+        "angle_only_rad": 0.007659705300360087,
+        "measured_speed_std": 2.56313786745078
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.779074809792569,
+          "observation_peak_deg": 0.09747702096106153
+        },
+        {
+          "startup_peak_deg": 0.779074809792569,
+          "observation_peak_deg": 0.09747702096106153
+        },
+        {
+          "startup_peak_deg": 1.558149619585138,
+          "observation_peak_deg": 0.7317443500866283
+        },
+        {
+          "startup_peak_deg": 1.558149619585138,
+          "observation_peak_deg": 0.7317443500866283
+        },
+        {
+          "startup_peak_deg": 2.337224429377706,
+          "observation_peak_deg": 1.6016796737080934
+        },
+        {
+          "startup_peak_deg": 2.337224429377706,
+          "observation_peak_deg": 1.6016796737080934
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0022200000000000006,
+        "zero_rad": 0.0006842366816025939,
+        "reference_rmse_rad": 0.0004729491676304842,
+        "angle_only_rad": 0.014649715110085578,
+        "measured_speed_std": 2.562889090372873
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.01516510325223699,
+          "observation_peak_deg": 1.111572005454221e-15
+        },
+        {
+          "startup_peak_deg": 0.01516510325223699,
+          "observation_peak_deg": 1.111572005454221e-15
+        },
+        {
+          "startup_peak_deg": 0.03033020650447398,
+          "observation_peak_deg": 4.260102358110036e-12
+        },
+        {
+          "startup_peak_deg": 0.03033020650447398,
+          "observation_peak_deg": 4.260102358110036e-12
+        },
+        {
+          "startup_peak_deg": 0.04549530975671102,
+          "observation_peak_deg": 9.002263517144724e-11
+        },
+        {
+          "startup_peak_deg": 0.04549530975671102,
+          "observation_peak_deg": 9.002263517144724e-11
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "accepted": true,
+      "calibration": {
+        "delay_s": -0.0007799999999999999,
+        "zero_rad": 0.011862653583275836,
+        "reference_rmse_rad": 0.0003951516506853459,
+        "angle_only_rad": 0.00697862976844917,
+        "measured_speed_std": 2.5681669164995586
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.7436815408362238,
+          "observation_peak_deg": 0.09304471994946614
+        },
+        {
+          "startup_peak_deg": 0.7436815408362238,
+          "observation_peak_deg": 0.09304471994946614
+        },
+        {
+          "startup_peak_deg": 1.4873630816724477,
+          "observation_peak_deg": 0.6750889436446881
+        },
+        {
+          "startup_peak_deg": 1.4873630816724477,
+          "observation_peak_deg": 0.6750889436446881
+        },
+        {
+          "startup_peak_deg": 2.2310446225086724,
+          "observation_peak_deg": 1.5289476467620053
+        },
+        {
+          "startup_peak_deg": 2.2310446225086724,
+          "observation_peak_deg": 1.5289476467620053
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0020700000000000007,
+        "zero_rad": 0.001687226010361383,
+        "reference_rmse_rad": 0.0006302382017896948,
+        "angle_only_rad": 0.014699859493107148,
+        "measured_speed_std": 2.5685247820016848
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.013817645466917173,
+          "observation_peak_deg": 2.9731419261865846e-16
+        },
+        {
+          "startup_peak_deg": 0.013817645466917173,
+          "observation_peak_deg": 2.9731419261865846e-16
+        },
+        {
+          "startup_peak_deg": 0.027635290933834347,
+          "observation_peak_deg": 1.6629872737244071e-12
+        },
+        {
+          "startup_peak_deg": 0.027635290933834347,
+          "observation_peak_deg": 1.6629872737244071e-12
+        },
+        {
+          "startup_peak_deg": 0.04145293640075146,
+          "observation_peak_deg": 3.5144786475356624e-11
+        },
+        {
+          "startup_peak_deg": 0.04145293640075146,
+          "observation_peak_deg": 3.5144786475356624e-11
+        }
+      ]
+    },
+    {
+      "seed": 8,
+      "gentle": false,
+      "accepted": false,
+      "reason": "Reference fit rejected: boundary or inconsistent reference",
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.711365256140184,
+          "observation_peak_deg": 0.07367277125330039
+        },
+        {
+          "startup_peak_deg": 0.711365256140184,
+          "observation_peak_deg": 0.07367277125330039
+        },
+        {
+          "startup_peak_deg": 1.422730512280368,
+          "observation_peak_deg": 0.5530762696399012
+        },
+        {
+          "startup_peak_deg": 1.422730512280368,
+          "observation_peak_deg": 0.5530762696399012
+        },
+        {
+          "startup_peak_deg": 2.13409576842055,
+          "observation_peak_deg": 1.4624434194884766
+        },
+        {
+          "startup_peak_deg": 2.13409576842055,
+          "observation_peak_deg": 1.4624434194884766
+        }
+      ]
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0021000000000000003,
+        "zero_rad": 0.0013832303089523397,
+        "reference_rmse_rad": 0.0005395739815032308,
+        "angle_only_rad": 0.014600996132117258,
+        "measured_speed_std": 2.5666244337003246
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.012640881414554264,
+          "observation_peak_deg": 8.001549840362439e-17
+        },
+        {
+          "startup_peak_deg": 0.012640881414554264,
+          "observation_peak_deg": 8.001549840362439e-17
+        },
+        {
+          "startup_peak_deg": 0.025281762829108528,
+          "observation_peak_deg": 6.532892557595584e-13
+        },
+        {
+          "startup_peak_deg": 0.025281762829108528,
+          "observation_peak_deg": 6.532892557595584e-13
+        },
+        {
+          "startup_peak_deg": 0.03792264424366271,
+          "observation_peak_deg": 1.627488512673039e-11
+        },
+        {
+          "startup_peak_deg": 0.03792264424366271,
+          "observation_peak_deg": 1.627488512673039e-11
+        }
+      ]
+    },
+    {
+      "seed": 9,
+      "gentle": false,
+      "accepted": false,
+      "reason": "Reference fit rejected: boundary or inconsistent reference",
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.6817580694810373,
+          "observation_peak_deg": 0.07060308037618973
+        },
+        {
+          "startup_peak_deg": 0.6817580694810373,
+          "observation_peak_deg": 0.07060308037618973
+        },
+        {
+          "startup_peak_deg": 1.3635161389620747,
+          "observation_peak_deg": 0.5300439466168277
+        },
+        {
+          "startup_peak_deg": 1.3635161389620747,
+          "observation_peak_deg": 0.5300439466168277
+        },
+        {
+          "startup_peak_deg": 2.045274208443114,
+          "observation_peak_deg": 1.3642610374706572
+        },
+        {
+          "startup_peak_deg": 2.045274208443114,
+          "observation_peak_deg": 1.3642610374706572
+        }
+      ]
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "accepted": true,
+      "calibration": {
+        "delay_s": 0.0020100000000000005,
+        "zero_rad": 0.0022031184317986194,
+        "reference_rmse_rad": 0.0003803791664701048,
+        "angle_only_rad": 0.014832166935804617,
+        "measured_speed_std": 2.5662375901217502
+      },
+      "vibrations": [
+        {
+          "startup_peak_deg": 0.011607377078570872,
+          "observation_peak_deg": 2.168366504287616e-17
+        },
+        {
+          "startup_peak_deg": 0.011607377078570872,
+          "observation_peak_deg": 2.168366504287616e-17
+        },
+        {
+          "startup_peak_deg": 0.023214754157141745,
+          "observation_peak_deg": 2.5839605142976274e-13
+        },
+        {
+          "startup_peak_deg": 0.023214754157141745,
+          "observation_peak_deg": 2.5839605142976274e-13
+        },
+        {
+          "startup_peak_deg": 0.03482213123571257,
+          "observation_peak_deg": 6.5980011810915525e-12
+        },
+        {
+          "startup_peak_deg": 0.03482213123571257,
+          "observation_peak_deg": 6.5980011810915525e-12
+        }
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.4000701250582793,
+      "error_deg": 0.004017869877512951
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.3996607433162417,
+      "error_deg": 0.019437976150957215
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.4007821732496315,
+      "error_deg": 0.04481522605191634
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.1992807720204506,
+      "error_deg": 0.041208727735900674
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.198171933800348,
+      "error_deg": 0.10474047791057492
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.1999912197268972,
+      "error_deg": 0.0005030725917629143
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 1.999976173960327,
+      "error_deg": 0.0013651315157736836
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 1.9991521350847756,
+      "error_deg": 0.04857908123957387
+    },
+    {
+      "seed": 0,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.999049179102857,
+      "error_deg": 0.05447802447913269
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.3991005949900288,
+      "error_deg": 0.05153211114427207
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.3998537319752262,
+      "error_deg": 0.008380540497253655
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.3999830835178284,
+      "error_deg": 0.0009692430326417781
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.1993940916435146,
+      "error_deg": 0.03471599159831753
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.2009996408671662,
+      "error_deg": 0.05727520271742078
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.2000767631095355,
+      "error_deg": 0.0043982021986861426
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.000025430034712,
+      "error_deg": 0.001457033661856289
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.001964851371127,
+      "error_deg": 0.11257769093607052
+    },
+    {
+      "seed": 1,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 2.0023068504946484,
+      "error_deg": 0.13217279731101989
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.40102855165849144,
+      "error_deg": 0.05893166904273936
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.3998606256489331,
+      "error_deg": 0.007985562088509361
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.39936553813364073,
+      "error_deg": 0.03635198720438074
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.2002703746646177,
+      "error_deg": 0.01549132716986318
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.199787522121768,
+      "error_deg": 0.01217408566258684
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.200556267269363,
+      "error_deg": 0.03187176681577178
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.000266474329253,
+      "error_deg": 0.015267854414781306
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.000104502010674,
+      "error_deg": 0.005987524162239906
+    },
+    {
+      "seed": 2,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.9998164023666891,
+      "error_deg": 0.01051936951730412
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.4003650516832517,
+      "error_deg": 0.020915920754467972
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.4003670678000694,
+      "error_deg": 0.02103143573912843
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.40138732018465495,
+      "error_deg": 0.07948759141403738
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.1999084000689229,
+      "error_deg": 0.005248289454407177
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.2008508618549854,
+      "error_deg": 0.048750793239335496
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.2006412264809416,
+      "error_deg": 0.036739571069983615
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 1.999082190240306,
+      "error_deg": 0.05258662562638373
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.0002474952071454,
+      "error_deg": 0.014180430819147384
+    },
+    {
+      "seed": 3,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.9996875949143307,
+      "error_deg": 0.017899492907274984
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.397984562573634,
+      "error_deg": 0.11547605840348082
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.3945233331919373,
+      "error_deg": 0.31378989390137946
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.3890373088535906,
+      "error_deg": 0.6281159347946932
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.1967751929662038,
+      "error_deg": 0.18476783278062
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.1931790737508172,
+      "error_deg": 0.3908102864481696
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.190155440205571,
+      "error_deg": 0.5640517273849589
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 1.9970114580112674,
+      "error_deg": 0.17123084285200882
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 1.9939184763000852,
+      "error_deg": 0.3484456410139013
+    },
+    {
+      "seed": 4,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.9885889871614253,
+      "error_deg": 0.6538028756199281
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.400761097824561,
+      "error_deg": 0.04360769314393157
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.40118105962837597,
+      "error_deg": 0.06766973205923119
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.39935551137117203,
+      "error_deg": 0.03692647837601717
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.1995502735484849,
+      "error_deg": 0.025767427607209317
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.1999729247186586,
+      "error_deg": 0.0015512993499905035
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.200411400762425,
+      "error_deg": 0.023571527375414625
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 1.9997566840992347,
+      "error_deg": 0.013940974202276643
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.0006028876073096,
+      "error_deg": 0.03454291541958309
+    },
+    {
+      "seed": 4,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.9990109991165221,
+      "error_deg": 0.05666557655799132
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.40104318572727166,
+      "error_deg": 0.05977013942094996
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.4038952607996497,
+      "error_deg": 0.22318200392268145
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.40494683864822073,
+      "error_deg": 0.2834329764752479
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.2016181776536907,
+      "error_deg": 0.09271475005886305
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.201417272210093,
+      "error_deg": 0.08120371605951512
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.204755175896796,
+      "error_deg": 0.2724515097287518
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.000896257079441,
+      "error_deg": 0.05135174801068229
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.001852907180335,
+      "error_deg": 0.10616376126267077
+    },
+    {
+      "seed": 5,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 2.0043848616230067,
+      "error_deg": 0.25123406474716614
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.3997323852270673,
+      "error_deg": 0.015333197024398145
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.4008506560537367,
+      "error_deg": 0.04873900169636593
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.4003174680892041,
+      "error_deg": 0.01818958164147629
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.2003134734605656,
+      "error_deg": 0.017960706279772372
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.1983486207347465,
+      "error_deg": 0.0946170622744401
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.2000477566977061,
+      "error_deg": 0.002736257222046243
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 1.9995559915997154,
+      "error_deg": 0.025439807404661636
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 1.9988014141920594,
+      "error_deg": 0.06867390817927614
+    },
+    {
+      "seed": 5,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.9997666270968708,
+      "error_deg": 0.013371282402018105
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.40375496423521906,
+      "error_deg": 0.2151436029006198
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.40857688045462526,
+      "error_deg": 0.49141905143827275
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.41430769214811636,
+      "error_deg": 0.8197703746595327
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.2035154034487836,
+      "error_deg": 0.20141778090103715
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.2092644667672763,
+      "error_deg": 0.5308148452041429
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.2143272103282872,
+      "error_deg": 0.8208886840070998
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.00306755345982,
+      "error_deg": 0.1757578666784341
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.0091091292871797,
+      "error_deg": 0.5219146631944067
+    },
+    {
+      "seed": 6,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 2.014985660126123,
+      "error_deg": 0.8586150784443272
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.4010279136500495,
+      "error_deg": 0.05889511385172096
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.3985786155839478,
+      "error_deg": 0.08143932810545916
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.39765210112476246,
+      "error_deg": 0.13452469627462546
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.2007154001102067,
+      "error_deg": 0.04098940697804162
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.1992254098707995,
+      "error_deg": 0.04438074525567879
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.1976041121269703,
+      "error_deg": 0.13727426331117687
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.0002916104717765,
+      "error_deg": 0.016708049294612514
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 1.999125263455506,
+      "error_deg": 0.05011871218536968
+    },
+    {
+      "seed": 6,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.9984262870506067,
+      "error_deg": 0.09016711016532367
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.40158274449494635,
+      "error_deg": 0.09068457960798981
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.4122272248055439,
+      "error_deg": 0.7005683765153337
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.42170182814449275,
+      "error_deg": 1.24342316039766
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.2018012077896678,
+      "error_deg": 0.10320160437405596
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.2116372308472878,
+      "error_deg": 0.6667642127690449
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.2207212367971778,
+      "error_deg": 1.1872394147694705
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.002615367141134,
+      "error_deg": 0.14984949906417258
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.012686390709141,
+      "error_deg": 0.7268766448877597
+    },
+    {
+      "seed": 7,
+      "gentle": false,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 2.020627875693742,
+      "error_deg": 1.1818902175719195
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.4001002288010479,
+      "error_deg": 0.005742687285699623
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.4000246476591007,
+      "error_deg": 0.0014122068413445566
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.3995598346786634,
+      "error_deg": 0.0252196152006078
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.2003024250766827,
+      "error_deg": 0.01732768051284279
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.1994033629846823,
+      "error_deg": 0.034184782878983425
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.1986380775497882,
+      "error_deg": 0.07803240842124735
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.001071287094523,
+      "error_deg": 0.061380229162992704
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.000537854998985,
+      "error_deg": 0.030816821431851073
+    },
+    {
+      "seed": 7,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 1.9985219487637982,
+      "error_deg": 0.08468609773845802
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.4007172588340301,
+      "error_deg": 0.04109590400839715
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.3998009293927802,
+      "error_deg": 0.011405905618800952
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.39933700017830337,
+      "error_deg": 0.0379870916011443
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.1997730203602393,
+      "error_deg": 0.013004975393688202
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.1998288674986262,
+      "error_deg": 0.009805170066235165
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.2002070074778424,
+      "error_deg": 0.011860654808018203
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.0009242781254906,
+      "error_deg": 0.05295723568687233
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.0003201651509253,
+      "error_deg": 0.01834411189518617
+    },
+    {
+      "seed": 8,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 2.000854391140763,
+      "error_deg": 0.04895300641907628
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 0.65,
+      "angle": 0.3989597943635072,
+      "error_deg": 0.05959939279675803
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.25,
+      "angle": 0.40053432817877,
+      "error_deg": 0.030614749518431128
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 0.4,
+      "turns": 1.8,
+      "angle": 0.4003215342147098,
+      "error_deg": 0.018422553471922606
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 0.65,
+      "angle": 1.200277800344374,
+      "error_deg": 0.01591678727990924
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.25,
+      "angle": 1.2005209109593062,
+      "error_deg": 0.029845999470361196
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 1.2,
+      "turns": 1.8,
+      "angle": 1.2004543229958422,
+      "error_deg": 0.026030790197500514
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 0.65,
+      "angle": 2.000616571773768,
+      "error_deg": 0.03532696040379211
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.25,
+      "angle": 2.0005357920309987,
+      "error_deg": 0.03069862207297029
+    },
+    {
+      "seed": 9,
+      "gentle": true,
+      "theta": 2.0,
+      "turns": 1.8,
+      "angle": 2.0007893669663526,
+      "error_deg": 0.045227395659047355
+    }
+  ],
+  "hashes": {
+    "SETTLED_PROTOCOL.md": "4bd7f29cd9714bd6fa5a7b5d99b0fa8014d4fbe06832f6829afb24628697cadf",
+    "run_settled.py": "f8a89a32edcc7cd7811c4d143de836f3c2ec3918a4ca40267785ebe2325cba50",
+    "sync_calibration.py": "10bff6f1f42bd09f97a96dbd858b5dd2f3cba87b0bce46b7019101de771ac3d7"
+  }
+}
