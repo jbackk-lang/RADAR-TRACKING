@@ -1,0 +1,422 @@
+{
+  "protocol_sha256": "00b56060e9930b28c112abcd3a7b9974bc4dc1b13a142db28a9e16bf1f2a101f",
+  "scope": "Fixed-band real-radar amplitude forecast, not spin or position validation",
+  "runs": [
+    {
+      "name": "real_person_track_013",
+      "input_sha256": "33491d358168c36d26e91169790cc5fcbdd3e3cfc1a8ba0d5627f2e00a3140b1",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_013.npz",
+      "scored_samples": 100,
+      "bands": [
+        {
+          "band": 0,
+          "bin_start": 0,
+          "bin_stop_exclusive": 252,
+          "first_bin_hz": -16666.666666666668,
+          "last_bin_hz": -8366.402116402118,
+          "nmse_monitor": 0.5589150967271849,
+          "nmse_mean12": 0.5589150967271849,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 4.173189599998295,
+          "events": [
+            {
+              "sample": 100,
+              "time": 10.15,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 18.55,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 1,
+          "bin_start": 252,
+          "bin_stop_exclusive": 504,
+          "first_bin_hz": -8333.333333333334,
+          "last_bin_hz": -33.06878306878307,
+          "nmse_monitor": 0.7336665788439004,
+          "nmse_mean12": 0.7336665788439004,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 4.122217500000261,
+          "events": [
+            {
+              "sample": 100,
+              "time": 10.15,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 18.55,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 2,
+          "bin_start": 504,
+          "bin_stop_exclusive": 756,
+          "first_bin_hz": 0.0,
+          "last_bin_hz": 8300.26455026455,
+          "nmse_monitor": 0.23449418225412694,
+          "nmse_mean12": 0.23449418225412694,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 3.6437561999773607,
+          "events": [
+            {
+              "sample": 100,
+              "time": 10.15,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 18.55,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 3,
+          "bin_start": 756,
+          "bin_stop_exclusive": 1008,
+          "first_bin_hz": 8333.333333333334,
+          "last_bin_hz": 16633.597883597886,
+          "nmse_monitor": 0.4724149775529034,
+          "nmse_mean12": 0.4724149775529034,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 3.3368110000155866,
+          "events": [
+            {
+              "sample": 100,
+              "time": 10.15,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 18.55,
+              "status": "unreliable"
+            }
+          ]
+        }
+      ],
+      "nmse": {
+        "full_clock": 0.30893076409539505,
+        "full_mean12": 0.30893076409539505,
+        "bands_clock": 0.3224673807480375,
+        "bands_mean12": 0.3224673807480375
+      }
+    },
+    {
+      "name": "real_bicycle_track_014",
+      "input_sha256": "2c8ee59bd159736bfff606f4e37805491a1f12e491dc4bc44e876fd6687d1851",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_014.npz",
+      "scored_samples": 20,
+      "bands": [
+        {
+          "band": 0,
+          "bin_start": 0,
+          "bin_stop_exclusive": 252,
+          "first_bin_hz": -16666.666666666668,
+          "last_bin_hz": -8366.402116402118,
+          "nmse_monitor": 1.2195988499582886,
+          "nmse_mean12": 1.2195988499582886,
+          "scored_samples": 20,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 1.8906038000131957,
+          "events": [
+            {
+              "sample": 100,
+              "time": 7.198,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 1,
+          "bin_start": 252,
+          "bin_stop_exclusive": 504,
+          "first_bin_hz": -8333.333333333334,
+          "last_bin_hz": -33.06878306878307,
+          "nmse_monitor": 0.922248405880809,
+          "nmse_mean12": 0.922248405880809,
+          "scored_samples": 20,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 2.13254560000496,
+          "events": [
+            {
+              "sample": 100,
+              "time": 7.198,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 2,
+          "bin_start": 504,
+          "bin_stop_exclusive": 756,
+          "first_bin_hz": 0.0,
+          "last_bin_hz": 8300.26455026455,
+          "nmse_monitor": 0.9014929967566656,
+          "nmse_mean12": 0.9014929967566656,
+          "scored_samples": 20,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 1.305352800001856,
+          "events": [
+            {
+              "sample": 100,
+              "time": 7.198,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 3,
+          "bin_start": 756,
+          "bin_stop_exclusive": 1008,
+          "first_bin_hz": 8333.333333333334,
+          "last_bin_hz": 16633.597883597886,
+          "nmse_monitor": 1.1179123890142504,
+          "nmse_mean12": 1.1179123890142504,
+          "scored_samples": 20,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 1.9197996000293642,
+          "events": [
+            {
+              "sample": 100,
+              "time": 7.198,
+              "status": "unreliable"
+            }
+          ]
+        }
+      ],
+      "nmse": {
+        "full_clock": 0.9189741803705732,
+        "full_mean12": 0.9189741803705732,
+        "bands_clock": 0.8985420087407141,
+        "bands_mean12": 0.8985420087407141
+      }
+    },
+    {
+      "name": "real_vehicle_track_025",
+      "input_sha256": "296c3b4decf6c8183715e71bc6a4cef816a6356fe1cbc3ca36fa313e7ea6cbc0",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_025.npz",
+      "scored_samples": 60,
+      "bands": [
+        {
+          "band": 0,
+          "bin_start": 0,
+          "bin_stop_exclusive": 252,
+          "first_bin_hz": -16666.666666666668,
+          "last_bin_hz": -8366.402116402118,
+          "nmse_monitor": 1.0329554369884468,
+          "nmse_mean12": 1.0329554369884468,
+          "scored_samples": 60,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 1.5471022999845445,
+          "events": [
+            {
+              "sample": 100,
+              "time": 6.9,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 1,
+          "bin_start": 252,
+          "bin_stop_exclusive": 504,
+          "first_bin_hz": -8333.333333333334,
+          "last_bin_hz": -33.06878306878307,
+          "nmse_monitor": 1.1359332241106728,
+          "nmse_mean12": 1.1359332241106728,
+          "scored_samples": 60,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 2.02215089998208,
+          "events": [
+            {
+              "sample": 100,
+              "time": 6.9,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 2,
+          "bin_start": 504,
+          "bin_stop_exclusive": 756,
+          "first_bin_hz": 0.0,
+          "last_bin_hz": 8300.26455026455,
+          "nmse_monitor": 1.0536609175368041,
+          "nmse_mean12": 1.0536609175368041,
+          "scored_samples": 60,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 2.334615799947642,
+          "events": [
+            {
+              "sample": 100,
+              "time": 6.9,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 3,
+          "bin_start": 756,
+          "bin_stop_exclusive": 1008,
+          "first_bin_hz": 8333.333333333334,
+          "last_bin_hz": 16633.597883597886,
+          "nmse_monitor": 1.179504790499771,
+          "nmse_mean12": 1.179504790499771,
+          "scored_samples": 60,
+          "clock_fraction": 0.0,
+          "fit_calls": 1,
+          "seconds": 2.320998400042299,
+          "events": [
+            {
+              "sample": 100,
+              "time": 6.9,
+              "status": "unreliable"
+            }
+          ]
+        }
+      ],
+      "nmse": {
+        "full_clock": 1.0864755973458324,
+        "full_mean12": 1.0864755973458324,
+        "bands_clock": 1.0753174431062615,
+        "bands_mean12": 1.0753174431062615
+      }
+    },
+    {
+      "name": "real_uav_track_157",
+      "input_sha256": "3347eab3967e242914e6dde5a98e57e745d502769b94f26dc5ae213126120bd7",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_157.npz",
+      "scored_samples": 100,
+      "bands": [
+        {
+          "band": 0,
+          "bin_start": 0,
+          "bin_stop_exclusive": 252,
+          "first_bin_hz": -16666.666666666668,
+          "last_bin_hz": -8366.402116402118,
+          "nmse_monitor": 0.864654989233374,
+          "nmse_mean12": 0.864654989233374,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 10.140493599988986,
+          "events": [
+            {
+              "sample": 100,
+              "time": 113.051,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 230.453,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 1,
+          "bin_start": 252,
+          "bin_stop_exclusive": 504,
+          "first_bin_hz": -8333.333333333334,
+          "last_bin_hz": -33.06878306878307,
+          "nmse_monitor": 0.49211509888013366,
+          "nmse_mean12": 0.49211509888013366,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 8.476618400018197,
+          "events": [
+            {
+              "sample": 100,
+              "time": 113.051,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 230.453,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 2,
+          "bin_start": 504,
+          "bin_stop_exclusive": 756,
+          "first_bin_hz": 0.0,
+          "last_bin_hz": 8300.26455026455,
+          "nmse_monitor": 0.4470263687936483,
+          "nmse_mean12": 0.4470263687936483,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 8.300781099998858,
+          "events": [
+            {
+              "sample": 100,
+              "time": 113.051,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 230.453,
+              "status": "unreliable"
+            }
+          ]
+        },
+        {
+          "band": 3,
+          "bin_start": 756,
+          "bin_stop_exclusive": 1008,
+          "first_bin_hz": 8333.333333333334,
+          "last_bin_hz": 16633.597883597886,
+          "nmse_monitor": 0.6923225821682988,
+          "nmse_mean12": 0.6923225821682988,
+          "scored_samples": 100,
+          "clock_fraction": 0.0,
+          "fit_calls": 2,
+          "seconds": 10.270703200018033,
+          "events": [
+            {
+              "sample": 100,
+              "time": 113.051,
+              "status": "unreliable"
+            },
+            {
+              "sample": 180,
+              "time": 230.453,
+              "status": "unreliable"
+            }
+          ]
+        }
+      ],
+      "nmse": {
+        "full_clock": 0.45305277181718334,
+        "full_mean12": 0.45305277181718334,
+        "bands_clock": 0.45796615293370013,
+        "bands_mean12": 0.45796615293370013
+      }
+    }
+  ]
+}

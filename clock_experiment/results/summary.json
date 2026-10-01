@@ -1,0 +1,200 @@
+{
+  "scope": "Synthetic amplitude clock attached to original RADAR-TRACKING; no trajectory improvement measured",
+  "protocol_sha256": "807280442303a0a1c95e842cdc847101d21f22a748b31f95e1e065bb5570e24b",
+  "runs": [
+    {
+      "case": "accelerating",
+      "seed": 0,
+      "track_ids": [
+        1
+      ],
+      "train_samples": 300,
+      "test_samples": 100,
+      "clock_report": {
+        "status": "accepted_model",
+        "reasons": [],
+        "time_origin": 0.0,
+        "frequency_initial": 0.49929576796787006,
+        "frequency_drift": 0.010106593323081406,
+        "explained_variation": 0.9565937007402876,
+        "local_explained_variation": [
+          0.9653607338577367,
+          0.952669355042751,
+          0.9653971145757997,
+          0.9547830652397565,
+          0.9367512456342293,
+          0.9486810101726161
+        ],
+        "harmonics": 2,
+        "frequency_bounds": [
+          0.3,
+          0.85
+        ],
+        "drift_bounds": [
+          -0.015,
+          0.025
+        ],
+        "photometric_period_canonicalized": false,
+        "physical_rotation_identified": false,
+        "scope": "offline amplitude periodicity, not translational velocity",
+        "warning": "Photometric periodicity is not uniquely the physical rotation. Bounds are prior information.",
+        "track_id": 1,
+        "samples": 300,
+        "used_for_trajectory": false,
+        "units": "seconds, cycles/second"
+      },
+      "clock_fit_seconds": 3.4519552999990992,
+      "constant_fit_seconds": 0.1788312999997288,
+      "constant_frequency_hz": 0.5734554334554334,
+      "clock_test_mae_hz": 0.0011584862887176327,
+      "constant_test_mae_hz": 0.10129456654456663
+    },
+    {
+      "case": "accelerating",
+      "seed": 1,
+      "track_ids": [
+        1
+      ],
+      "train_samples": 300,
+      "test_samples": 100,
+      "clock_report": {
+        "status": "accepted_model",
+        "reasons": [],
+        "time_origin": 0.0,
+        "frequency_initial": 0.4988656275325499,
+        "frequency_drift": 0.01007550655728253,
+        "explained_variation": 0.964160809655224,
+        "local_explained_variation": [
+          0.9654579491193418,
+          0.9711425341704727,
+          0.9643235807776491,
+          0.9480944171259295,
+          0.9647783896990232,
+          0.9558268202371083
+        ],
+        "harmonics": 2,
+        "frequency_bounds": [
+          0.3,
+          0.85
+        ],
+        "drift_bounds": [
+          -0.015,
+          0.025
+        ],
+        "photometric_period_canonicalized": false,
+        "physical_rotation_identified": false,
+        "scope": "offline amplitude periodicity, not translational velocity",
+        "warning": "Photometric periodicity is not uniquely the physical rotation. Bounds are prior information.",
+        "track_id": 1,
+        "samples": 300,
+        "used_for_trajectory": false,
+        "units": "seconds, cycles/second"
+      },
+      "clock_fit_seconds": 2.9895499999984168,
+      "constant_fit_seconds": 0.16840199998114258,
+      "constant_frequency_hz": 0.5734554334554334,
+      "clock_test_mae_hz": 0.00018514010322639218,
+      "constant_test_mae_hz": 0.10129456654456663
+    },
+    {
+      "case": "noise",
+      "seed": 0,
+      "track_ids": [
+        1
+      ],
+      "train_samples": 300,
+      "test_samples": 100,
+      "clock_report": {
+        "status": "unreliable",
+        "reasons": [
+          "low_explained_variation",
+          "local_signal_loss_or_model_mismatch"
+        ],
+        "time_origin": 0.0,
+        "frequency_initial": 0.3832865657552841,
+        "frequency_drift": 0.020014041959679645,
+        "explained_variation": 0.04886980961155185,
+        "local_explained_variation": [
+          0.033545181324845186,
+          -0.06738046846553414,
+          0.03300054210749459,
+          0.053058625628529144,
+          0.1681317792671556,
+          -0.02894873125278208
+        ],
+        "harmonics": 2,
+        "frequency_bounds": [
+          0.3,
+          0.85
+        ],
+        "drift_bounds": [
+          -0.015,
+          0.025
+        ],
+        "photometric_period_canonicalized": false,
+        "physical_rotation_identified": false,
+        "scope": "offline amplitude periodicity, not translational velocity",
+        "warning": "Photometric periodicity is not uniquely the physical rotation. Bounds are prior information.",
+        "track_id": 1,
+        "samples": 300,
+        "used_for_trajectory": false,
+        "units": "seconds, cycles/second"
+      },
+      "clock_fit_seconds": 2.9523673000512645,
+      "constant_fit_seconds": 0.15147599996998906,
+      "constant_frequency_hz": 0.32054945054945055,
+      "clock_test_mae_hz": null,
+      "constant_test_mae_hz": null
+    },
+    {
+      "case": "noise",
+      "seed": 1,
+      "track_ids": [
+        1
+      ],
+      "train_samples": 300,
+      "test_samples": 100,
+      "clock_report": {
+        "status": "unreliable",
+        "reasons": [
+          "low_explained_variation",
+          "local_signal_loss_or_model_mismatch"
+        ],
+        "time_origin": 0.0,
+        "frequency_initial": 0.7138384426231551,
+        "frequency_drift": 0.015748144719323752,
+        "explained_variation": 0.05449266481159465,
+        "local_explained_variation": [
+          0.07948026789777796,
+          0.07447989723785486,
+          -0.00766931968773199,
+          0.060089192683275616,
+          0.08451780223394889,
+          -0.03701610815988987
+        ],
+        "harmonics": 2,
+        "frequency_bounds": [
+          0.3,
+          0.85
+        ],
+        "drift_bounds": [
+          -0.015,
+          0.025
+        ],
+        "photometric_period_canonicalized": false,
+        "physical_rotation_identified": false,
+        "scope": "offline amplitude periodicity, not translational velocity",
+        "warning": "Photometric periodicity is not uniquely the physical rotation. Bounds are prior information.",
+        "track_id": 1,
+        "samples": 300,
+        "used_for_trajectory": false,
+        "units": "seconds, cycles/second"
+      },
+      "clock_fit_seconds": 2.6424313000170514,
+      "constant_fit_seconds": 0.1888411000254564,
+      "constant_frequency_hz": 0.6955433455433455,
+      "clock_test_mae_hz": null,
+      "constant_test_mae_hz": null
+    }
+  ]
+}

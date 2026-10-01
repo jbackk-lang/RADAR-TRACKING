@@ -1,5 +1,42 @@
 # RADAR-TRACKING
 
+## Najnowsze eksperymenty radarowe
+
+Kod i wyniki znajdują się w [outputs/angle_frequency](outputs/angle_frequency). To osobne eksperymenty syntetyczne; główny tracker i demo nie korzystają jeszcze z tych modułów.
+
+- [Pomiar kąta z obrotu anteny i fazy w paśmie](outputs/angle_frequency/WYNIK.md).
+- [Połączenie pomiaru kąta z torem R/v oraz bliskie cele](outputs/angle_frequency/WYNIK_INTEGRACJI.md).
+- [Koherentne nakładanie ech i dwa kanały odbiorcze](outputs/angle_frequency/WYNIK_STEREO.md).
+- [Wspólne dopasowanie kilku skanów i kontrola pojawiania/zaniku celów](outputs/angle_frequency/WYNIK_MULTISCAN.md).
+- [Bieżący detektor i odporny filtr impulsowych zakłóceń I/Q](outputs/angle_frequency/WYNIK_ROBUST.md).
+- [Selektor fazowy słabego echa i fałszywe alarmy](outputs/angle_frequency/WYNIK_SELECTOR.md).
+
+Filtr impulsów poprawił wyniki syntetyczne, ale słabe, bliskie cele nadal bywają pomijane. Selektor fazowy pomagał głównie przy różnicy odległości; próg ustalony przed oceną nie utrzymał zakładanych 5% fałszywych alarmów. Nie wykazano gotowości do pracy na rzeczywistym radarze.
+
+## Opcjonalny zegar amplitudy — pilot integracji
+
+[Czterostanowa pamięć i adaptacja kalibracji](clock_experiment/ONLINE_WYNIK.md): wykorzystują kolejne zwykłe obserwacje reflektora, bez dodatkowej emisji. Nowe propozycje nie potwierdzają się danymi, z których powstały. W badanej symulacji główną poprawę daje pamięć decyzji; uczenie parametrów nie wygrywa we wszystkich metrykach.
+
+[Kontroler aktualności kalibracji z drugim reflektorem](clock_experiment/GUARD_WYNIK.md) porównuje brak kompensacji, kompensację stałą i warunkową w syntetycznej sekwencji dryfu oraz zakłóceń. Nie używa prawdy śledzonych celów do przełączania.
+
+[Kalibracja z osobnego reflektora i jej starzenie](clock_experiment/CALIBRATION_WYNIK.md): 600 syntetycznych ocen, poprawki szacowane z pomiaru i zamrożone przed innymi celami. Test bada granice przydatności kompensacji przy szumie i dryfie; nie jest walidacją sprzętową.
+
+[Nowy kierunek: kompensacja znanego stanu aparatury](clock_experiment/COMPENSATION_WYNIK.md) zamiast poszukiwania rytmu obiektu. Kontrolowany test impulsowego I/Q wykazał usunięcie zadanych błędów triggera, kierunku i fazy bez usunięcia ruchu celu. To test syntetyczny z idealną kalibracją; brak jeszcze odpowiednich rzeczywistych danych i pełnego modelu skanowania.
+
+[Hipotezę stałego modu z błysków](clock_experiment/MODE_WYNIK.md) sprawdzono przez przeniesienie częstości i fazy na późniejsze fragmenty czterech śladów. Nie uzyskano potwierdzenia względem losowej kontroli; nie utożsamiamy tego testu z ogólnym odrzuceniem modów fizycznych.
+
+Dodano też [wykrywanie błysków bez zegara](clock_experiment/FLASH_WYNIK.md): lokalne zdarzenia w polu czas–Doppler, mapy czterech rzeczywistych śladów i kontrolę po przetasowaniu. Nie utożsamiamy wykrytych zdarzeń z łopatami ani RPM.
+
+Najnowsza kontrola: [zegary w czterech stałych pasmach rzeczywistego widma](clock_experiment/BANDS_WYNIK.md), z oceną wspólnej amplitudy całego echa i oddzielną kontrolą bez zegara.
+
+Dodano [przełącznik jakości prognozy sygnału](clock_experiment/SIGNAL_WYNIK.md), który nigdy sam nie odrzuca pozycji. Test obejmuje syntetykę i cztery prawdziwe ślady Open Radar. Na prawdziwych śladach zegar nie uzyskał akceptacji i pozostała prosta prognoza średnią; nie wykazano przewagi na tych nagraniach.
+
+Najnowszy pilot: [miękkie ważenie pomiaru — geometria kontra geometria z amplitudą](clock_experiment/SOFT_WYNIK.md). Sprawdza, czy zamiast odrzucać pozycję na podstawie samej amplitudy lepiej zmniejszać jej wagę dopiero przy niezgodności z predykcją. Wyniki są syntetyczne, a próg ręczny.
+
+Dodano także [syntetyczny test przełączania zegar/sito → standard](clock_experiment/ADAPTIVE_WYNIK.md): trzy warianty i kontrole niezależnych zakłóceń amplitudy oraz pozycji. To opcjonalne sito amplitudy przed trackerem; geometryczne TRM nadal działa. Przykład dotyczy jednego obiektu, a nie asocjacji amplitud wielu obiektów.
+
+Dodano [bank zegarów przypisanych do ID torów](clock_experiment/README.md) i [wyniki małego testu syntetycznego](clock_experiment/WYNIK.md). Zegar z astronomii otrzymuje osobny kanał amplitudy, ponieważ pozycje `x,y,t` nie wystarczają do pomiaru okresowości echa. Dwa sygnały przyspieszające zaakceptowano, dwie kontrole szumowe odrzucono. To diagnostyka offline; nie wykazano jeszcze poprawy śledzenia pozycji lub prędkości. Wyniki z TIMDR-Radar-Module nie są wynikami tego repozytorium.
+
 Lekki, geometryczny tracker wielu obiektów zbudowany na filtrach już
 zdefiniowanych w tym ekosystemie: **TRM** (spójność przestrzenno-czasowa),
 **GIA** (dominujący kierunek) i **TIMDR** (wykrywanie zmiany/manewru),

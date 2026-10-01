@@ -1,0 +1,66 @@
+{
+  "protocol_sha256": "d38b911ebc916995b324b67b86fd604552af41c9d0fd30338057da19996bfb44",
+  "flash_source_sha256": "64d07b12b11b1a4eda27b459dc7886c99aa9f39b294680238c3ef4e755778651",
+  "runs": [
+    {
+      "name": "real_person_track_013",
+      "train_events": 17,
+      "test_events": 16,
+      "train_chunks": 3,
+      "test_chunks": 2,
+      "source_sha256": "33491d358168c36d26e91169790cc5fcbdd3e3cfc1a8ba0d5627f2e00a3140b1",
+      "frequency_hz": 1.7942857142857145,
+      "phase_rad": 2.6600269735600794,
+      "train_concentration": 0.6298371276292457,
+      "heldout_phase_score": 0.1901343715078211,
+      "p_raw": 0.141,
+      "p_bonferroni": 0.564,
+      "status": "not_supported"
+    },
+    {
+      "name": "real_bicycle_track_014",
+      "train_events": 9,
+      "test_events": 6,
+      "train_chunks": 2,
+      "test_chunks": 1,
+      "source_sha256": "2c8ee59bd159736bfff606f4e37805491a1f12e491dc4bc44e876fd6687d1851",
+      "frequency_hz": 0.1,
+      "phase_rad": 1.2380800987267766,
+      "train_concentration": 0.6639743896312691,
+      "heldout_phase_score": -0.3033732711551786,
+      "p_raw": 0.443,
+      "p_bonferroni": 1.0,
+      "status": "not_supported"
+    },
+    {
+      "name": "real_vehicle_track_025",
+      "train_events": 21,
+      "test_events": 9,
+      "train_chunks": 2,
+      "test_chunks": 2,
+      "source_sha256": "296c3b4decf6c8183715e71bc6a4cef816a6356fe1cbc3ca36fa313e7ea6cbc0",
+      "frequency_hz": 0.1,
+      "phase_rad": 0.8522011868851395,
+      "train_concentration": 0.8115453692736875,
+      "heldout_phase_score": -0.44050970230377345,
+      "p_raw": 0.953,
+      "p_bonferroni": 1.0,
+      "status": "not_supported"
+    },
+    {
+      "name": "real_uav_track_157",
+      "train_events": 8,
+      "test_events": 10,
+      "train_chunks": 3,
+      "test_chunks": 2,
+      "source_sha256": "3347eab3967e242914e6dde5a98e57e745d502769b94f26dc5ae213126120bd7",
+      "frequency_hz": 0.2619047619047619,
+      "phase_rad": -2.446599878406593,
+      "train_concentration": 0.8210740091266793,
+      "heldout_phase_score": 0.3553718967798465,
+      "p_raw": 0.236,
+      "p_bonferroni": 0.944,
+      "status": "not_supported"
+    }
+  ]
+}

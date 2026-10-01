@@ -1,0 +1,237 @@
+{
+  "scope": "Exploratory synthetic soft fusion; cached amplitude decisions, no new clock timing",
+  "protocol_sha256": "b0e47584ea916d892e71d0d68b4d560bc3dc769c593d42d7c92d433a90332896",
+  "code_sha256": {
+    "soft_fusion.py": "ca1ac9b6a191fa6cdab15cacea04085461679f9e1ec69ed85d14aa85e750ff61",
+    "run_soft_fusion.py": "ee47c87a96870a50c145c7e7ae47e9c2324fb44617bfc86304c54623520b17d4",
+    "run_adaptive.py": "c22df1eb47fb42fd055cfdf649b5f172bffc299a4205e94a8520cdb0564eac95"
+  },
+  "inputs": [
+    {
+      "name": "clean_0_adaptive.npz",
+      "sha256": "53719905482478b60c38f25ad1975ce694a2dfeeea4cf56fff2c8e8b8644a661"
+    },
+    {
+      "name": "clean_1_adaptive.npz",
+      "sha256": "6a6019690acaf1f5d7df68df14879a2aaf091b24e62ab3921f2d5dbcc0fedfcc"
+    },
+    {
+      "name": "correlated_0_adaptive.npz",
+      "sha256": "1b16ebc81ecd5de6baa1e080522b8d147aac1c8403ab06c06731717d522246e4"
+    },
+    {
+      "name": "correlated_1_adaptive.npz",
+      "sha256": "3069bb38a80d8ebc2720897355ec04c49936b14153d66e80c655aac15936f8fc"
+    },
+    {
+      "name": "amplitude_only_0_adaptive.npz",
+      "sha256": "bc258dee7df34bb41b483c1227c785685a3ab5b30784d82298fe8838f38712b7"
+    },
+    {
+      "name": "amplitude_only_1_adaptive.npz",
+      "sha256": "08f27dd1f6e79c58af77a240dabe5c018ac11d6413b795ee88e5f18c0de3c4ca"
+    },
+    {
+      "name": "position_only_0_adaptive.npz",
+      "sha256": "d1715c378db7744da7a169779e19c8c771e73adf93b6c68b3585c1d529165314"
+    },
+    {
+      "name": "position_only_1_adaptive.npz",
+      "sha256": "23e969f887db119930ab54a788294beed4c313c1270647c1bbbe145108b5dda4"
+    }
+  ],
+  "runs": [
+    {
+      "case": "clean",
+      "seed": 0,
+      "mode": "geometry",
+      "rmse_m": 0.015272815415106476,
+      "seconds_excluding_clock": 1.272444300004281,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "clean",
+      "seed": 0,
+      "mode": "hybrid",
+      "rmse_m": 0.015272815415106476,
+      "seconds_excluding_clock": 1.5397244000341743,
+      "historical_clock_fit_seconds": 5.985214100044686,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "clean",
+      "seed": 1,
+      "mode": "geometry",
+      "rmse_m": 0.013662963110391857,
+      "seconds_excluding_clock": 1.704674899985548,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "clean",
+      "seed": 1,
+      "mode": "hybrid",
+      "rmse_m": 0.013662963110391857,
+      "seconds_excluding_clock": 1.4824268999509513,
+      "historical_clock_fit_seconds": 5.698863299970981,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "correlated",
+      "seed": 0,
+      "mode": "geometry",
+      "rmse_m": 0.18902239295823375,
+      "seconds_excluding_clock": 1.5416190999676473,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 19,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "correlated",
+      "seed": 0,
+      "mode": "hybrid",
+      "rmse_m": 0.14080017245891321,
+      "seconds_excluding_clock": 1.4198067999677733,
+      "historical_clock_fit_seconds": 10.370927400013898,
+      "weighted_frames": 46,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "correlated",
+      "seed": 1,
+      "mode": "geometry",
+      "rmse_m": 0.18942964710836496,
+      "seconds_excluding_clock": 1.4648998000193387,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 19,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "correlated",
+      "seed": 1,
+      "mode": "hybrid",
+      "rmse_m": 0.1480469580843388,
+      "seconds_excluding_clock": 2.521036999998614,
+      "historical_clock_fit_seconds": 9.284502800030168,
+      "weighted_frames": 41,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 0,
+      "mode": "geometry",
+      "rmse_m": 0.015272815415106476,
+      "seconds_excluding_clock": 2.283988600014709,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 0,
+      "mode": "hybrid",
+      "rmse_m": 0.015272815415106476,
+      "seconds_excluding_clock": 1.8947397000156343,
+      "historical_clock_fit_seconds": 11.815267599944491,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 1,
+      "mode": "geometry",
+      "rmse_m": 0.013662963110391857,
+      "seconds_excluding_clock": 1.5725474000209942,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 1,
+      "mode": "hybrid",
+      "rmse_m": 0.013662963110391857,
+      "seconds_excluding_clock": 1.5877373999683186,
+      "historical_clock_fit_seconds": 7.6967297999653965,
+      "weighted_frames": 0,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 0,
+      "mode": "geometry",
+      "rmse_m": 0.18902239295823375,
+      "seconds_excluding_clock": 1.5543626999715343,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 19,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 0,
+      "mode": "hybrid",
+      "rmse_m": 0.18902239295823375,
+      "seconds_excluding_clock": 1.6692745999898762,
+      "historical_clock_fit_seconds": 5.86252029996831,
+      "weighted_frames": 19,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 1,
+      "mode": "geometry",
+      "rmse_m": 0.18942964710836496,
+      "seconds_excluding_clock": 1.6220127999549732,
+      "historical_clock_fit_seconds": 0.0,
+      "weighted_frames": 19,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 1,
+      "mode": "hybrid",
+      "rmse_m": 0.18942964710836496,
+      "seconds_excluding_clock": 1.505942599964328,
+      "historical_clock_fit_seconds": 4.434238999965601,
+      "weighted_frames": 19,
+      "track_ids": [
+        1
+      ]
+    }
+  ]
+}

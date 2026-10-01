@@ -1,0 +1,817 @@
+{
+  "scope": "Synthetic single-target amplitude-position correlation hypothesis, not real-radar validation",
+  "protocol_sha256": "e2060512992f7f111140cdc7eadb55c3923fa36fc48db09f03b60c28ab7d0109",
+  "code_sha256": {
+    "adaptive.py": "ae6a49cad9836912215f0bb8b28de95a9759803f72766d757cf4be8c92d902c2",
+    "run_adaptive.py": "c22df1eb47fb42fd055cfdf649b5f172bffc299a4205e94a8520cdb0564eac95",
+    "astronomy_clock.py": "db76c9a2f87aa8715d72b9c0617f15a62ce3ada4bb7b4f06fa97df71415eaba4"
+  },
+  "summary": {
+    "clean": {
+      "standard": {
+        "rmse_m": 0.014467889262749167,
+        "seconds": 2.778266400011489,
+        "fit_calls": 0.0,
+        "rejected_frames": 0.0
+      },
+      "always": {
+        "rmse_m": 0.014745957409964086,
+        "seconds": 11.044340149994241,
+        "fit_calls": 5.0,
+        "rejected_frames": 6.0
+      },
+      "adaptive": {
+        "rmse_m": 0.014689133716191637,
+        "seconds": 8.35396869998658,
+        "fit_calls": 3.0,
+        "rejected_frames": 7.5
+      }
+    },
+    "correlated": {
+      "standard": {
+        "rmse_m": 0.20008877196180905,
+        "seconds": 2.8784992499859072,
+        "fit_calls": 0.0,
+        "rejected_frames": 0.0
+      },
+      "always": {
+        "rmse_m": 0.02369678703412248,
+        "seconds": 13.564625350001734,
+        "fit_calls": 5.0,
+        "rejected_frames": 95.5
+      },
+      "adaptive": {
+        "rmse_m": 0.03291375994097118,
+        "seconds": 11.746198799984995,
+        "fit_calls": 5.0,
+        "rejected_frames": 163.0
+      }
+    },
+    "amplitude_only": {
+      "standard": {
+        "rmse_m": 0.014467889262749167,
+        "seconds": 2.027395599987358,
+        "fit_calls": 0.0,
+        "rejected_frames": 0.0
+      },
+      "always": {
+        "rmse_m": 0.02369678703412248,
+        "seconds": 12.799211799982004,
+        "fit_calls": 5.0,
+        "rejected_frames": 95.5
+      },
+      "adaptive": {
+        "rmse_m": 0.03291375994097118,
+        "seconds": 11.308280750003178,
+        "fit_calls": 5.0,
+        "rejected_frames": 163.0
+      }
+    },
+    "position_only": {
+      "standard": {
+        "rmse_m": 0.20008877196180905,
+        "seconds": 2.2422983500000555,
+        "fit_calls": 0.0,
+        "rejected_frames": 0.0
+      },
+      "always": {
+        "rmse_m": 0.20010815278372163,
+        "seconds": 11.902665700006764,
+        "fit_calls": 5.0,
+        "rejected_frames": 6.0
+      },
+      "adaptive": {
+        "rmse_m": 0.20010397868895557,
+        "seconds": 7.622289249993628,
+        "fit_calls": 3.0,
+        "rejected_frames": 7.5
+      }
+    }
+  },
+  "runs": [
+    {
+      "case": "clean",
+      "seed": 0,
+      "mode": "standard",
+      "rmse_m": 0.015272815415106476,
+      "seconds": 2.155359300028067,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 0,
+      "events": []
+    },
+    {
+      "case": "clean",
+      "seed": 0,
+      "mode": "always",
+      "rmse_m": 0.015272815415106476,
+      "seconds": 12.527780900010839,
+      "clock_fit_seconds": 9.624979999964125,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 0,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "clean",
+      "seed": 0,
+      "mode": "adaptive",
+      "rmse_m": 0.015256403522787478,
+      "seconds": 8.294789899955504,
+      "clock_fit_seconds": 5.985214100044686,
+      "fit_calls": 3,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 2,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 273,
+          "time": 13.6,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 380,
+          "time": 18.95,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "clean",
+      "seed": 1,
+      "mode": "always",
+      "rmse_m": 0.014219099404821696,
+      "seconds": 9.560899399977643,
+      "clock_fit_seconds": 7.638149500009604,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 12,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "clean",
+      "seed": 1,
+      "mode": "adaptive",
+      "rmse_m": 0.014121863909595798,
+      "seconds": 8.413147500017658,
+      "clock_fit_seconds": 5.698863299970981,
+      "fit_calls": 3,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 13,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 273,
+          "time": 13.6,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "clean",
+      "seed": 1,
+      "mode": "standard",
+      "rmse_m": 0.013662963110391857,
+      "seconds": 3.4011734999949113,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 0,
+      "events": []
+    },
+    {
+      "case": "correlated",
+      "seed": 0,
+      "mode": "always",
+      "rmse_m": 0.018154843831155225,
+      "seconds": 12.387087200011592,
+      "clock_fit_seconds": 10.372584799944889,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 64,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "correlated",
+      "seed": 0,
+      "mode": "adaptive",
+      "rmse_m": 0.03658878964485261,
+      "seconds": 12.2786396999727,
+      "clock_fit_seconds": 10.370927400013898,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 199,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 181,
+          "time": 9.0,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 261,
+          "time": 13.0,
+          "status": "unreliable"
+        },
+        {
+          "sample": 341,
+          "time": 17.0,
+          "status": "unreliable"
+        },
+        {
+          "sample": 421,
+          "time": 21.0,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "correlated",
+      "seed": 0,
+      "mode": "standard",
+      "rmse_m": 0.20017668052929882,
+      "seconds": 2.775337299972307,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1,
+        2
+      ],
+      "rejected_frames": 0,
+      "events": []
+    },
+    {
+      "case": "correlated",
+      "seed": 1,
+      "mode": "adaptive",
+      "rmse_m": 0.029238730237089734,
+      "seconds": 11.21375789999729,
+      "clock_fit_seconds": 9.284502800030168,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 127,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 273,
+          "time": 13.6,
+          "status": "unreliable"
+        },
+        {
+          "sample": 353,
+          "time": 17.6,
+          "status": "unreliable"
+        },
+        {
+          "sample": 433,
+          "time": 21.6,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "correlated",
+      "seed": 1,
+      "mode": "standard",
+      "rmse_m": 0.20000086339431927,
+      "seconds": 2.9816611999995075,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1,
+        2,
+        3
+      ],
+      "rejected_frames": 0,
+      "events": []
+    },
+    {
+      "case": "correlated",
+      "seed": 1,
+      "mode": "always",
+      "rmse_m": 0.029238730237089734,
+      "seconds": 14.742163499991875,
+      "clock_fit_seconds": 12.739888200012501,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 127,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 0,
+      "mode": "adaptive",
+      "rmse_m": 0.03658878964485261,
+      "seconds": 13.254589300020598,
+      "clock_fit_seconds": 11.815267599944491,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 199,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 181,
+          "time": 9.0,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 261,
+          "time": 13.0,
+          "status": "unreliable"
+        },
+        {
+          "sample": 341,
+          "time": 17.0,
+          "status": "unreliable"
+        },
+        {
+          "sample": 421,
+          "time": 21.0,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 0,
+      "mode": "standard",
+      "rmse_m": 0.015272815415106476,
+      "seconds": 2.09101340000052,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 0,
+      "events": []
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 0,
+      "mode": "always",
+      "rmse_m": 0.018154843831155225,
+      "seconds": 10.591207099962048,
+      "clock_fit_seconds": 8.837634700001217,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 64,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 1,
+      "mode": "standard",
+      "rmse_m": 0.013662963110391857,
+      "seconds": 1.9637777999741957,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 0,
+      "events": []
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 1,
+      "mode": "always",
+      "rmse_m": 0.029238730237089734,
+      "seconds": 15.00721650000196,
+      "clock_fit_seconds": 12.470935799938161,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 127,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "amplitude_only",
+      "seed": 1,
+      "mode": "adaptive",
+      "rmse_m": 0.029238730237089734,
+      "seconds": 9.361972199985757,
+      "clock_fit_seconds": 7.6967297999653965,
+      "fit_calls": 5,
+      "track_ids": [
+        1
+      ],
+      "rejected_frames": 127,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 273,
+          "time": 13.6,
+          "status": "unreliable"
+        },
+        {
+          "sample": 353,
+          "time": 17.6,
+          "status": "unreliable"
+        },
+        {
+          "sample": 433,
+          "time": 21.6,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 0,
+      "mode": "standard",
+      "rmse_m": 0.20017668052929882,
+      "seconds": 2.189183700014837,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1,
+        2
+      ],
+      "rejected_frames": 0,
+      "events": []
+    },
+    {
+      "case": "position_only",
+      "seed": 0,
+      "mode": "always",
+      "rmse_m": 0.20017668052929882,
+      "seconds": 10.783611699996982,
+      "clock_fit_seconds": 8.548140100028832,
+      "fit_calls": 5,
+      "track_ids": [
+        1,
+        2
+      ],
+      "rejected_frames": 0,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 0,
+      "mode": "adaptive",
+      "rmse_m": 0.20017537987839917,
+      "seconds": 8.433181900007185,
+      "clock_fit_seconds": 5.86252029996831,
+      "fit_calls": 3,
+      "track_ids": [
+        1,
+        2
+      ],
+      "rejected_frames": 2,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 273,
+          "time": 13.6,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 380,
+          "time": 18.95,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 1,
+      "mode": "always",
+      "rmse_m": 0.20003962503814446,
+      "seconds": 13.021719700016547,
+      "clock_fit_seconds": 10.22225170006277,
+      "fit_calls": 5,
+      "track_ids": [
+        1,
+        2,
+        3
+      ],
+      "rejected_frames": 12,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 1,
+      "mode": "adaptive",
+      "rmse_m": 0.20003257749951198,
+      "seconds": 6.811396599980071,
+      "clock_fit_seconds": 4.434238999965601,
+      "fit_calls": 3,
+      "track_ids": [
+        1,
+        2,
+        3
+      ],
+      "rejected_frames": 13,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 273,
+          "time": 13.6,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "case": "position_only",
+      "seed": 1,
+      "mode": "standard",
+      "rmse_m": 0.20000086339431927,
+      "seconds": 2.295412999985274,
+      "clock_fit_seconds": 0.0,
+      "fit_calls": 0,
+      "track_ids": [
+        1,
+        2,
+        3
+      ],
+      "rejected_frames": 0,
+      "events": []
+    }
+  ]
+}

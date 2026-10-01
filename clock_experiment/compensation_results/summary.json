@@ -1,0 +1,825 @@
+{
+  "protocol_sha256": "6ffdfa7c1770df2dc67b3e48f204a47e80eb84a3177aa7c600fb124388f62b77",
+  "source_sha256": "e6896fba7613d0db363dd8410601606beb9bc851cad700a0e977ffe719bbf7b5",
+  "metrics_mae": {
+    "raw": {
+      "range_m": 21.654266350000057,
+      "bearing_rad": 0.025000000000000015,
+      "radial_velocity_m_s": 0.698067735175721
+    },
+    "corrected": {
+      "range_m": 0.8301679999999578,
+      "bearing_rad": 1.0177044392397268e-16,
+      "radial_velocity_m_s": 0.011714609408784596
+    }
+  },
+  "alias_demo": {
+    "true_speed_m_s": 2.0,
+    "scan_interval_s": 1.0,
+    "unambiguous_speed_m_s": 0.0009733521363636363,
+    "apparent_pair_phase_speed_m_s": 0.0007347119090909162
+  },
+  "real_data_audit": [
+    {
+      "file": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_013.npz",
+      "fields": [
+        "spec",
+        "frames",
+        "chunk_starts",
+        "ts",
+        "velocity",
+        "range",
+        "snr_db",
+        "n_frames",
+        "cls",
+        "prf",
+        "bw",
+        "fc"
+      ],
+      "spectrum_shape": [
+        200,
+        1008
+      ],
+      "missing_for_this_test": [
+        "per-pulse I/Q",
+        "encoder orientation per pulse",
+        "trigger calibration",
+        "instrument phase calibration"
+      ]
+    },
+    {
+      "file": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_014.npz",
+      "fields": [
+        "spec",
+        "frames",
+        "chunk_starts",
+        "ts",
+        "velocity",
+        "range",
+        "snr_db",
+        "n_frames",
+        "cls",
+        "prf",
+        "bw",
+        "fc"
+      ],
+      "spectrum_shape": [
+        120,
+        1008
+      ],
+      "missing_for_this_test": [
+        "per-pulse I/Q",
+        "encoder orientation per pulse",
+        "trigger calibration",
+        "instrument phase calibration"
+      ]
+    },
+    {
+      "file": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_025.npz",
+      "fields": [
+        "spec",
+        "frames",
+        "chunk_starts",
+        "ts",
+        "velocity",
+        "range",
+        "snr_db",
+        "n_frames",
+        "cls",
+        "prf",
+        "bw",
+        "fc"
+      ],
+      "spectrum_shape": [
+        160,
+        1008
+      ],
+      "missing_for_this_test": [
+        "per-pulse I/Q",
+        "encoder orientation per pulse",
+        "trigger calibration",
+        "instrument phase calibration"
+      ]
+    },
+    {
+      "file": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_157.npz",
+      "fields": [
+        "spec",
+        "frames",
+        "chunk_starts",
+        "ts",
+        "velocity",
+        "range",
+        "snr_db",
+        "n_frames",
+        "cls",
+        "prf",
+        "bw",
+        "fc"
+      ],
+      "spectrum_shape": [
+        200,
+        1008
+      ],
+      "missing_for_this_test": [
+        "per-pulse I/Q",
+        "encoder orientation per pulse",
+        "trigger calibration",
+        "instrument phase calibration"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.6939194848899091,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": -0.006080515110091044,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 0,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.6829571174689579,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": -0.017042882531042244,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 0,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.7145188004994445,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 2.0145188004994443,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 1,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.7035582840141497,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": 0.0035582840141495467,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 1,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.7072678801773875,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": 0.007267880177387564,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 1,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.6687080255395266,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 1.968708025539526,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 2,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.6866605357848543,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": -0.013339464215146021,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 2,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.6899832668062446,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": -0.010016733193755352,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 2,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.7009019819275943,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 2.0009019819275946,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 3,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.6865430720561767,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": -0.013456927943823084,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 3,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.6836900011673824,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": -0.016309998832617505,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 3,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.7012819913147896,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 2.0012819913147895,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 4,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.719534601868179,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": 0.019534601868179163,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 4,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.7075335483445943,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": 0.007533548344594094,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 4,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.7083574396767087,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 2.0083574396767085,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 5,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.6939675490700349,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": -0.0060324509299648985,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 5,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.7189651031360844,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": 0.018965103136083985,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 5,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.6858550362613407,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 1.9858550362613407,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 6,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.6859006632662943,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": -0.014099336733705479,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 6,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.6998290148792683,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": -0.00017098512073160033,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 6,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.692119857653473,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 1.9921198576534724,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 7,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.720001952467313,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": 0.02000195246731329,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 7,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.6940931945271765,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": -0.005906805472823364,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 7,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.6961183586728708,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 1.9961183586728706,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 8,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.7030217453038284,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": 0.0030217453038286273,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 8,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.6834158987757227,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": -0.016584101224277115,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 8,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.6715358096848103,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 1.9715358096848108,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 9,
+      "target": 0,
+      "truth": {
+        "range_m": 600.0,
+        "bearing_rad": -0.4,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 622.06935035,
+        "bearing_rad": -0.375,
+        "radial_velocity_m_s": 0.7187585627558056,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 599.584916,
+        "bearing_rad": -0.3999999999999999,
+        "radial_velocity_m_s": 0.01875856275580592,
+        "range_bin": 83,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 9,
+      "target": 1,
+      "truth": {
+        "range_m": 1200.0,
+        "bearing_rad": 0.1,
+        "radial_velocity_m_s": 0.0
+      },
+      "raw": {
+        "range_m": 1221.65426635,
+        "bearing_rad": 0.125,
+        "radial_velocity_m_s": 0.7197716298565089,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1199.169832,
+        "bearing_rad": 0.10000000000000009,
+        "radial_velocity_m_s": 0.019771629856508797,
+        "range_bin": 163,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    },
+    {
+      "seed": 9,
+      "target": 2,
+      "truth": {
+        "range_m": 1800.0,
+        "bearing_rad": 0.6,
+        "radial_velocity_m_s": 2.0
+      },
+      "raw": {
+        "range_m": 1821.2391823500002,
+        "bearing_rad": 0.625,
+        "radial_velocity_m_s": 2.7032616474251925,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      },
+      "corrected": {
+        "range_m": 1798.754748,
+        "bearing_rad": 0.6000000000000001,
+        "radial_velocity_m_s": 2.0032616474251927,
+        "range_bin": 243,
+        "unambiguous_speed_m_s": 7.786817090909091
+      }
+    }
+  ],
+  "scope": "Synthetic known-calibration model, no full antenna scan or real-data validation"
+}

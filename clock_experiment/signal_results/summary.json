@@ -1,0 +1,288 @@
+{
+  "protocol_sha256": "24e11f4cfa68b3db01b1abdaff53c0831f0dfdb1106b83a51f622c81dfd52b28",
+  "runs": [
+    {
+      "name": "chirp_0",
+      "source": "synthetic",
+      "nmse_monitor": 0.07225981670851972,
+      "nmse_mean12": 1.1567733341178321,
+      "scored_samples": 380,
+      "clock_fraction": 1.0,
+      "fit_calls": 2,
+      "seconds": 3.7092282000230625,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 284,
+          "time": 14.15,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "name": "chirp_1",
+      "source": "synthetic",
+      "nmse_monitor": 0.024894492186477005,
+      "nmse_mean12": 1.1558105995909937,
+      "scored_samples": 380,
+      "clock_fraction": 1.0,
+      "fit_calls": 2,
+      "seconds": 3.740086500009056,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 206,
+          "time": 10.25,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "name": "change_0",
+      "source": "synthetic",
+      "nmse_monitor": 0.9293342908384982,
+      "nmse_mean12": 1.40858580228555,
+      "scored_samples": 380,
+      "clock_fraction": 1.0,
+      "fit_calls": 4,
+      "seconds": 8.91526259999955,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 266,
+          "time": 13.25,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 346,
+          "time": 17.25,
+          "status": "unreliable"
+        },
+        {
+          "sample": 426,
+          "time": 21.25,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "name": "change_1",
+      "source": "synthetic",
+      "nmse_monitor": 1.052607271042199,
+      "nmse_mean12": 1.409508079527753,
+      "scored_samples": 380,
+      "clock_fraction": 1.0,
+      "fit_calls": 5,
+      "seconds": 11.990348899969831,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 206,
+          "time": 10.25,
+          "status": "accepted_model"
+        },
+        {
+          "sample": 286,
+          "time": 14.25,
+          "status": "unreliable"
+        },
+        {
+          "sample": 366,
+          "time": 18.25,
+          "status": "unreliable"
+        },
+        {
+          "sample": 446,
+          "time": 22.25,
+          "status": "accepted_model"
+        }
+      ]
+    },
+    {
+      "name": "noise_0",
+      "source": "synthetic",
+      "nmse_monitor": 1.0929712514360002,
+      "nmse_mean12": 1.0929712514360002,
+      "scored_samples": 380,
+      "clock_fraction": 0.0,
+      "fit_calls": 5,
+      "seconds": 9.01256539998576,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "name": "noise_1",
+      "source": "synthetic",
+      "nmse_monitor": 1.0621311469630352,
+      "nmse_mean12": 1.0621311469630352,
+      "scored_samples": 380,
+      "clock_fraction": 0.0,
+      "fit_calls": 5,
+      "seconds": 9.384830499999225,
+      "events": [
+        {
+          "sample": 100,
+          "time": 4.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 180,
+          "time": 8.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 260,
+          "time": 12.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 340,
+          "time": 16.95,
+          "status": "unreliable"
+        },
+        {
+          "sample": 420,
+          "time": 20.95,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "name": "real_person_track_013",
+      "source": "Open Radar",
+      "input_sha256": "33491d358168c36d26e91169790cc5fcbdd3e3cfc1a8ba0d5627f2e00a3140b1",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_013.npz",
+      "frame_gaps": 4,
+      "nmse_monitor": 0.30893076409539505,
+      "nmse_mean12": 0.30893076409539505,
+      "scored_samples": 100,
+      "clock_fraction": 0.0,
+      "fit_calls": 2,
+      "seconds": 4.397749900002964,
+      "events": [
+        {
+          "sample": 100,
+          "time": 10.15,
+          "status": "unreliable"
+        },
+        {
+          "sample": 180,
+          "time": 18.55,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "name": "real_bicycle_track_014",
+      "source": "Open Radar",
+      "input_sha256": "2c8ee59bd159736bfff606f4e37805491a1f12e491dc4bc44e876fd6687d1851",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_014.npz",
+      "frame_gaps": 2,
+      "nmse_monitor": 0.9189741803705732,
+      "nmse_mean12": 0.9189741803705732,
+      "scored_samples": 20,
+      "clock_fraction": 0.0,
+      "fit_calls": 1,
+      "seconds": 1.5669119999511167,
+      "events": [
+        {
+          "sample": 100,
+          "time": 7.198,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "name": "real_vehicle_track_025",
+      "source": "Open Radar",
+      "input_sha256": "296c3b4decf6c8183715e71bc6a4cef816a6356fe1cbc3ca36fa313e7ea6cbc0",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_025.npz",
+      "frame_gaps": 3,
+      "nmse_monitor": 1.0864755973458324,
+      "nmse_mean12": 1.0864755973458324,
+      "scored_samples": 60,
+      "clock_fraction": 0.0,
+      "fit_calls": 1,
+      "seconds": 2.301733999978751,
+      "events": [
+        {
+          "sample": 100,
+          "time": 6.9,
+          "status": "unreliable"
+        }
+      ]
+    },
+    {
+      "name": "real_uav_track_157",
+      "source": "Open Radar",
+      "input_sha256": "3347eab3967e242914e6dde5a98e57e745d502769b94f26dc5ae213126120bd7",
+      "input_path": "C:\\Users\\jback\\Downloads\\a\\DATA\\open_radar\\eval\\track_157.npz",
+      "frame_gaps": 4,
+      "nmse_monitor": 0.45305277181718334,
+      "nmse_mean12": 0.45305277181718334,
+      "scored_samples": 100,
+      "clock_fraction": 0.0,
+      "fit_calls": 2,
+      "seconds": 5.95740349998232,
+      "events": [
+        {
+          "sample": 100,
+          "time": 113.051,
+          "status": "unreliable"
+        },
+        {
+          "sample": 180,
+          "time": 230.453,
+          "status": "unreliable"
+        }
+      ]
+    }
+  ],
+  "real_classes_found": [
+    "bicycle",
+    "person",
+    "uav",
+    "vehicle"
+  ]
+}

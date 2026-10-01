@@ -1,0 +1,7 @@
+{
+  "source_repository": "https://github.com/jbackk-lang/TIMDR-orbital-tracker",
+  "source_path": "timdr_orbit/rotation_clock.py",
+  "copy_sha256": "db76c9a2f87aa8715d72b9c0617f15a62ce3ada4bb7b4f06fa97df71415eaba4",
+  "tracker_repository": "https://github.com/jbackk-lang/RADAR-TRACKING",
+  "tracker_base_commit": "74916877dd0982b7dfef7f3c4921999e0ba3d275"
+}

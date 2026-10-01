@@ -1,0 +1,9 @@
+# Przełącznik jakości prognozy sygnału
+
+Protokół lokalny przed wynikami. Prognoza próbki t korzysta wyłącznie z amplitud wcześniejszych. Model harmoniczny obejmuje fazę, częstość i dryf, więc reszta prognozy reaguje również na ich zmianę. Trzy kolejne przekroczenia istniejącego progu reszty budzą ponowne dopasowanie; 8 poprawnych próbek przełącza do wykorzystania zapamiętanego modelu. Minimalny odstęp dopasowań 80 próbek, rozruch 100, okno 200. Decyzja nigdy nie odrzuca pozycji. To heurystyka prognozy, nie nowy estymator fazy ani pomiar RPM.
+
+Syntetyka: 480 próbek 20 Hz, dwa ziarna, spokojny chirp, zmiana częstości od próbki 250, sam szum. Chirp .5 Hz + .008 Hz/s; zmiana dodaje .3 Hz z ciągłą fazą. Szum sigma .1. Porównanie z przyczynową średnią ostatnich 12 próbek. Wszystkie próbki od indeksu 100 oceniane, także fallback po odmowie zegara. NMSE dzielone przez wariancję obserwowanych amplitud tego samego odcinka. Brak odrzucania trudnych próbek.
+
+Naturalna kontrola eksploracyjna: pierwsza alfabetycznie ścieżka >=100 klatek z każdej klasy w istniejącym cache Open Radar eval. Amplituda = sqrt(sum(abs(spec)^2)); normalizacja dynamiczna wewnątrz estymatora, bez normalizacji przyszłością. Czas ts w ms zamieniony na sekundy. PRF dotyczy impulsów wewnątrz widma i nie jest częstością próbkowania obwiedni klatek. Granice zegara .1..4 Hz, dryf -.02..02 Hz/s; to eksperymentalne priori, nie RPM wirnika. Istnieją luki w cache: zapisujemy liczbę, zegar prognozuje w rzeczywistym czasie, ale nie rekonstruuje pominiętych próbek. Cztery ślady to kontrola wykonalności, nie reprezentatywny benchmark. Brak zewnętrznych etykiet obrotów. Żaden wynik nie będzie przypisany poprawie śledzenia pozycji.
+
+Dane Open Radar Initiative, Gusland et al. 2021, DOI 10.1109/RadarConf2147009.2021.9455239, https://github.com/openradarinitiative/open_radar_datasets ; CC BY-NC 4.0. Nie kopiujemy pomiarów do repo, tylko hashe i wyniki pochodne.

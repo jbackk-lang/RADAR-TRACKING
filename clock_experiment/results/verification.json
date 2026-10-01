@@ -1,0 +1,7 @@
+{
+  "clock_source_sha256_matches": true,
+  "protocol_hash_matches": true,
+  "heldout_frequency_metrics_recomputed": 2,
+  "pytest_passed": 44,
+  "existing_real_data_test_unavailable": true
+}

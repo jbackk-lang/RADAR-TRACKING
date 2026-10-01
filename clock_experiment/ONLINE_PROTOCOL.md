@@ -1,0 +1,9 @@
+# Cztery stany, pamięć i adaptacja — 2026-10-01
+
+Eksploracyjna kontynuacja znanej sekwencji guard_results, nie nowy ślepy test. Odtwarzamy dokładnie te same 120 zwykłych obserwacji reflektora kontrolnego i 360 pomiarów celów; żadnych dodatkowych obserwacji ani emisji. Pierwsza kalibracja z osobnego reflektora. Kolejne propozycje pochodzą wyłącznie z wcześniejszych wiarygodnych pomiarów kontrolnego reflektora, nigdy z prawdy celów. Każda propozycja sprawdzana na NASTĘPNEJ obserwacji, nie na próbce użytej do jej dopasowania.
+
+Stany per parametr: confirmed (poprawa ponad margines), rejected (pogorszenie ponad margines), uncertain (słaby lub nierozstrzygający pomiar, ostatnia potwierdzona poprawka ważna), waiting (brak ważnej poprawki, czekamy na zwykły pomiar, wyjście bez kompensacji). Marginesy jak poprzednio: 3.75 m, .004 rad, .05 m/s. Jakość reflektora taka sama jak w cache poprzedniego testu. TTL 2 epizody od ostatniego potwierdzenia; dokładnie tyle można podtrzymać poprawkę. Pomiar wykazujący szkodę usuwa dotychczasowe zaufanie. Niepewność nie odnawia TTL.
+
+Wariant memory: stała kalibracja, tylko nowa logika decyzji. Wariant online: dodatkowo EMA=.5 proponuje aktualizację parametru z dobrego surowego pomiaru reflektora, PO podjęciu decyzji dla bieżącego epizodu. Kąt aktualizowany po najkrótszym łuku. To ograniczona adaptacja online, nie ogólne uczenie maszynowe ani nowa matematyka. Test kontrolny TTL przy braku danych, jawnej szkodzie i braku samopotwierdzenia.
+
+Metryki MAE R/kąt/v dla wszystkich celów, per epizod i całość, zestawione z zapisanym raw/always/guarded. Osobny czas samego nowego kontrolera, bez udawania pomiaru pełnego systemu. Zapis liczby dodatkowych obserwacji=0, stanów i propozycji. Założenie znanych, nieruchomych reflektorów nadal konieczne. Efekt długotrwałej zmiany podczas zaniku obserwacji to ryzyko; TTL nie gwarantuje poprawności. Nie stroimy po wyniku.
