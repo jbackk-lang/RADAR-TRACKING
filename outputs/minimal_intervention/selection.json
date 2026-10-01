@@ -1,0 +1,165 @@
+{
+  "strengths": {
+    "range_m": 0.25,
+    "bearing_rad": 0.25,
+    "radial_velocity_m_s": 0.35
+  },
+  "eligible": {
+    "range_m": [
+      0.25,
+      0.35,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "bearing_rad": [
+      0.25,
+      0.35,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "radial_velocity_m_s": [
+      0.35,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "criterion": "MAE <= 0.8 raw in both development scenarios",
+  "grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.25,
+    0.35,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "development_source_sha256": "2284ba581375bf3e1ff6e91e390a23e14f298b76410ee89c5d2fb4087ebfd75e",
+  "source_hashes": {
+    "PROTOCOL.md": "187e285f7a5873038d8c6bb6318368cd61669ec1e19c32ccd767d2bb3822568d",
+    "run_minimal.py": "6967d2ee01b573b13d69eab3420e1e69254c1c5fed056cb2f267523d14a5c2a5",
+    "clock_experiment\\__init__.py": "4c7de70070d671a66af09efd7a016bafe343a328e2a6e9bab9fe67a401a02ca7",
+    "clock_experiment\\calibration_guard.py": "cee36d30ae5e323dbd82d909ff00205276797af6229cf9f92b0cdfa11281a207",
+    "clock_experiment\\minimal_calibration.py": "1a7b089543a42d32de9741da6c75532d79a9a3d5d3d3caf54a432e958343439a",
+    "clock_experiment\\online_calibration.py": "cc4822db17645d200dc288b8a72b219fdc0c10532f70a062910c51b98957201a",
+    "clock_experiment\\radar_compensation.py": "e6896fba7613d0db363dd8410601606beb9bc851cad700a0e977ffe719bbf7b5",
+    "clock_experiment\\reference_calibration.py": "adabe806f9138ef69af568998100293376425f1daf210b884d9536648e6c1ead",
+    "clock_experiment\\test_calibration_guard.py": "c43c0e6c2999a1b1b9026696df5b872f1af673fae6a6175a396b6705e39534c7",
+    "clock_experiment\\test_minimal_calibration.py": "bad6069a4768b948511516e27a4503ba925f380466d82ba5ab5e2b3670e65915",
+    "clock_experiment\\test_online_calibration.py": "24bf805646f299652f0a5ff684a8a8cdabdade08de3552be16b09355c134acc4"
+  },
+  "development_mae": {
+    "0.0": {
+      "new_noise": {
+        "range_m": 18.183583291666707,
+        "bearing_rad": 0.020833333333333336,
+        "radial_velocity_m_s": 0.7597177780848876
+      },
+      "hidden_change": {
+        "range_m": 11.242217175000006,
+        "bearing_rad": 0.012500000000000056,
+        "radial_velocity_m_s": 0.3960356580611294
+      }
+    },
+    "0.1": {
+      "new_noise": {
+        "range_m": 18.183583291666707,
+        "bearing_rad": 0.020833333333333336,
+        "radial_velocity_m_s": 0.7092123947564135
+      },
+      "hidden_change": {
+        "range_m": 11.242217175000006,
+        "bearing_rad": 0.012500000000000056,
+        "radial_velocity_m_s": 0.3643032996297249
+      }
+    },
+    "0.2": {
+      "new_noise": {
+        "range_m": 14.99540290729174,
+        "bearing_rad": 0.017269406813975405,
+        "radial_velocity_m_s": 0.6581976364289871
+      },
+      "hidden_change": {
+        "range_m": 9.329308944375024,
+        "bearing_rad": 0.010386686008437717,
+        "radial_velocity_m_s": 0.3329412694044152
+      }
+    },
+    "0.25": {
+      "new_noise": {
+        "range_m": 14.198357811197896,
+        "bearing_rad": 0.016323317539542474,
+        "radial_velocity_m_s": 0.6328176010150119
+      },
+      "hidden_change": {
+        "range_m": 8.851081886718722,
+        "bearing_rad": 0.00981920188192988,
+        "radial_velocity_m_s": 0.31763695777683804
+      }
+    },
+    "0.35": {
+      "new_noise": {
+        "range_m": 12.604267619010427,
+        "bearing_rad": 0.014381872767056736,
+        "radial_velocity_m_s": 0.5820575301870617
+      },
+      "hidden_change": {
+        "range_m": 7.894627771406233,
+        "bearing_rad": 0.008727663550099955,
+        "radial_velocity_m_s": 0.2870283345216838
+      }
+    },
+    "0.5": {
+      "new_noise": {
+        "range_m": 10.213132330729183,
+        "bearing_rad": 0.011563613042779908,
+        "radial_velocity_m_s": 0.5066229849606242
+      },
+      "hidden_change": {
+        "range_m": 6.459946598437503,
+        "bearing_rad": 0.007060483376414802,
+        "radial_velocity_m_s": 0.24191663776240122
+      }
+    },
+    "0.75": {
+      "new_noise": {
+        "range_m": 6.22790685026048,
+        "bearing_rad": 0.006888596120359896,
+        "radial_velocity_m_s": 0.4075836152809248
+      },
+      "hidden_change": {
+        "range_m": 4.0688113101562795,
+        "bearing_rad": 0.004340725064622165,
+        "radial_velocity_m_s": 0.19332496935430848
+      }
+    },
+    "1.0": {
+      "new_noise": {
+        "range_m": 2.611644925347204,
+        "bearing_rad": 0.0037143138400361868,
+        "radial_velocity_m_s": 0.2857581316440155
+      },
+      "hidden_change": {
+        "range_m": 1.9543986885416398,
+        "bearing_rad": 0.0023307942426039944,
+        "radial_velocity_m_s": 0.14853365918075698
+      }
+    }
+  },
+  "development_raw_mae": {
+    "new_noise": {
+      "range_m": 18.183583291666707,
+      "bearing_rad": 0.02083333333333336,
+      "radial_velocity_m_s": 0.7597177780848875
+    },
+    "hidden_change": {
+      "range_m": 11.242217175000006,
+      "bearing_rad": 0.012500000000000056,
+      "radial_velocity_m_s": 0.3960356580611294
+    }
+  },
+  "analytic_replay_verified_measurements": 1440
+}
