@@ -1,0 +1,11 @@
+# Sprawdzenie przed zastosowaniem nowego TIMDR
+
+Cel:zmniejszyć reakcję na szum bez istotnej utraty wykrywania manewru. Parametry przed przebiegiem:znane sigma pozycji .12m (osobny stress wariant .6m), odporna IRLS8iteracji z progiem3sigma, model liniowy/quadratyczny z karą2log(n) i wymaganym przyrostem6. Skale skrętu .5rad/s i zmiany prędkości1m/s². Wszystkie zmiany liczone z czasu w sekundach, a nie numeru klatki. Wynik heurystyczny, nie prawdopodobieństwo.
+
+Sceny stały ruch, jeden błąd detekcji, łagodny skręt, przyspieszenie, skręt90stopni i zawracanie. Ta sama fizyczna historia0..5s próbkowana co.25,.5,1s i nieregularnie. Po100 nowych ziaren na każdą kombinację. Błąd detekcji to jedna dodatkowa pozycja o odchyleniu3m; szum Gaussa sigma.12m. Stress powtarza sceny przy znanym sigma.6m. Oba operatory mają identyczne dane, bez przyszłości. Ocena końcowego okna, alarm TIMDR>.5, niezależny od strojenia progów.
+
+Kryteria zastosowania:fałszywe alarmy stałego ruchu+błędu nie większe niżlegacy; wykrywalność manewrów nie niższa o więcej niż5pp; mediana rozrzutu score między próbkowaniami na bezszumowych manewrach nie większa niżlegacy. Porównanie osobno normal/stress, wyniki rodzin osobno. Przy niespełnieniu pozostaje opcją eksperymentalną, nie domyślną.
+
+Po operatorze sprawdzamy rzeczywisty tracker na tych samych scenach demo: liczba śladów, błędy położenia przy dopasowaniu do prawdy i liczba zmian identyfikatora w100syntetycznych sekwencjach, bez przekazywania prawdy trackerowi. To oddzielna kontrola, nie wynik semantycznego rozpoznawania. Znana sigma jest korzystnym założeniem; brak realnego sprzętu i niezależnej kalibracji szumu. Nie modyfikujemy grupowania w tym eksperymencie.
+
+Przed uruchomieniem kontroli trackera:po25ziaren dla4scen webdemo,4obiekty i40klatek każda, sigma detekcji.18m ustawione operatorowi. Ocena przez Hungarian do prawdy z bramką2m; prawda nie jest wejściem trackera. Kryterium kontrolne:średni błąd dopasowanych pozycji nie większy niż1.1legacy; częstość brakujących dopasowań nie większa niżlegacy+5pp; średnia zmian ID nie większa niż1.1legacy+.1. Osobno raportujemy niepasujące obserwacje; MAE warunkowy. Przy przejściu obu testów dodajemy wariant do przeglądarki, bez zmiany domyślnego legacy — mały syntetyczny test nie uzasadnia domyślnej wymiany w innych zastosowaniach.

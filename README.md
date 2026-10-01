@@ -14,6 +14,18 @@ Wkład polega więc na połączeniu diagnostyki zmiany z decyzjami trackera. Wyk
 
 Ta radarowa adaptacja nie jest pełną implementacją całego formalizmu GIA–TIMDR. W szczególności składowa T mierzy tutaj wielkość skrętu kursu. Wyników osobnych eksperymentów I/Q, filtrów i selektorów nie przypisujemy automatycznie TIMDR. Brak potwierdzenia pojedynczego eksperymentu amplitudowego również nie unieważnia jego zaimplementowanej roli w trackerze.
 
+## TIMDR odporny — nowa opcja po sprawdzeniu
+
+W demo przeglądarkowym dostępne są **CV**, **TIMDR dotychczasowy** oraz **TIMDR odporny**. Nowy wariant uwzględnia czas w sekundach, zakładaną niepewność położenia i ogranicza wpływ pojedynczego błędnego punktu. Wybierz „TIMDR odporny” i kliknij „Uruchom analizę”. Dotychczasowy TIMDR pozostaje domyślny.
+
+```python
+tracker = RadarTracker(timdr_variant="robust", position_sigma=0.12)
+```
+
+`position_sigma` to zakładane odchylenie standardowe błędu jednej składowej położenia, w metrach. Powinno odpowiadać danym operatora; zbyt niska wartość może powodować fałszywe manewry. Nowy operator potrzebuje co najmniej pięciu punktów; wcześniej zwraca `model="insufficient"` i zerowy wskaźnik, co nie potwierdza braku manewru. Wskaźniki nie są prawdopodobieństwami.
+
+[Wyniki kontroli](outputs/angle_frequency/WYNIK_TIMDR_ROBUST.md): 4800 syntetycznych historii — mniej fałszywych manewrów i lepsze wykrywanie zadanych skrętów oraz zmian prędkości; 100 sekwencji rzeczywistego kodu trackera — taki sam MAE pozycji (~0,205 m), brak utrat i zmian ID w obu wariantach. To uzasadnia opcję eksperymentalną, nie zmianę domyślną ani gwarancję na sprzęcie. Nie zmieniono reguł grupowania; osobny dwupunktowy model sceny nadal używa pierwotnego TIMDR.
+
 ## Demo w przeglądarce (Windows)
 
 Dwukrotnie kliknij **Uruchom_demo.bat** w katalogu repo albo uruchom:
@@ -24,7 +36,7 @@ python web_demo.py
 
 Przeglądarka otworzy lokalny adres **http://127.0.0.1:8765**. Serwer działa tylko na tym komputerze; zamknięcie jego konsoli lub Ctrl+C kończy działanie. W razie zajętego portu: `python web_demo.py --port 8766`. Nie wymaga dodatkowego frameworka webowego, korzysta z obecnych zależności projektu (NumPy i SciPy).
 
-Wybierz model **CV** lub **TIMDR**, scenę i **4, 8 albo 12 obiektów**, następnie kliknij **Uruchom analizę**. Dostępne są ruch mieszany, krzyżujące się ślady, wspólny ruch i skręty. Przycisk odtwarzania oraz suwak pozwalają przeglądać 40 klatek. Wykres pokazuje surowe echa, historię śladów i przerywane predykcje; tabela zawiera położenia i wynik TIMDR. Opcjonalne krzyżyki to pozycje odniesienia generatora, a nie wynik rozpoznania.
+Wybierz model **CV**, **TIMDR dotychczasowy** albo **TIMDR odporny**, scenę i **4, 8 albo 12 obiektów**, następnie kliknij **Uruchom analizę**. Dostępne są ruch mieszany, krzyżujące się ślady, wspólny ruch i skręty. Przycisk odtwarzania oraz suwak pozwalają przeglądać 40 klatek. Wykres pokazuje surowe echa, historię śladów i przerywane predykcje; tabela zawiera położenia i wynik TIMDR. Opcjonalne krzyżyki to pozycje odniesienia generatora, a nie wynik rozpoznania.
 
 To działający interfejs do **core.radar_tracker.RadarTracker**, nie wcześniejsza makieta. Wariant CV wyłącza adaptację TIMDR w tym samym trackerze; pozostawia TRM, GIA, asocjację i stabilizację. `RadarTracker(use_timdr=False)` wybiera ten wariant, a dotychczasowy domyślny `RadarTracker()` nadal używa TIMDR. Modele dostają identyczne wygenerowane echa.
 

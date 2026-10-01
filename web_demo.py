@@ -13,12 +13,14 @@ ROOT = Path(__file__).resolve().parent
 SCENES = ('mixed', 'crossing', 'formation', 'turning')
 
 
-def build_demo(model='timdr', scene='mixed', count=8):
-    if model not in ('cv', 'timdr') or scene not in SCENES or count not in (4, 8, 12):
+def build_demo(model='timdr', scene='mixed', count=8, seed=20261002):
+    if model not in ('cv', 'timdr', 'robust') or scene not in SCENES or count not in (4, 8, 12):
         raise ValueError('Invalid demo selection')
-    rng = np.random.default_rng(20261002)
+    rng = np.random.default_rng(seed)
     tracker = RadarTracker(d_max=1.2, k_min=1, gate_chi2=30., smoothing=.7,
-                           use_timdr=model == 'timdr')
+                           use_timdr=model != 'cv',
+                           timdr_variant='robust' if model == 'robust' else 'legacy',
+                           position_sigma=.18)
     frames = []
     for frame in range(40):
         t = frame * .5

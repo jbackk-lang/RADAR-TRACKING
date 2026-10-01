@@ -15,6 +15,14 @@ def test_existing_tracker_default_remains_timdr():
     assert RadarTracker().use_timdr is True
 
 
+def test_robust_option_runs_real_operator_on_same_inputs():
+    legacy = build_demo('timdr', 'turning', 4)
+    robust = build_demo('robust', 'turning', 4)
+    assert robust['model'] == 'robust'
+    assert [f['points'] for f in legacy['frames']] == [f['points'] for f in robust['frames']]
+    assert any(tr['score'] > 0 for f in robust['frames'] for tr in f['tracks'])
+
+
 def test_more_objects_generate_more_echoes():
     demo = build_demo('timdr', 'formation', 12)
     assert len(demo['frames']) == 40

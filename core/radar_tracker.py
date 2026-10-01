@@ -25,6 +25,7 @@ import itertools
 from .trm_filter import trm_filter, cluster_centroids
 from .gia_direction import gia_direction
 from .timdr_change import timdr_change
+from .timdr_robust import timdr_change_robust
 from .predictor import predict_next
 from .association import hungarian_associate
 from .motion_model import predict_covariance, mahalanobis_distance_sq, CHI2_95_2DOF
@@ -43,6 +44,8 @@ class RadarTracker:
         sigma0: float = 1.5,
         manoeuvre_inflation: float = 4.0,
         use_timdr: bool = True,
+        timdr_variant: str = 'legacy',
+        position_sigma: float = .12,
     ):
         self.d_max = d_max
         self.dt_max = dt_max
@@ -54,6 +57,12 @@ class RadarTracker:
         self.sigma0 = sigma0
         self.manoeuvre_inflation = manoeuvre_inflation
         self.use_timdr = use_timdr
+        if timdr_variant not in ('legacy', 'robust'):
+            raise ValueError('timdr_variant must be legacy or robust')
+        if not (position_sigma > 0 and position_sigma < float('inf')):
+            raise ValueError('position_sigma must be positive and finite')
+        self.timdr_variant = timdr_variant
+        self.position_sigma = position_sigma
 
         self.tracks: dict[int, list[dict]] = {}
         self._smoothed: dict[int, dict] = {}
@@ -180,6 +189,8 @@ class RadarTracker:
 
     def _change(self, history):
         if self.use_timdr:
+            if self.timdr_variant == 'robust':
+                return timdr_change_robust(history, position_sigma=self.position_sigma)
             return timdr_change(history)
         return {"T": 0.0, "D": 0.0, "R": 0.0, "TIMDR": 0.0}
 
