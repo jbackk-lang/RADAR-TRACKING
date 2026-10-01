@@ -1,0 +1,9 @@
+# Wspólna kalibracja czasu i zera enkodera
+
+Znany nieruchomy reflektor: kąt 1.2 rad, odległość 1500 m. Dwie zwykłe obserwacje przy każdej prędkości .5,1,1.5 obrotu/s (6 próbek referencji na ziarno). 10 ziaren. Stałe opóźnienie toru echa ±2 ms naprzemiennie oraz zero enkodera +.12° lub -.08° naprzemiennie. Wiązka FWHM mocy 1.5°, próbki I/Q co .2 ms, szum .1 na składową, enkoder sigma=.02°. Poziom tła jak poprzednio: mediana mocy/ln(2). Odległość pomiarowa ma błąd sigma=2 m; uwzględnić 2R/c w osi czasu.
+
+Dopasować jeden wspólny delay i jeden zero_bias. Delay szukany na siatce -4..4 ms co 10 us; dla każdego delay zero jest średnią różnic kąta referencji. Minimalizować wariancję reszt między obserwacjami. Prędkości enkodera oszacować lokalną regresją jego odczytów, nie korzystać z prawdy generatora. Odrzucić kalibrację przy rozrzucie prędkości <.5 rad/s (czas i zero przy stałej prędkości są nierozróżnialne), optimum na brzegu lub RMSE referencji >.15°. Progi przed oceną, bez strojenia po wyniku.
+
+Po zapisaniu parametrów: nowe echa celów .4,1.2,2 rad, obroty .65,1.25,1.8 obr/s; obrót stały i sinusoidalnie zmienny ±5%, 2 Hz. 180 pomiarów celów. Porównać raw (bez kalibracji), angle_only (średnia poprawka z referencji bez korekty czasu) i joint_sync (przesunięcie czasu echa przed interpolacją enkodera, następnie odjęcie zera). Parametry z prawdy generatora wyłącznie do oceny. Kontrole: brak rozrzutu prędkości musi powodować odmowę; przesunięcie znanego kąta referencji o .4° może oszukać kalibrację i musi zostać jawnie ocenione, nie traktowane jako niemożliwe.
+
+To osobne, nowe obserwacje syntetyczne; nie deklarować zero dodatkowych obserwacji. Po kalibracji targety nie służą dostrajaniu. R/v nie zmieniamy. Nie symulujemy wielodrogowości, dryfu opóźnienia ani ruchu reflektora. Parametry odnoszą się do modelu czasu echa względem enkodera, nie automatycznie do wszystkich zegarów radaru.

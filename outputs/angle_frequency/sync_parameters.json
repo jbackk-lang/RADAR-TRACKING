@@ -1,0 +1,202 @@
+[
+  {
+    "seed": 0,
+    "truth_delay": 0.002,
+    "truth_zero": 0.0020943951023931952,
+    "fitted": {
+      "delay_s": 0.00204,
+      "zero_rad": 0.0017998426984285516,
+      "reference_rmse_rad": 0.0004654874259900948,
+      "angle_only_rad": 0.01463378790245562,
+      "measured_speed_std": 2.5638805521194383
+    },
+    "wrong_reference_fit": {
+      "delay_s": 0.00204,
+      "zero_rad": -0.0051814743095487765,
+      "reference_rmse_rad": 0.0004654874259900948,
+      "angle_only_rad": 0.0076524708944782915,
+      "measured_speed_std": 2.5638805521194383
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 1,
+    "truth_delay": -0.002,
+    "truth_zero": -0.0013962634015954637,
+    "fitted": {
+      "delay_s": -0.002,
+      "zero_rad": -0.0014281660509530096,
+      "reference_rmse_rad": 0.0006336436878260701,
+      "angle_only_rad": -0.013979388015309846,
+      "measured_speed_std": 2.5658416531696995
+    },
+    "wrong_reference_fit": {
+      "delay_s": -0.002,
+      "zero_rad": -0.008409483058930337,
+      "reference_rmse_rad": 0.0006336436878260701,
+      "angle_only_rad": -0.020960705023287174,
+      "measured_speed_std": 2.5658416531696995
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 2,
+    "truth_delay": 0.002,
+    "truth_zero": 0.0020943951023931952,
+    "fitted": {
+      "delay_s": 0.0020500000000000006,
+      "zero_rad": 0.0018941773162985214,
+      "reference_rmse_rad": 0.00043734406079813854,
+      "angle_only_rad": 0.014764871840090713,
+      "measured_speed_std": 2.564553553462727
+    },
+    "wrong_reference_fit": {
+      "delay_s": 0.0020500000000000006,
+      "zero_rad": -0.005087139691678806,
+      "reference_rmse_rad": 0.00043734406079813854,
+      "angle_only_rad": 0.007783554832113386,
+      "measured_speed_std": 2.564553553462727
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 3,
+    "truth_delay": -0.002,
+    "truth_zero": -0.0013962634015954637,
+    "fitted": {
+      "delay_s": -0.0020499999999999997,
+      "zero_rad": -0.001096206740755205,
+      "reference_rmse_rad": 0.0004451304178770726,
+      "angle_only_rad": -0.01399769092363771,
+      "measured_speed_std": 2.5648535810442716
+    },
+    "wrong_reference_fit": {
+      "delay_s": -0.0020499999999999997,
+      "zero_rad": -0.008077523748732532,
+      "reference_rmse_rad": 0.0004451304178770726,
+      "angle_only_rad": -0.02097900793161504,
+      "measured_speed_std": 2.5648535810442716
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 4,
+    "truth_delay": 0.002,
+    "truth_zero": 0.0020943951023931952,
+    "fitted": {
+      "delay_s": 0.0019300000000000003,
+      "zero_rad": 0.002640603052084134,
+      "reference_rmse_rad": 0.0005218994756938265,
+      "angle_only_rad": 0.01478027906058684,
+      "measured_speed_std": 2.5658116647870317
+    },
+    "wrong_reference_fit": {
+      "delay_s": 0.0019300000000000003,
+      "zero_rad": -0.004340713955893194,
+      "reference_rmse_rad": 0.0005218994756938265,
+      "angle_only_rad": 0.007798962052609511,
+      "measured_speed_std": 2.5658116647870317
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 5,
+    "truth_delay": -0.002,
+    "truth_zero": -0.0013962634015954637,
+    "fitted": {
+      "delay_s": -0.00226,
+      "zero_rad": 0.00018052866977099255,
+      "reference_rmse_rad": 0.00041645360291852425,
+      "angle_only_rad": -0.014025740632217731,
+      "measured_speed_std": 2.5634428661765027
+    },
+    "wrong_reference_fit": {
+      "delay_s": -0.00226,
+      "zero_rad": -0.006800788338206336,
+      "reference_rmse_rad": 0.0004164536029185242,
+      "angle_only_rad": -0.02100705764019506,
+      "measured_speed_std": 2.5634428661765027
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 6,
+    "truth_delay": 0.002,
+    "truth_zero": 0.0020943951023931952,
+    "fitted": {
+      "delay_s": 0.0021000000000000003,
+      "zero_rad": 0.0016852924407464813,
+      "reference_rmse_rad": 0.0006187052734955416,
+      "angle_only_rad": 0.014882213741356676,
+      "measured_speed_std": 2.5686792285390587
+    },
+    "wrong_reference_fit": {
+      "delay_s": 0.0021000000000000003,
+      "zero_rad": -0.005296024567230846,
+      "reference_rmse_rad": 0.0006187052734955416,
+      "angle_only_rad": 0.007900896733379348,
+      "measured_speed_std": 2.5686792285390587
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 7,
+    "truth_delay": -0.002,
+    "truth_zero": -0.0013962634015954637,
+    "fitted": {
+      "delay_s": -0.0020499999999999997,
+      "zero_rad": -0.001198115705881131,
+      "reference_rmse_rad": 0.0003748109524478162,
+      "angle_only_rad": -0.01407496351699844,
+      "measured_speed_std": 2.5630965000629615
+    },
+    "wrong_reference_fit": {
+      "delay_s": -0.0020499999999999997,
+      "zero_rad": -0.008179432713858459,
+      "reference_rmse_rad": 0.0003748109524478162,
+      "angle_only_rad": -0.021056280524975768,
+      "measured_speed_std": 2.5630965000629615
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 8,
+    "truth_delay": 0.002,
+    "truth_zero": 0.0020943951023931952,
+    "fitted": {
+      "delay_s": 0.0020300000000000006,
+      "zero_rad": 0.0017105763712937188,
+      "reference_rmse_rad": 0.0005208883760516553,
+      "angle_only_rad": 0.014477653606911112,
+      "measured_speed_std": 2.564903307281
+    },
+    "wrong_reference_fit": {
+      "delay_s": 0.0020300000000000006,
+      "zero_rad": -0.005270740636683609,
+      "reference_rmse_rad": 0.0005208883760516553,
+      "angle_only_rad": 0.007496336598933784,
+      "measured_speed_std": 2.564903307281
+    },
+    "same_speed_refused": true
+  },
+  {
+    "seed": 9,
+    "truth_delay": -0.002,
+    "truth_zero": -0.0013962634015954637,
+    "fitted": {
+      "delay_s": -0.00198,
+      "zero_rad": -0.0013931601694588587,
+      "reference_rmse_rad": 0.0003943317881386509,
+      "angle_only_rad": -0.013859783130726222,
+      "measured_speed_std": 2.5665116387733136
+    },
+    "wrong_reference_fit": {
+      "delay_s": -0.00198,
+      "zero_rad": -0.008374477177436187,
+      "reference_rmse_rad": 0.0003943317881386509,
+      "angle_only_rad": -0.02084110013870355,
+      "measured_speed_std": 2.5665116387733136
+    },
+    "same_speed_refused": true
+  }
+]
