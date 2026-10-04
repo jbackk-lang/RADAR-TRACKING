@@ -1,0 +1,4 @@
+# Jednolite konce linii (Git normalizuje CRLF/LF); pliki binarne bez zmian
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
